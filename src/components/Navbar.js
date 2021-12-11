@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavDropdown } from "react-bootstrap";
+
+import "../styles/styles.css"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -35,14 +39,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <img src={logo} alt="logo" />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -62,34 +66,31 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
+            <div className="navbar-start navbar-item has-text-centered">
+            <NavDropdown title="Über uns" id="nav-dropdown">
+            <NavDropdown.Item eventKey="Unsere Philosophie">
+	    <Link to="/about">Unsere Philosophie</Link>
+	</NavDropdown.Item>
+            <NavDropdown.Item eventKey="Vorstand">Vorstand</NavDropdown.Item>
+	    <NavDropdown.Item eventKey="Statuen">
+	        <Link to="/about#Statuen">Statuen</Link>
+	</NavDropdown.Item>
+	    
+            </NavDropdown>
               <Link className="navbar-item" to="/products">
-                Products
+                Mitgliedschaft
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                Projekte
+        </Link>
+	    <NavDropdown title="Aktivitäten" id="nav-dropdown">
+            <NavDropdown.Item eventKey="Charity Golftunier 2022">Charity Golftunier 2022</NavDropdown.Item>
+            <NavDropdown.Item eventKey="Charity Skitag 2022">Charity Skitag 2022</NavDropdown.Item>
+            </NavDropdown>
+                
+            <Link className="spenden-button navbar-item" to="/jetzt-spenden">
+                Jetzt spenden!
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
             </div>
           </div>
         </div>
@@ -99,3 +100,4 @@ const Navbar = class extends React.Component {
 };
 
 export default Navbar;
+
