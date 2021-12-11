@@ -34,8 +34,8 @@ export const ProductPageTemplate = ({
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-7 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">
+              <div className="center-page">
+          <h3 className="has-text-weight-semibold is-size-2" style={{color: "#0023A5"}}>
                   {heading}
                 </h3>
           <p>{description}</p>
@@ -62,8 +62,10 @@ export const ProductPageTemplate = ({
 Arbeit von Bärenherz unterstützen und habe
 das gute Gefühl, eine Hilfe zu leisten, die auch
 ankommt.“</h4>
-<p><b>Arno Bohn</b></p>
-<p>Selbständiger Unternehmer, Freiburg im Breisgau</p>
+<div style={{lineHeight: "0.2", marginTop: "4em"}}>
+<p style={{fontSize: "1.2vw"}}><b>Arno Bohn</b></p>
+<p style={{fontSize: "1vw"}}>Selbständiger Unternehmer, Freiburg im Breisgau</p>
+</div>
 </div>
               </div>
             </div>
