@@ -56,7 +56,7 @@ export default function FullWidthImage(props) {
           />
         )}
         {(title || subheading) && (
-          <div
+          <div className="banner-text"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",

@@ -12,7 +12,8 @@ import FullWidthImage from "../components/FullWidthImage";
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
   image,
-  title,
+    title,
+    subheading,
   heading,
   description,
   intro,
@@ -25,8 +26,10 @@ export const ProductPageTemplate = ({
   const fullWidthImage = getImage(fullImage) || fullImage;
 
   return (
-    <div className="content">
-      <FullWidthImage img={heroImage} title={title} />
+	  <div className="content">
+	  <div className="banner">
+	  <FullWidthImage img={heroImage} title="Mitgliedschaft" subheading="Gemeinsam dort helfen, wo Hilfe gebraucht wird." />
+	  </div>
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -99,6 +102,7 @@ export const ProductPageTemplate = ({
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  subheading: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -128,6 +132,7 @@ const ProductPage = ({ data }) => {
       <ProductPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        subheading={frontmatter.subheading}
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -155,6 +160,7 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        subheading
         image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)

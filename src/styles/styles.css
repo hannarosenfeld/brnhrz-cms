@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Frutiger;
+    src: url(Frutiger.ttf);
+}
+
+@font-face {
+    font-family: Domus;
+    src: url(Domus.otf);
+}
+
+body {
+    font-family: Frutiger;
+}
+
+h1 {
+    font-family: Domus, monospace;
+}
+
+
+/* Banners */
+.banner-text {
+    background: rgba(255,255,255,0.8) !important;
+    padding: 1em;
+    width: 40%;
+    place-items: flex-start !important;
+    left: 40%;
+}
+.banner h1 {
+    border-bottom: 2px solid blue;
+    font-size: 2vw !important;
+    text-align: left !important;
+}
+.banner h3 {
+    font-size: 3.5vw !important;
+}
+
+.banner h1, h3 {
+    color: blue !important;
+    background: none !important;
+    box-shadow: none !important;
+}
