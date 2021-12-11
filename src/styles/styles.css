@@ -26,7 +26,7 @@ h1 {
     left: 40%;
 }
 .banner h1 {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0023A5;
     font-size: 2vw !important;
     text-align: left !important;
 }
@@ -34,8 +34,43 @@ h1 {
     font-size: 3.5vw !important;
 }
 
-.banner h1, h3 {
-    color: blue !important;
+.banner h1, .banner h3 {
+    color: #0023A5 !important;
     background: none !important;
     box-shadow: none !important;
+}
+
+
+.mitgliedschaft-form-container {
+    display: flex;
+}
+
+.mitgliedschaft-form-container h4 {
+    color: #0023A5;
+}
+
+.mitgliedschaft-form-left, .mitgliedschaft-form-right {
+    background: #84b9e4;
+    margin: 1em;
+    padding: 1em;
+}
+
+.mitgliedschaft-form-button{
+    background: #0023A5;
+    padding: 0.6em;
+}
+
+.mitgliedschaft-form-button a{
+    color: white;
+}
+
+.mitgliedschaft-testimony {
+    background: #84B9E4;
+    color: white;
+    padding: 2em;
+    width: 100%;
+}
+
+.mitgliedschaft-testimony h4{
+    color: white;
 }
