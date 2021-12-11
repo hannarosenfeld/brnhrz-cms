@@ -16,7 +16,6 @@ h1 {
     font-family: Domus, monospace;
 }
 
-
 /* Navbar */
 .navbar-item img {
     max-height: none !important;
@@ -43,13 +42,6 @@ h1 {
 
 dropdown-menu {
     margin-bottom: 0.5em;
-}
-
-@media (max-width: 1023px) {
-    .dropdown-menu {
-	position: relative !important;
-	transform: none !important;
-    }
 }
 
 
@@ -81,16 +73,16 @@ dropdown-menu {
 .mitgliedschaft-form-container {
     display: flex;
     text-align: center;
-    margin: 3em auto;
     justify-content: space-between;
+    margin: 3em auto;
 }
 
 .mitgliedschaft-form-container h4 {
-    color: #0023A5;
-    font-size: 1.5vw;
+    color: #0023A5 !important;
+    font-size: 1.8vw !important;
 }
 .mitgliedschaft-form-container p {
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .mitgliedschaft-form-left, .mitgliedschaft-form-right {
@@ -98,7 +90,7 @@ dropdown-menu {
     flex-direction: column;
     justify-content: space-between;
     background: #84b9e4;
-    padding: 1em 4em;
+    padding: 1em;
 }
 
 .mitgliedschaft-form-button{
@@ -108,8 +100,9 @@ dropdown-menu {
 }
 
 .mitgliedschaft-form-button a{
-    color: white;
-    font-size: 1vw;
+    color: white !important;
+    font-size: 1.2vw;
+    font-weight: bold;
 }
 
 .mitgliedschaft-testimony {
@@ -133,4 +126,17 @@ dropdown-menu {
     width: 75%;
     padding: 0 1em;
     margin-top: -2em;
+}
+
+@media (max-width: 1023px) {
+    .dropdown-menu {
+	position: relative !important;
+	transform: none !important;
+    }
+    .mitgliedschaft-form-container {
+	display: block;
+    }
+    .mitgliedschaft-form-left, .mitgliedschaft-form-right {
+	margin-top: 1em;
+    }
 }

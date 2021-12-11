@@ -58,7 +58,7 @@ export const ProductPageTemplate = ({
 <p>Der Jahresbeitrag ist jeweils für das Kalenderjahr geschuldet. Bitte füllen Sie das verknüpfte Antragsfor mular aus und reichen Sie dieses ein an info@baerenherz.org oder per Post an Bärenherz – Verein für humanitäre Hilfe, c/o Rainer Mück, Untersellenstrasse 37, 8873 Amden. Der Vorstand entscheidet über die Aufnahme neuer Vereinsmitglieder. 
 </p>
 <div className="mitgliedschaft-testimony">
-<h4>„Mit meiner Mitgliedschaft kann ich die großartige
+<h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
 Arbeit von Bärenherz unterstützen und habe
 das gute Gefühl, eine Hilfe zu leisten, die auch
 ankommt.“</h4>
