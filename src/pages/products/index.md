@@ -1,13 +1,12 @@
 ---
-heading: Great coffee with a conscience
+heading: Mitgliedschaft
 path: /products
 templateKey: product-page
 title: Gemeinsam dort helfen, wo Hilfe gebraucht wird.
 image: /img/hands.jpg
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: "Gerne nehmen wir neue Mitglieder auf, die die Philosophie und
+  Projekte unseres karitativen Vereins un terstützen. Es gibt zwei Arten von
+  Mitgliedschaften: "
 intro:
   blurbs:
     - image: /img/coffee.png
