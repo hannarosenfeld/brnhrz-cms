@@ -84,8 +84,12 @@ const Navbar = class extends React.Component {
                 Projekte
         </Link>
 	    <NavDropdown title="Aktivitäten" id="nav-dropdown">
-            <NavDropdown.Item eventKey="Charity Golftunier 2022">Charity Golftunier 2022</NavDropdown.Item>
-            <NavDropdown.Item eventKey="Charity Skitag 2022">Charity Skitag 2022</NavDropdown.Item>
+            <NavDropdown.Item eventKey="Charity Golftunier 2022">
+	    <Link to="/blog#golf-tunier">Charity Golftunier 2022</Link>
+	    </NavDropdown.Item>
+            <NavDropdown.Item eventKey="Charity Skitag 2022">
+	    	    <Link to="/blog#ski-tag">Charity Skitag 2022</Link>
+</NavDropdown.Item>
             </NavDropdown>
                 
             <Link className="spenden-button navbar-item" to="/jetzt-spenden">

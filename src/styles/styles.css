@@ -97,7 +97,7 @@ dropdown-menu {
     flex-direction: column;
     justify-content: space-between;
     background: #84b9e4;
-    padding: 1em;
+    padding: 1em 3em;
 }
 
 .mitgliedschaft-form-button{
@@ -130,10 +130,18 @@ dropdown-menu {
 
 .center-page {
     margin: 0 auto;
-    width: 75%;
     padding: 0 1em;
     margin-top: -2em;
 }
+
+.golf-tunier-partner-logos {
+
+}
+
+.golf-tunier-partner-logos img {
+    margin: 1em 2em;
+}
+
 
 @media (max-width: 1023px) {
     .dropdown-menu {
