@@ -9,28 +9,22 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+	  <section className="section section--gradient">
+
       <div className="container">
           <div className="columns">
-	  <div
-      className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
-      style={{
-          backgroundImage: `url('/img/glove.jpg')`,
-
-      }}
-          >
-	  </div>
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+          <h2 className="title is-size-3 has-text-weight-bold is-bold-light" style={{color: "#0023A5"}}>
+	  Unsere Philosophie
               </h2>
-              <PageContent className="content" content={content} />
+	  <p>Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe wirklich gebraucht wird, um Leben zu retten, lebens werte Bedingungen zu schaffen oder in unverschuldeten Notsituationen einen schnellen und unbürokratischen Beitrag zur Soforthilfe der Betroffenen zu leisten.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+	  </section>
+
   );
 };
 
@@ -44,12 +38,66 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+	  <Layout>
+	          <div
+          className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
+          style={{
+              backgroundImage: `url('/img/philosophie.jpg')`,
+
+          }}
+            >
+	    <div
+        	className="banner-text"
+	        style={{
+		    marginRight: "50%"
+		}}
+	    >
+          <h1
+            className="has-text-weight-bold is-size-1"
+            style={{
+              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+              backgroundColor: "#f40",
+		color: "white",
+		lineHeight: "2.3",
+            }}
+          >
+	  Philosophie
+        </h1>
+	  <h3><b>Direkte Hilfe, unbürokratisch und schnell.</b></h3>
+	    </div>
+        </div>
+
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
-      />
+	  />
+	  <div style={{background: "#D0E4F5", padding: "1em 2em"}}>
+	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf einigen drei Grundgedanken:</h3>
+	  <div style={{padding: "2em 4em", display: "flex", justifyContent: "space-between"}}>
+	  <div className="circle-with-text">
+	  Unötige Kosten vermeiden
+          </div>
+	  <div className="circle-with-text">
+	  Ehrenamtlich aus Überzeugung
+          </div>
+	  <div className="circle-with-text">
+	  Hilfe zur Selbsthilfe
+          </div>
+	  </div>
+	  <p style={{padding: "2em 4em", fontSize: "1.5vw"}}>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mit glieder und Vorstände. Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen, machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir wissen, dass wir damit einen wertvollen Beitrag für Leben unter lebenswerten Bedingungen leisten können. So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
+	  </div>
+	  <div className="mitgliedschaft-testimony">
+<h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
+Arbeit von Bärenherz unterstützen und habe
+das gute Gefühl, eine Hilfe zu leisten, die auch
+ankommt.“</h4>
+<div style={{lineHeight: "0.2", marginTop: "4em"}}>
+	  <p style={{fontSize: "1.2vw", margin: "1em"}}><b>Arno Bohn</b></p>
+<p style={{fontSize: "1vw"}}>Selbständiger Unternehmer, Freiburg im Breisgau</p>
+</div>
+</div>
+
     </Layout>
   );
 };

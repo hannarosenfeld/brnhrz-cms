@@ -16,6 +16,10 @@ h1 {
     font-family: Domus, monospace;
 }
 
+h3 {
+
+}
+
 /* Navbar */
 .navbar-item img {
     max-height: none !important;
@@ -154,4 +158,19 @@ dropdown-menu {
     .mitgliedschaft-form-left, .mitgliedschaft-form-right {
 	margin-top: 1em;
     }
+}
+
+
+.circle-with-text {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  background: white;
+  width: 20vw;
+  height: 20vw;
+  font-size: 1.8vw;
+  font-weight: bold;
+  color:  #0023A5;
 }
