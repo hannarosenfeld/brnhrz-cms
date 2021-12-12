@@ -8,6 +8,8 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
+import Carousel from "../components/Carousel"
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
@@ -21,8 +23,8 @@ export const IndexPageTemplate = ({
   const heroImage = getImage(image) || image;
 
   return (
-    <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+	  <div>
+	  <Carousel />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">

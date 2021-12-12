@@ -147,6 +147,28 @@ dropdown-menu {
 }
 
 
+.carousel-container img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transform: translateY(-10%);
+}
+
+.carousel-container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slick-track {
+    height: 45vw;
+}
+
+.carousel-container .banner-text {
+    top: 20%;
+    border: 2px solid red;
+
+}
+
 @media (max-width: 1023px) {
     .dropdown-menu {
 	position: relative !important;
