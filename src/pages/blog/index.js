@@ -8,22 +8,31 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
+          className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+              backgroundImage: `url('/img/glove.jpg')`,
+
           }}
-        >
+            >
+	    <div
+        	className="banner-text"
+	        style={{
+		    marginRight: "50%"
+		}}
+	    >
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
               boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
               backgroundColor: "#f40",
-              color: "white",
-              padding: "1rem",
+		color: "white",
+		lineHeight: "2.3",
             }}
           >
-            Latest Stories
-          </h1>
+	    Unsere Aktivitäten
+        </h1>
+	    <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
+	    </div>
         </div>
         <section className="section">
           <div className="container">

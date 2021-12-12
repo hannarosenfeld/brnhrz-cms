@@ -49,14 +49,21 @@ dropdown-menu {
 /* Banners */
 .banner-text {
     background: rgba(255,255,255,0.8) !important;
-    padding: 1em;
+    padding: 0.5em 1em;
     width: 40%;
     place-items: flex-start !important;
+}
+.banner-mitgliedschaft .banner-text {
     left: 40%;
 }
+.banner-aktivitaeten .banner-text {
+    left: 10% !important;
+}
+
 .banner h1 {
     border-bottom: 2px solid #0023A5;
     font-size: 2vw !important;
+    font-weight: bold;
     text-align: left !important;
 }
 .banner h3 {
