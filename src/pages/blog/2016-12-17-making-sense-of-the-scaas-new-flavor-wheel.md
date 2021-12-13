@@ -15,7 +15,7 @@ description: '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
   eum fugiat quo voluptas nulla pariatur?"'
 featuredpost: true
-featuredimage: /img/300andy_wenzel.jpg
+featuredimage: /img/apple-touch-icon.png
 tags:
   - news
 ---
