@@ -17,7 +17,7 @@ description: >+
   asperiores repellat."
 
 featuredpost: false
-featuredimage: /img/doctors-and-nurses-macedonia.jpg
+featuredimage: /img/blog-index.jpg
 tags:
   - test
 ---
