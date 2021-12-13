@@ -19,4 +19,4 @@ featuredimage: /img/apple-touch-icon.png
 tags:
   - news
 ---
-![sdf](/img/300andy_wenzel.jpg "sdf")
+![sdf](/img/apple-touch-icon.png "sdf")
