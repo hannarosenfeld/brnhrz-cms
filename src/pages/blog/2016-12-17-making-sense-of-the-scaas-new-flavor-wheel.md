@@ -14,11 +14,9 @@ description: '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
   voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
   eum fugiat quo voluptas nulla pariatur?"'
-featuredpost: false
+featuredpost: true
 featuredimage: /img/300andy_wenzel.jpg
 tags:
   - news
 ---
-
-
-![]()
+![sdf](/img/300andy_wenzel.jpg "sdf")
