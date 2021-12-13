@@ -15,7 +15,7 @@ description: '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
   voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
   eum fugiat quo voluptas nulla pariatur?"'
 featuredpost: false
-featuredimage: /img/300andy_wenzel.jpg
+featuredimage: /img/blog-index.jpg
 tags:
   - news
 ---
