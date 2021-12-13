@@ -9,7 +9,7 @@ class BlogRollTemplate extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-	    <div style={{display: "flex"}}>
+	    <div style={{display: "flex"}} className="blogroll-container">
         {posts &&
           posts.map(({ node: post }) => (
 		  <div style={{margin: "0.5em"}} key={post.id}>

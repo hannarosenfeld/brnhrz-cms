@@ -10,6 +10,10 @@ import FullWidthImage from "../components/FullWidthImage";
 
 import HomepageBanner from "../components/HomepageBanner"
 
+import care from "../img/care.jpg"
+import radicia from "../img/radicia.jpeg"
+
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
@@ -22,18 +26,43 @@ export const IndexPageTemplate = ({
   return (
 	  <div>
 	  <HomepageBanner />
-          <div className="container" style={{margin: "5em auto", width: "65%"}}>
-          <h3 className="has-text-weight-semibold" style={{color: "#0023a5", marginBottom: "1em"}}>
+          <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
+	  <div style={{display: "flex", alignItems: "center", margin: "2em", padding: "2em"}} className="image-box">
+	  <img src={care}/>
+	  <img src={radicia} />
+	  </div>
+          <h3 className="has-text-weight-semibold" style={{color: "#033277", marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
                         Read more
-                      </Link>
-            </div>
+      </Link>
+	  
           </div>
-    </div>
+          </div>
+	  	    <div style={{background: "#033277", display: "flex", padding: "2em"}}>
+	    <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
+	    <div>
+	    <p style={{color: "white", padding: "1em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+
+	    </div>
+	    </div>
+
+	  <div className="mitgliedschaft-testimony">
+<h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
+Arbeit von Bärenherz unterstützen und habe
+das gute Gefühl, eine Hilfe zu leisten, die auch
+ankommt.“</h4>
+<div style={{lineHeight: "0.2", marginTop: "4em"}}>
+	  <p style={{fontSize: "1.2vw", margin: "1em"}}><b>Arno Bohn</b></p>
+<p style={{fontSize: "1vw"}}>Selbständiger Unternehmer, Freiburg im Breisgau</p>
+</div>
+</div>
+
+	  </div>
+	  
   );
 };
 
@@ -48,7 +77,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+	  <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}

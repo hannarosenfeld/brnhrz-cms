@@ -79,7 +79,7 @@ dropdown-menu {
 }
 
 .banner h1 {
-    border-bottom: 2px solid #0023A5;
+    border-bottom: 2px solid #033277;
     font-size: 1.2rem !important;
     font-weight: bold;
     text-align: left !important;
@@ -90,7 +90,7 @@ dropdown-menu {
 }
 
 .banner h1, .banner h3 {
-    color: #0023A5 !important;
+    color: #033277 !important;
     background: none !important;
     box-shadow: none !important;
 }
@@ -104,7 +104,7 @@ dropdown-menu {
 }
 
 .mitgliedschaft-form-container h4 {
-    color: #0023A5 !important;
+    color: #033277 !important;
     font-size: 1.8vw !important;
 }
 .mitgliedschaft-form-container p {
@@ -121,7 +121,7 @@ dropdown-menu {
 
 .mitgliedschaft-form-button{
     margin-top: 2em;
-    background: #0023A5;
+    background: #033277;
     padding: 0.6em;
 }
 
@@ -203,7 +203,7 @@ dropdown-menu {
 
 .blog-list-item .title{
     text-decoration: none !important;
-    color: blue !important;
+    color: #033277 !important;
     font-size: 0.8rem !important;
 }
 .blog-list-item .subtitle{
@@ -230,6 +230,12 @@ dropdown-menu {
     .mitgliedschaft-form-left, .mitgliedschaft-form-right {
 	margin-top: 1em;
     }
+    .blogroll-container {
+	flex-direction: column;
+    }
+    .blog-list-item {
+	max-width: 320px !important;
+    }
 }
 
 
@@ -244,5 +250,9 @@ dropdown-menu {
   height: 20vw;
   font-size: 1.8vw;
   font-weight: bold;
-  color:  #0023A5;
+  color:  #033277;
+}
+
+.image-box img {
+    margin: 1em;
 }
