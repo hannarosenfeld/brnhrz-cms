@@ -3,11 +3,11 @@ import * as React from "react";
 import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
 
-import golfer from "../../img/golfer.jpg"
+import golfer from "../../img/golfer.png"
 import bmw from "../../img/bmw.png"
 import callaway from "../../img/callaway.png"
 import mmp from "../../img/mmp.png"
-import ski from  "../../img/ski.jpg"
+import ski from  "../../img/ski.png"
 
 export default class BlogIndexPage extends React.Component {
   render() {
