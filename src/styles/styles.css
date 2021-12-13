@@ -30,9 +30,13 @@ h3 {
 
 
 /* Navbar */
+.spenden-button {
+    color: white !important;
+    background: navy !important;
+}
+
 .navbar-item img {
     max-height: none !important;
-    width: 12vw;
 }
 
 .navbar-menu {
@@ -179,7 +183,7 @@ dropdown-menu {
 
 .navbar-item img {
     padding: 0.5em;
-    width: 10em !important;
+    width: 80% !important;
     max-height: 8em !important;
 }
 
