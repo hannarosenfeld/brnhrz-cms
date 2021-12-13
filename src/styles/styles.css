@@ -170,14 +170,11 @@ dropdown-menu {
     height: 45vw;
 }
 
-.carousel-container .banner-text {
-    top: 20%;
-    border: 2px solid red;
 
-}
+
+
 
 /*Blog*/
-
 .blog-list-item {
     border: 3px solid #94C1E5;
 }

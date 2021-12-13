@@ -80,7 +80,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/products">
                 Mitgliedschaft
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to="/projekte">
                 Projekte
         </Link>
 	    <NavDropdown title="Aktivitäten" id="nav-dropdown">
