@@ -68,6 +68,9 @@ dropdown-menu {
     transform: scale(1,1);
     height: 570px !important;
 }
+.banner {
+    background-position: center !important;
+}
 
 .banner-text {
     background: rgba(255,255,255,0.8) !important;

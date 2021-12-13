@@ -9,7 +9,7 @@ const ProjektePage = ({ data }) => {
   return (
 	  <Layout>
 	          <div
-          className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
+          className="full-width-image-container margin-top-0 banner-projekte banner"
           style={{
               backgroundImage: `url('img/ultrasound.jpg')`,
           }}
