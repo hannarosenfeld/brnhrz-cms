@@ -49,11 +49,10 @@ class HomepageBanner extends Component{
 	    dots: true,
 	    fade: true,
 	    infinite: true,
-	    speed: 500,
 	    slidesToShow: 1,
-	    arrows: true,
 	    slidesToScroll: 1,
-	    className: 'slides'
+	    autoplay: true,
+	    autoplaySpeed: 5000,
 	}
 	return (
 		<div id="homepagebanner">
