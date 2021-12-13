@@ -8,7 +8,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
-import Carousel from "../components/Carousel"
+import HomepageBanner from "../components/HomepageBanner"
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -21,8 +21,8 @@ export const IndexPageTemplate = ({
 
   return (
 	  <div>
-	  <Carousel />
-          <div className="container" style={{margin: "2em auto", width: "65%"}}>
+	  <HomepageBanner />
+          <div className="container" style={{margin: "5em auto", width: "65%"}}>
           <h3 className="has-text-weight-semibold" style={{color: "#0023a5", marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
                     </h3>

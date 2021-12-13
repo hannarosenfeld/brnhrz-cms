@@ -152,23 +152,31 @@ dropdown-menu {
     margin: 1em 2em;
 }
 
-
-.carousel-container img {
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    transform: translateY(-10%);
+.container {
+    justify-content: space-between !important;
 }
 
-.carousel-container {
-    height: 100vh;
-    overflow: hidden;
+.navbar-menu {
+    flex-grow: 0 !important;
 }
 
-.slick-track {
-    height: 45vw;
+.dropdown-menu {
+    text-align: center;
 }
 
+.nav-link {
+    color: #4a4a4a !important;
+}
+
+.navbar-item img {
+    padding: 0.5em;
+    width: 10em !important;
+    max-height: 8em !important;
+}
+
+.dropdown-menu {
+    margin-bottom: 0.5em;
+}
 
 
 
