@@ -17,7 +17,7 @@ description: >+
   asperiores repellat."
 
 featuredpost: false
-featuredimage: /img/blog-index.jpg
+featuredimage: /img/doctors.png
 tags:
   - test
 ---
