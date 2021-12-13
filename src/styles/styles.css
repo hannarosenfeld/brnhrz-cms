@@ -19,6 +19,13 @@ h1 {
 h3 {
 
 }
+.container {
+    max-width: 100%;
+}
+
+.footer, footer {
+    padding: 0 !important;
+}
 
 /* Navbar */
 .navbar-item img {
@@ -167,6 +174,30 @@ dropdown-menu {
     top: 20%;
     border: 2px solid red;
 
+}
+
+/*Blog*/
+
+.blog-list-item {
+    border: 3px solid blue;
+}
+.blog-list-item img{
+    margin: 1em auto !important;
+}
+.gatsby-image-wrapper-constrained {
+    display: block !important;
+}
+.blog-list-item .featured-thumbnail {
+    max-width: 100% !important;
+}
+
+.blog-list-item .title{
+    text-decoration: none !important;
+    color: blue !important;
+}
+.blog-list-item .subtitle{
+    margin-top: 1em !important;
+    font-size: 1rem !important;
 }
 
 @media (max-width: 1023px) {
