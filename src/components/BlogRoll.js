@@ -24,10 +24,11 @@ class BlogRollTemplate extends React.Component {
                       className="title"
                       to={post.fields.slug}
                     >
-                      {post.frontmatter.title}
+                  {post.frontmatter.title}
               </Link>
+		  <div style={{margin: "0.8em"}}></div>
 		                    {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div>
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -39,13 +40,14 @@ class BlogRollTemplate extends React.Component {
                             post.frontmatter.featuredimage.childImageSharp
                               .gatsbyImageData.height,
                         }}
-                      />
+					    />
+					    <br />
                     </div>
                   ) : null}
 
-                    <span className="subtitle">
+                  <p className="subtitle">
                       {post.frontmatter.date}
-                    </span>
+                    </p>
                   </p>
                 </header>
                 <p>
@@ -84,7 +86,7 @@ export default function BlogRoll() {
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(pruneLength: 250)
                 id
                 fields {
                   slug

@@ -134,7 +134,7 @@ dropdown-menu {
     flex-direction: column;
     justify-content: space-between;
     background: #84b9e4;
-    padding: 1em 4em;
+    padding: 2em 4em;
 }
 
 .mitgliedschaft-form-button{
@@ -212,31 +212,44 @@ dropdown-menu {
 
 /*Blog*/
 .blog-list-item {
-    max-width: 200px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 230px !important;
     border: 3px solid #94C1E5;
     padding: 0.5em !important;
     background: none !important;
+    height: 100% !important;
+}
+
+.gatsby-image-wrapper {
+    width: 98%;
+    height: 120px;
+}
+.gatsby-image-wrapper-constrained {
+    display: block !important;
+    margin: 0 auto;
 }
 .blog-list-item img{
-    margin: 0.5em auto;
+    margin: 0 auto;
 }
 
 .blog-list-item .title{
     text-decoration: none !important;
     color: #033277 !important;
-    font-size: 0.8rem !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 3em !important;
 }
 .blog-list-item .subtitle{
-    margin-top: 1em !important;
-    font-size: 0.6rem !important;
+    font-size: 0.7rem !important;
 }
 
 .blog-list-item p {
-    font-size: 0.6rem !important;
+    font-size: 0.9rem !important;
 }
 
 .blog-list-item a {
-    font-size: 0.6rem !important;
+    font-size: 0.8rem !important;
 }
 
 @media (max-width: 1023px) {

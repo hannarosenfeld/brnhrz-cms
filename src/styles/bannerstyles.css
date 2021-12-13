@@ -78,6 +78,10 @@
 
 }
 
+#banner-image-two p {
+    margin-bottom: 0.5em;
+}
+
 #banner-image-three {
     color: hotpink;
     border: 2px solid hotpink;

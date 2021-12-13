@@ -1,12 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
+
 import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
 
 import HomepageBanner from "../components/HomepageBanner"
 
@@ -21,7 +19,7 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
 }) => {
-  const heroImage = getImage(image) || image;
+
 
   return (
 	  <div>
@@ -34,12 +32,15 @@ export const IndexPageTemplate = ({
 	  </div>
           <h3 className="has-text-weight-semibold" style={{marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-      </Link>
+      </h3>
+	  
+	  <div>
+          <BlogRoll />
+	  </div>
+          <div className="column is-12 has-text-centered">
+          <Link className="btn" to="/blog" style={{margin: "1em auto 3em auto"}}>
+          Read more
+          </Link>
 	  
           </div>
           </div>
