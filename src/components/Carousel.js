@@ -32,7 +32,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
       return (
-	      <div style={{border: "2px solid pink"}}>
+	      <div>
             <Slider {...settings}>
 	    {photos.map((photo) => {
 		return(
