@@ -105,14 +105,17 @@ dropdown-menu {
     text-align: center;
     justify-content: space-between;
     margin: 3em auto;
+    padding: 1em;
 }
 
 .mitgliedschaft-form-container h4 {
     color: #033277 !important;
     font-size: 1.8vw !important;
+    margin-bottom: 1em;
 }
 .mitgliedschaft-form-container p {
-    font-size: 1.2vw;
+    margin: 1em;
+    font-size: 1.3rem;
 }
 
 .mitgliedschaft-form-left, .mitgliedschaft-form-right {
@@ -120,7 +123,7 @@ dropdown-menu {
     flex-direction: column;
     justify-content: space-between;
     background: #84b9e4;
-    padding: 1em 3em;
+    padding: 1em 4em;
 }
 
 .mitgliedschaft-form-button{
