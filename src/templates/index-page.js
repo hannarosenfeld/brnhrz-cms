@@ -25,13 +25,14 @@ export const IndexPageTemplate = ({
 
   return (
 	  <div>
-	  <HomepageBanner />
-          <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-	  <div style={{display: "flex", alignItems: "center", margin: "2em", padding: "2em"}} className="image-box">
+	  <HomepageBanner style={{marginBottom: "5em"}}/>
+	  <div style={{margin: "3em"}}></div>
+          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
+	  <div style={{display: "flex", alignItems: "center", padding: "2em"}} className="image-box">
 	  <img src={care}/>
 	  <img src={radicia} />
 	  </div>
-          <h3 className="has-text-weight-semibold" style={{color: "#033277", marginBottom: "1em"}}>
+          <h3 className="has-text-weight-semibold" style={{marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
                     </h3>
                     <BlogRoll />

@@ -51,7 +51,7 @@ export const ProductPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="center-page">
-          <h3 className="has-text-weight-semibold is-size-2" style={{color: "#0023A5", marginBottom: "0.5em",}}>
+          <h3 className="has-text-weight-semibold is-size-2" style={{marginBottom: "0.5em",}}>
                   {heading}
                 </h3>
           <p>{description}</p>
