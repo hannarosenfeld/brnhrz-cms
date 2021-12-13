@@ -32,8 +32,8 @@ export const IndexPageTemplate = ({
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+          <h3 className="has-text-weight-semibold is-size-2" style={{color: "#0023a5", marginBottom: "1em"}}>
+	  Bärenherz-Neuigkeiten
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
