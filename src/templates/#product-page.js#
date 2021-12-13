@@ -45,8 +45,6 @@ export const ProductPageTemplate = ({
         </h1>
 	  <h3><b>Gemeinsam dort helfen, wo Hilfe gebraucht wird.</b></h3>
 	    </div>
-
-
 	  </div>
       <section className="section section--gradient">
         <div className="container">

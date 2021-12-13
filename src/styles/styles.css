@@ -26,6 +26,9 @@ h3 {
     padding: 0 !important;
 }
 
+
+
+
 /* Navbar */
 .navbar-item img {
     max-height: none !important;
@@ -57,6 +60,11 @@ dropdown-menu {
 
 
 /* Banners */
+.full-width-image-container {
+    transform: scale(1,1);
+    height: 570px !important;
+}
+
 .banner-text {
     background: rgba(255,255,255,0.8) !important;
     padding: 0.5em 1em;
@@ -72,12 +80,13 @@ dropdown-menu {
 
 .banner h1 {
     border-bottom: 2px solid #0023A5;
-    font-size: 2vw !important;
+    font-size: 1.2rem !important;
     font-weight: bold;
     text-align: left !important;
 }
 .banner h3 {
-    font-size: 3.5vw !important;
+    margin-top: 0.3em;
+    font-size: 2.3rem !important;
 }
 
 .banner h1, .banner h3 {

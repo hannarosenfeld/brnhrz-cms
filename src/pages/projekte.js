@@ -4,17 +4,14 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-import baby from "../img/ultrasound.jpg"
 
 const ProjektePage = ({ data }) => {
   return (
 	  <Layout>
-	  <img src={baby} />
 	          <div
-          className="full-width-image-container margin-top-0 banner"
+          className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
-              backgroundImage: `{baby}`,
-
+              backgroundImage: `url('img/ultrasound.jpg')`,
           }}
             >
 	    <div
@@ -30,13 +27,14 @@ const ProjektePage = ({ data }) => {
               backgroundColor: "#f40",
 		color: "white",
 		lineHeight: "2.3",
+
             }}
           >
 	  Projekte
         </h1>
-	  <h3><b>Hilfe für die Schwächsten. Direkt und lebensrettend.</b></h3>
+	  <h3><b>Hilfe für die Schwächsten. Direkt und Lebensrettend.</b></h3>
 	    </div>
-        </div>
+	  </div>
     </Layout>
   );
 };
