@@ -16,23 +16,14 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  mainpitch,
-  description,
-  intro,
 }) => {
   const heroImage = getImage(image) || image;
 
   return (
 	  <div>
 	  <Carousel />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="column is-12">
-          <h3 className="has-text-weight-semibold is-size-2" style={{color: "#0023a5", marginBottom: "1em"}}>
+          <div className="container" style={{margin: "2em auto", width: "65%"}}>
+          <h3 className="has-text-weight-semibold" style={{color: "#0023a5", marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
                     </h3>
                     <BlogRoll />
@@ -40,14 +31,8 @@ export const IndexPageTemplate = ({
                       <Link className="btn" to="/blog">
                         Read more
                       </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
-      </section>
     </div>
   );
 };
@@ -57,11 +42,6 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -74,9 +54,6 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   );
@@ -104,23 +81,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

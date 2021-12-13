@@ -9,19 +9,19 @@ class BlogRollTemplate extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+	    <div style={{display: "flex"}}>
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+		  <div style={{margin: "0.5em"}} key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
                 <header>
-                  <p className="post-meta">
+                  <p className="">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
@@ -43,7 +43,7 @@ class BlogRollTemplate extends React.Component {
                     </div>
                   ) : null}
 
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="subtitle">
                       {post.frontmatter.date}
                     </span>
                   </p>
@@ -52,7 +52,7 @@ class BlogRollTemplate extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link to={post.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>

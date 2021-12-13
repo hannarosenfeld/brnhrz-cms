@@ -15,9 +15,8 @@ body {
 h1 {
     font-family: Domus, monospace;
 }
-
 h3 {
-
+    font-size: 1.6rem !important;
 }
 .container {
     max-width: 100%;
@@ -176,25 +175,31 @@ dropdown-menu {
 
 /*Blog*/
 .blog-list-item {
+    max-width: 200px !important;
     border: 3px solid #94C1E5;
+    padding: 0.5em !important;
+    background: none !important;
 }
 .blog-list-item img{
-    margin: 1em auto !important;
-}
-.gatsby-image-wrapper-constrained {
-    display: block !important;
-}
-.blog-list-item .featured-thumbnail {
-    max-width: 100% !important;
+    margin: 0.5em auto;
 }
 
 .blog-list-item .title{
     text-decoration: none !important;
     color: blue !important;
+    font-size: 0.8rem !important;
 }
 .blog-list-item .subtitle{
     margin-top: 1em !important;
-    font-size: 1rem !important;
+    font-size: 0.6rem !important;
+}
+
+.blog-list-item p {
+    font-size: 0.6rem !important;
+}
+
+.blog-list-item a {
+    font-size: 0.6rem !important;
 }
 
 @media (max-width: 1023px) {
