@@ -17,7 +17,7 @@ description: >+
   asperiores repellat."
 
 featuredpost: true
-featuredimage: /img/blog-index.jpg
+featuredimage: /img/golf.png
 tags:
   - jamaica
   - green beans
