@@ -150,20 +150,20 @@ dropdown-menu {
 }
 
 .mitgliedschaft-testimony {
-    margin-top: 3em;
     text-align: center;
     background: #84B9E4;
     color: white;
     padding: 2em 3em;
     width: 100%;
-
+    
+    margin: 2em auto;
 }
 
 .mitgliedschaft-testimony h4{
     color: white;
     font-size: 2.3vw;
     font-style: italic;
-        margin: 0 3em;
+    margin: 0 15%;
 }
 
 

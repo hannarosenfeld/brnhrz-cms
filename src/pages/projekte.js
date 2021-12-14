@@ -43,7 +43,7 @@ const ProjektePage = ({ data }) => {
 
       
           <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-	  <div style={{margin: "0 13%"}}>
+	  <div style={{margin: "0 13%", width: "75%"}}>
 	  <h3 className="has-text-weight-semibold">Projekte</h3>
 	  <p>Für 2022 haben wir uns entschlossen, die sämtliche Erlöse unseres Vereins dem Projekt PeriMAC-E von Project Hope e.V. zukommen zu lassen. </p>
 	  <p>Hilfe zur Selbsthilfe als Teil unserer Philosophie heisst, dass wir die Situation in den jeweiligen Projekten langfristig und nachhaltig verbessern wollen. Das bedeutet, dass wir nicht nur Geräte und Hilfsmittel zur Verfügung stellen, sondern ganz gezielt sicherstellen wollen, dass diese Zuwendungen auch richtig zum Einsatz kommen. Daher sind Training und Ausbildung des Personals vor Ort ein wesentlicher Bestandteil. 
@@ -57,8 +57,8 @@ const ProjektePage = ({ data }) => {
 	  </div>
 
       
-	  <div style={{display: "flex", margin: "1em auto 6em auto"}}>
-	  <div style={{width: "60%"}}>
+	  <div style={{display: "flex", margin: "1em auto 6em auto",width: "75%"}}>
+	  <div style={{width: "50%"}}>
 	  <h3 className="has-text-weight-semibold">Inspiration</h3>
 	  <p>Inspiriert wurden die Gründer von Bärenherz durch 
 ihre langjährige aktive Unterstützung von Project Hope 
@@ -71,23 +71,22 @@ Hope e.V. aktiv zu unterstützen.
 </p>
 	  </div>
 	  <div style={{margin: "1em 0 0 4em"}}>
-	  <img src={projecthope}/>
+	  <img src={projecthope} style={{margin: "0 20%"}}/>
 	  </div>
 	  </div>
 	  
 	  </div>
 	  
-	  <div style={{background: "#84B9E4", display: "flex", padding: "2em", alignItems: "center", padding: "0 6em", marginTop: "1em"}}>
-	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold", width: "40%"}}>
+	  <div style={{background: "#84B9E4", display: "flex", padding: "1em 15%", alignItems: "center", marginTop: "1em", justifyContent: "space-between"}}>
+	  <h4 style={{color: "white", padding: "1em", fontSize: "2.8rem", fontWeight: "bold", width: "60%"}}>
 	  Mit Ihrer Spende helfen Sie uns, Leben zu retten.
 	  </h4>
-	  <div style={{width: "30%"}}></div>
-	  <a style={{color: "white", fontSize: "1.5rem", background: "#033277", padding: "0.5em 2em"}} href="/jetzt-spenden">Jetzt spenden</a>
+	  <a style={{color: "white", fontSize: "1.3rem", background: "#033277", padding: "0.5em 2em"}} href="/jetzt-spenden">Jetzt spenden</a>
 	  </div>
 
 
       	  <div className="mitgliedschaft-testimony" style={{background: "none"}}>
-	  <h4 style={{color: "#033277", margin: "0 3em"}}>„Mit meiner Mitgliedschaft kann ich die großartige
+	  <h4 style={{color: "#033277"}}>„Mit meiner Mitgliedschaft kann ich die großartige
 Arbeit von Bärenherz unterstützen und habe
 das gute Gefühl, eine Hilfe zu leisten, die auch
 ankommt.“</h4>
