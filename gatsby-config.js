@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "Gatsby + Netlify CMS Starter",
@@ -5,7 +9,14 @@ module.exports = {
       "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+      "gatsby-plugin-react-helmet",
+      {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=9c2a8bd81827a96e797239987&amp;id=ad978cbead', // string; add your MC list endpoint here; see instructions below
+            timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+        },
+    },
     {
       resolve: "gatsby-plugin-sass",
       options: {

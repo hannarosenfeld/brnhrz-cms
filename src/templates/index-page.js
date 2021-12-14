@@ -3,9 +3,8 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-
 import BlogRoll from "../components/BlogRoll";
-
+import Mailchimp from "../components/Mailchimp"
 import HomepageBanner from "../components/HomepageBanner"
 
 import care from "../img/care.jpg"
@@ -41,9 +40,14 @@ export const IndexPageTemplate = ({
 	  </div>
 	  </div>
       
-	  <div style={{background: "#033277", display: "flex", padding: "2em 15.8%"}}>
+	  <div style={{background: "#033277"}}>
+	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "1em"}}>
 	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
-	  <p style={{color: "white", padding: "1em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+	  <div style={{display: "flex", flexDirection: "column"}}>
+	  <p style={{color: "white", marginTop: "3em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+	  <Mailchimp />
+	  </div>
+	  </div>
          </div>
 
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column", margin: "5em auto"}}>

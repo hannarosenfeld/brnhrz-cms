@@ -290,3 +290,10 @@ dropdown-menu {
     margin: 1em;
     width: 100%;
 }
+
+.subscribe-form button {
+    background: #84b9e4;
+    color: white;
+    font-weight: bold;
+    border: 1.3px solid #84b9e4;
+}

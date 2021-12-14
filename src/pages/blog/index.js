@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
+import Mailchimp from "../../components/Mailchimp"
 
 import golfer from "../../img/golfer.png"
 import bmw from "../../img/bmw.png"
@@ -74,13 +75,19 @@ export default class BlogIndexPage extends React.Component {
             </div>
           </div>
             </section>
-	    <div style={{background: "#0023a5", display: "flex", padding: "2em"}}>
-	    <h3 style={{color: "white", padding: "1em", fontSize: "2em", fontWeight: "bold"}}>Keine Veranstaltung verpassen</h3>
-	    <div>
-	    <p style={{color: "white", padding: "1em", fontSize: "1.6vw"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
 
-	    </div>
-	    </div>
+
+
+		  <div style={{background: "#033277"}}>
+	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "1em"}}>
+	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold"}}>Keine Veranstaltung verpassen</h4>
+	  <div style={{display: "flex", flexDirection: "column"}}>
+	  <p style={{color: "white", marginTop: "3em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+	  <Mailchimp />
+	  </div>
+	  </div>
+            </div>
+
 	            <section className="section">
           <div className="container">
             <div id="ski-tag" className="content">
