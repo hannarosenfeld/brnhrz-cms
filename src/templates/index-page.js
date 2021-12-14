@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
 	  <p style={{margin: "3em"}}></p>
 	  
             <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-              <div style={{display: "flex", alignItems: "center", width: "77%"}} className="image-box">
+          <div style={{display: "flex", alignItems: "center", width: "77%", margin: "2em auto"}} className="image-box">
 	        <img src={care}/>
                 <img src={radicia} />
 	      </div>
@@ -41,14 +41,12 @@ export const IndexPageTemplate = ({
 	  </div>
 	  </div>
       
-	  <div style={{background: "#033277", display: "flex", padding: "2em"}}>
+	  <div style={{background: "#033277", display: "flex", padding: "2em 15.8%"}}>
 	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
-	  <div>
 	  <p style={{color: "white", padding: "1em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
          </div>
-         </div>
 
-          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column", marginTop: "5em"}}>
+          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column", margin: "5em auto"}}>
 	  <div>
 	  <h3 className="has-text-weight-semibold" style={{marginBottom: "1em", textAlign: "left"}}>Bärenherz-Neuigkeiten</h3>
 	        <div>
