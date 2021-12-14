@@ -8,7 +8,7 @@ const SpendenPage = () => (
 	<script src="https://tamaro.raisenow.com/brenh-1353/latest/widget.js"></script>
 	<script>window.rnw.tamaro.runWidget('.dds-widget-container');</script>
         </Helmet>
-	<div className="dds-widget-container"></div>
+	<div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
 
 	</Layout>
 )
