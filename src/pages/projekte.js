@@ -43,11 +43,10 @@ const ProjektePage = ({ data }) => {
 
       
           <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-	  <div style={{margin: "0 13%", width: "75%"}}>
-	  <h3 className="has-text-weight-semibold">Projekte</h3>
-	  <p>Für 2022 haben wir uns entschlossen, die sämtliche Erlöse unseres Vereins dem Projekt PeriMAC-E von Project Hope e.V. zukommen zu lassen. </p>
-	  <p>Hilfe zur Selbsthilfe als Teil unserer Philosophie heisst, dass wir die Situation in den jeweiligen Projekten langfristig und nachhaltig verbessern wollen. Das bedeutet, dass wir nicht nur Geräte und Hilfsmittel zur Verfügung stellen, sondern ganz gezielt sicherstellen wollen, dass diese Zuwendungen auch richtig zum Einsatz kommen. Daher sind Training und Ausbildung des Personals vor Ort ein wesentlicher Bestandteil. 
-	  </p>
+	  <div style={{margin: "5em 13% 0 13%", width: "75%"}}>
+	  <h3>Für 2022 haben wir uns entschlossen, die sämtliche Erlöse unseres Vereins dem Projekt PeriMAC-E von Project Hope e.V. zukommen zu lassen. </h3>
+	  <h3>Hilfe zur Selbsthilfe als Teil unserer Philosophie heisst, dass wir die Situation in den jeweiligen Projekten langfristig und nachhaltig verbessern wollen. Das bedeutet, dass wir nicht nur Geräte und Hilfsmittel zur Verfügung stellen, sondern ganz gezielt sicherstellen wollen, dass diese Zuwendungen auch richtig zum Einsatz kommen. Daher sind Training und Ausbildung des Personals vor Ort ein wesentlicher Bestandteil. 
+	  </h3>
 	  </div>
 	  <div className="fourimages">
 	  <img src={projekte1} />
@@ -59,8 +58,7 @@ const ProjektePage = ({ data }) => {
       
 	  <div style={{display: "flex", margin: "1em auto 6em auto",width: "75%"}}>
 	  <div style={{width: "50%"}}>
-	  <h3 className="has-text-weight-semibold">Inspiration</h3>
-	  <p>Inspiriert wurden die Gründer von Bärenherz durch 
+	  <h3>Inspiriert wurden die Gründer von Bärenherz durch 
 ihre langjährige aktive Unterstützung von Project Hope 
 e.V. in Deutschland zur Verbesserung der Lebensbedin 
 gungen von Mutter und Kind in den ärmsten Ländern 
@@ -68,7 +66,7 @@ Europas. Diesem Thema fühlen wir uns in besonderer
 Weise verbunden und werden auch zukünftig versu 
 chen, als verlässlicher Partner die Arbeit von Project 
 Hope e.V. aktiv zu unterstützen. 
-</p>
+</h3>
 	  </div>
 	  <div style={{margin: "1em 0 0 4em"}}>
 	  <img src={projecthope} style={{margin: "0 20%"}}/>
