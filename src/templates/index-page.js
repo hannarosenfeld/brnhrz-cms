@@ -26,10 +26,11 @@ export const IndexPageTemplate = ({
 	  <HomepageBanner style={{marginBottom: "5em"}}/>
 	  <div style={{margin: "3em"}}></div>
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-	  <div style={{display: "flex", alignItems: "center", padding: "2em"}} className="image-box">
+	  <div style={{display: "flex", alignItems: "center", width: "100%"}} className="image-box">
 	  <img src={care}/>
 	  <img src={radicia} />
 	  </div>
+	  <div style={{margin: "4em auto"}}>
           <h3 className="has-text-weight-semibold" style={{marginBottom: "1em"}}>
 	  Bärenherz-Neuigkeiten
       </h3>
@@ -41,6 +42,7 @@ export const IndexPageTemplate = ({
           <Link className="btn" to="/blog" style={{margin: "1em auto 3em auto"}}>
           Read more
           </Link>
+	  </div>
 	  
           </div>
           </div>

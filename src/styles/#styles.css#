@@ -288,5 +288,5 @@ dropdown-menu {
 
 .image-box img {
     margin: 1em;
-    width: 100%;
+    width: 100%;3
 }
