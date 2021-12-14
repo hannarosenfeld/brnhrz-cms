@@ -8,7 +8,7 @@ import projekte1 from "../img/projekte1.jpg"
 import projekte2 from "../img/projekte2.jpg"
 import projekte3 from "../img/projekte3.jpg"
 import projekte4 from "../img/projekte4.jpg"
-
+import projecthope from "../img/logo-project-hope.png"
 
 const ProjektePage = ({ data }) => {
   return (
@@ -57,8 +57,8 @@ const ProjektePage = ({ data }) => {
 	  </div>
 
       
-	  <div style={{display: "flex"}}>
-	  <div style={{width: "50%"}}>
+	  <div style={{display: "flex", margin: "1em auto 6em auto"}}>
+	  <div style={{width: "60%"}}>
 	  <h3 className="has-text-weight-semibold">Inspiration</h3>
 	  <p>Inspiriert wurden die Gründer von Bärenherz durch 
 ihre langjährige aktive Unterstützung von Project Hope 
@@ -70,18 +70,19 @@ chen, als verlässlicher Partner die Arbeit von Project
 Hope e.V. aktiv zu unterstützen. 
 </p>
 	  </div>
-	  <div>
-	  Projekt Hope
+	  <div style={{margin: "1em 0 0 4em"}}>
+	  <img src={projecthope}/>
 	  </div>
 	  </div>
 	  
 	  </div>
 	  
-	  <div style={{background: "#84B9E4", display: "flex", padding: "2em", alignItems: "center", justifyContent: "space-between", padding: "0 6em", marginTop: "1em"}}>
+	  <div style={{background: "#84B9E4", display: "flex", padding: "2em", alignItems: "center", padding: "0 6em", marginTop: "1em"}}>
 	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold", width: "40%"}}>
 	  Mit Ihrer Spende helfen Sie uns, Leben zu retten.
 	  </h4>
-	  <a style={{color: "white", fontSize: "1.5rem", background: "#033277", padding: "0.5em 2em"}}>Jetzt spenden</a>
+	  <div style={{width: "30%"}}></div>
+	  <a style={{color: "white", fontSize: "1.5rem", background: "#033277", padding: "0.5em 2em"}} href="/jetzt-spenden">Jetzt spenden</a>
 	  </div>
 
 

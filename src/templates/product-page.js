@@ -10,7 +10,6 @@ export const ProductPageTemplate = ({
   title,
   subheading,
   heading,
-  description,
   fullImage,
 }) => {
 
@@ -52,7 +51,9 @@ export const ProductPageTemplate = ({
           <h3 className="has-text-weight-semibold is-size-2" style={{marginBottom: "0.5em",}}>
                   {heading}
                 </h3>
-          <p>{description}</p>
+          <p>Gerne nehmen wir neue Mitglieder auf, die die Philosophie und Projekte unseres karitativen Vereins unterstützen. Es gibt zwei Arten von Mitgliedschaften:
+
+</p>
 	  <div className="mitgliedschaft-form-container">
 	  <div className="mitgliedschaft-form-left">
 	  <h4>Persönliche Mitgliedschaft</h4>
@@ -96,7 +97,6 @@ ProductPageTemplate.propTypes = {
   title: PropTypes.string,
   subheading: PropTypes.string,
   heading: PropTypes.string,
-  description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
@@ -110,7 +110,6 @@ const ProductPage = ({ data }) => {
         title={frontmatter.title}
         subheading={frontmatter.subheading}
         heading={frontmatter.heading}
-        description={frontmatter.description}
         fullImage={frontmatter.full_image}
       />
     </Layout>
@@ -139,7 +138,6 @@ export const productPageQuery = graphql`
           }
         }
         heading
-        description
         full_image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
