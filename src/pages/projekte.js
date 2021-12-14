@@ -37,7 +37,7 @@ const ProjektePage = ({ data }) => {
           >
 	  Projekte
         </h1>
-	  <h3><b>Hilfe für die Schwächsten. Direkt und Lebensrettend.</b></h3>
+	  <h3><b>Hilfe für die Schwächsten. Direkt und lebensrettend.</b></h3>
 	    </div>
 	  </div>
 
