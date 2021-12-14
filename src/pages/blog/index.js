@@ -76,17 +76,15 @@ export default class BlogIndexPage extends React.Component {
           </div>
             </section>
 
-
-
-		  <div style={{background: "#033277"}}>
-	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "1em"}}>
-	  <h4 style={{color: "white", padding: "1em", fontSize: "2.5rem", fontWeight: "bold"}}>Keine Veranstaltung verpassen</h4>
+	  <div style={{background: "#033277"}}>
+	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
+	  <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
 	  <div style={{display: "flex", flexDirection: "column"}}>
-	  <p style={{color: "white", marginTop: "3em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+	  <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
 	  <Mailchimp />
 	  </div>
 	  </div>
-            </div>
+         </div>
 
 	            <section className="section">
           <div className="container">
