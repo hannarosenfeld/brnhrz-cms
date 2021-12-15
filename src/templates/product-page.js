@@ -77,6 +77,7 @@ export const ProductPageTemplate = ({
           </div>
         </div>
       </section>
+{/*
 <div className="mitgliedschaft-testimony">
 <h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
 Arbeit von Bärenherz unterstützen und habe
@@ -87,6 +88,7 @@ ankommt.“</h4>
 <p style={{fontSize: "1vw"}}>Selbständiger Unternehmer, Freiburg im Breisgau</p>
 </div>
 </div>
+*/}
 
     </div>
   );

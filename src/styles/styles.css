@@ -150,6 +150,7 @@ dropdown-menu {
 }
 
 .mitgliedschaft-testimony {
+    display: none;
     text-align: center;
     background: #84B9E4;
     color: white;
