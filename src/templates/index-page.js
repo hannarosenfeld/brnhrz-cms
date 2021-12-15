@@ -62,13 +62,13 @@ export const IndexPageTemplate = ({
 
 
 	  <div className="mitgliedschaft-testimony">
-<h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
+<h3 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
 Arbeit von Bärenherz unterstützen und habe
 das gute Gefühl, eine Hilfe zu leisten, die auch
-ankommt.“</h4>
+ankommt.“</h3>
 <div style={{lineHeight: "0.2", marginTop: "4em"}}>
-	  <p style={{fontSize: "1.2vw", margin: "1em"}}><b>Arno Bohn</b></p>
-<p style={{fontSize: "1vw"}}>Selbständiger Unternehmer, Freiburg im Breisgau</p>
+	  <h4 style={{margin: "1em"}}><b>Arno Bohn</b></h4>
+<h4>Selbständiger Unternehmer, Freiburg im Breisgau</h4>
 </div>
 </div>
 
