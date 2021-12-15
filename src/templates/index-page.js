@@ -50,6 +50,7 @@ export const IndexPageTemplate = ({
 	  </div>
          </div>
 
+      {/*
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column", margin: "5em auto"}}>
 	  <div>
 	  <h3 className="has-text-weight-semibold" style={{marginBottom: "1em", textAlign: "left"}}>Bärenherz-Neuigkeiten</h3>
@@ -58,7 +59,7 @@ export const IndexPageTemplate = ({
 	  </div>
 	  </div>
 	  </div>
-
+       */}
 
 
       {/*	  <div className="mitgliedschaft-testimony">

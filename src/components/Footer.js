@@ -1,10 +1,10 @@
 import * as React from "react";
 
 import logo from "../img/logo.png";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+//import facebook from "../img/social/facebook.svg";
+//import instagram from "../img/social/instagram.svg";
+//import twitter from "../img/social/twitter.svg";
+//import vimeo from "../img/social/vimeo.svg";
 
 const Footer = class extends React.Component {
   render() {
@@ -16,7 +16,8 @@ const Footer = class extends React.Component {
             alt="logo"
         style={{ width: "14em", margin: "0 auto"}}
           />
-        </div>
+            </div>
+	    {/*
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: "100vw"}} className="columns">
@@ -52,8 +53,9 @@ const Footer = class extends React.Component {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
+             </div>
+             </div>
+	     */}
       </footer>
     );
   }
