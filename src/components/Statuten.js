@@ -1,8 +1,7 @@
 import React from 'react'
 
-export const Statuen = () => {
-    return (
-	    <div>
+const Statuten = () => (
+	<div>
 	    <h3><p>Statuten des Vereins</p>
 	    <p>„Bärenherz
 – Verein für humanitäre Hilfe“  </p></h3>
@@ -397,12 +396,19 @@ Protokollführer:</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span>-------------------------------------       
-                       ----------------------------------------</span></p>
-
-<p><span>Rainer
-Mück                                                     Dr. Hans Brändle </span></p>
-
+    <div style={{display: "flex"}}>
+    <div style={{display: "flex", flexDirection: "column", marginRight: "3em"}}>
+    <span>Rainer Mück</span>       
+    <span>-------------------------------------       
+</span>
+    </div>
+        <div style={{display: "flex", flexDirection: "column"}}>
+    <span>Dr. Hans Brändle</span>
+    <span>----------------------------------------</span>
+    </div>
 </div>
-    )
-    }
+</div>
+)
+
+
+export default Statuten

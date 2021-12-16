@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Mailchimp from "../components/Mailchimp"
-import Statuen from "../components/Statuen"
+import Statuten from "../components/Statuten"
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -125,12 +125,6 @@ const AboutPage = ({ data }) => {
 	  </div>
 	  </div>
 
-	  <div id="statuten">
-
-	  </div>
-      
-	  </div>
-
       
       
 	  <div style={{background: "#033277"}}>
@@ -142,6 +136,12 @@ const AboutPage = ({ data }) => {
 	  </div>
 	  </div>
          </div>
+
+	  <div id="statuten" style={{margin: "2em auto", width: "65%"}}>
+	  <Statuten />
+	  </div>
+      
+	  </div>
 
       	  <div className="mitgliedschaft-testimony">
 <h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige

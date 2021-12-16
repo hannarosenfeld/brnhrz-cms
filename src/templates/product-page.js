@@ -44,7 +44,7 @@ export const ProductPageTemplate = ({
 	  <h3><b>Gemeinsam dort helfen, wo Hilfe gebraucht wird.</b></h3>
 	    </div>
 	  </div>
-      <section className="section section--gradient">
+	  <section className="section section--gradient" style={{width: "80%", margin: "0 auto"}}>
         <div className="container">
           <div className="section">
             <div className="columns">
