@@ -101,7 +101,7 @@ const AboutPage = ({ data }) => {
 	  
       </div>
 	  <div>
-	  <p style={{padding: "0 5em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
+	  <p style={{padding: "0 5em", marginBottom: "2em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
 	  </div>
 	  </div>
 
