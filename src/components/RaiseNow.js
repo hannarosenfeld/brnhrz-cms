@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 
 
 const RaiseNow = () => (
-	<Layout>
 	<div>
 	<Helmet>
 	<script type='text/javascript' defer>
@@ -14,7 +13,6 @@ const RaiseNow = () => (
 	</Helmet>
 	<div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
 	</div>
-	</Layout>
 )
 
 export default RaiseNow

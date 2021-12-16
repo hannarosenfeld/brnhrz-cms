@@ -108,7 +108,7 @@ const AboutPage = ({ data }) => {
 
       </div>
 
-	  <div id="vorstand" style={{width: "65%", margin: "2em auto"}}>
+	  <div id="vorstand" style={{width: "65%", margin: "3em auto 4em auto"}}>
 	  <div>
 <h3>	  Vorstand</h3>
 	  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
@@ -137,7 +137,7 @@ const AboutPage = ({ data }) => {
 	  </div>
          </div>
 
-	  <div id="statuten" style={{margin: "2em auto", width: "65%"}}>
+	  <div id="statuten" style={{margin: "4em auto", width: "65%"}}>
 	  <Statuten />
 	  </div>
       
