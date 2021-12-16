@@ -44,6 +44,119 @@ const ProjektePage = ({ data }) => {
       
           <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
 	  <div style={{margin: "5em 13% 0 13%", width: "75%"}}>
+
+
+<div>
+
+<p ><b><span >Der Vorstand von Bärenherz entscheidet
+immer zum Ende des Jahres, welche Projekte im kommenden Jahr unterstützt werden
+sollen. Dies kann ein oder mehrere Projekte sein je nach Entscheid auch die
+Möglichkeit, kurzfristig bei Katastrophen wie der Flut an der Ahr
+einzuspringen. Wichtig ist uns, dass wir gemäss unserer Philosophie
+unterstützen, d.h. nachhaltige Hilfe zur Selbsthilfe mit einem Minimum an administrative
+Kosten. </span></b></p>
+
+<p ><b><span >&nbsp;</span></b></p>
+
+<p ><b><span >2022:</span></b></p>
+
+<p ><span >Für 2022 haben wir uns entschieden, dass
+Projekt PeriMAC zu unterstützen. Hier geht es um eine Verbesserung der
+Gesundheitsvorsorge „rund um die Geburt“ in Nordmazedonien. Aus unserer
+persönlichen Erfahrung der vergangenen Jahre kennen wir sowohl die Organisation
+als auch das Projekt und sind von der absoluten Notwendigkeit der Hilfe
+überzeugt.<b> </b>Hier können wir auf bestehende Strukturen zugreifen, die sich
+über die Zeit bewährt haben und einen wirklich unglaublichen Beitrag zur
+Verbesserung des Gesundheitswesens in den ärmsten Ländern Europas geleistet
+haben.</span></p>
+
+<p ><b><span >&nbsp;</span></b></p>
+
+<p ><b><span >Project HOPE e.V.</span></b><span >
+setzt sich<b> </b>seit 25 Jahren erfolgreich dafür ein, dass in Osteuropa mehr
+Neugeborene überleben. Dies geschieht mit Bereitstellung <b>moderner
+Medizintechnik</b> und durch <b>kompetente Fortbildung</b> von Ärzten und
+Pflegepersonal. </span></p>
+
+<p ><span >&nbsp;</span></p>
+
+<p ><span >Im aktuellen Projekt PeriMAC stehen 2 wesentliche
+Themen an, die Bärenherz in 2022 mit Ihrer Hilfe begleiten und unterstützen
+möchte:</span></p>
+
+<p ><span >&nbsp;</span></p>
+
+<p ><b><span>Medizintechnik:</span></b></p>
+
+<p ><span >Auch im Jahr 2022
+wird Project HOPE e.V. sein Engagement für das Land Nordmazedonien fortsetzen.
+Mit dem klaren Ziel, dort weiterhin die Säuglingssterblichkeit zu reduzieren,
+werden in Absprache mit dem Gesundheitsministerium des Landes weitere regionale
+Kliniken mit lebensrettenden Gerätschaften ausgestattet. </span></p>
+
+<p ><span >&nbsp;</span></p>
+
+<p ><span >Mit einem Betrag
+von CHF 25.000 können folgende lebensrettende Geräte für die Geburtsabteilungen
+der Kliniken in Štip und Bitola angeschafft werden: Inkubatoren,
+Beatmungsgeräte, Wärmebettchen.</span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p><i><span >Als Referenz:</span></i></p>
+
+<p ><span >·<span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span >Inkubator: € 10.000</span></i></p>
+
+<p ><span >·<span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span >Wärmebettchen: € 2.500</span></i></p>
+
+<p ><span >·<span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span >Beatmungsgerät: € 10.000</span></i></p>
+
+<p ><span >&nbsp;</span></p>
+
+	  <p ><b><span  style={{color:"#0070C0"}}>Fortbildung:</span></b></p>
+
+<p  ><span >Weil insbesondere
+die ersten kritischen 10 Minuten im Leben eines Neugeborenen gut bewältigt
+werden müssen, wird ein umfangreiches <b>Ausbildungsprogramm</b> mit dem
+Schwerpunkt auf diese neonatale Erstversorgung durchgeführt [NLS=Newborn Life
+							     Support]. <span style={{color:'#0070C0'}}>Project HOPE vertraut auf die
+ehrenamtliche Unterstützung der Universitätskliniken Amsterdam und Bonn. </span></span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p><span >Für die Trainingsmodelle [z.B. „Premature Anne“ von Laerdal,
+s. Foto], für Schulungsmaterialien, Urkunden, Akkreditierung sowie
+Übersetzungen, benötigt Project HOPE einen Betrag in Höhe von CHF 25.000. Mehr
+als 150 Ärzte und Pflegepersonal werden von dieser nachhaltigen Initiative
+profitieren. Sie schenken somit nicht nur vielen Neugeborenen einen sicheren
+Start ins Leben sondern leisten einen unermesslichen Beitrag zur Motivation /
+zum Engagement des medizinischen Personals. </span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p ><span >Wir
+werden uns im Verlauf des Jahres 2022 persönlich vor Ort von der aktuellen Situation
+überzeugen und hoffen, hier einen wertvollen Beitrag leisten zu können.</span></p>
+
+<p ><span  >&nbsp;</span></p>
+
+<p ><span  >Für weitere Informationen
+über das Projekt und die Arbeit von Project Hope e.V. stehen Ihnen die
+Informationen auf der Homepage zur Verfügung:</span></p>
+
+<p ><span ><a href="https://www.projecthope.de/"><b>https://www.projecthope.de/</b></a></span></p>
+
+<p  ><span >&nbsp;</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p ><span >&nbsp;</span></p>
+
+</div>
+
 	  <p>Für 2022 haben wir uns entschlossen, die sämtliche Erlöse unseres Vereins dem Projekt PeriMAC-E von Project Hope e.V. zukommen zu lassen. </p>
 	  <p>Hilfe zur Selbsthilfe als Teil unserer Philosophie heisst, dass wir die Situation in den jeweiligen Projekten langfristig und nachhaltig verbessern wollen. Das bedeutet, dass wir nicht nur Geräte und Hilfsmittel zur Verfügung stellen, sondern ganz gezielt sicherstellen wollen, dass diese Zuwendungen auch richtig zum Einsatz kommen. Daher sind Training und Ausbildung des Personals vor Ort ein wesentlicher Bestandteil. 
 	  </p>
