@@ -2,23 +2,27 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import { HTMLContent } from "../components/Content";
+import Content, { HTMLContent } from "../components/Content";
 import Mailchimp from "../components/Mailchimp"
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  return (
+    const PageContent = contentComponent || Content;
+    
+    return (
 	  <section className="section section--gradient">
-
       <div className="container">
           <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
           <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>
 	  Unsere Philosophie
-              </h2>
+        </h2>
+	                  <PageContent className="content" content={content} />
+
 	  <p>Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe wirklich gebraucht wird, um Leben zu retten, lebens werte Bedingungen zu schaffen oder in unverschuldeten Notsituationen einen schnellen und unbürokratischen Beitrag zur Soforthilfe der Betroffenen zu leisten.</p>
             </div>
+	    
           </div>
         </div>
       </div>
@@ -79,7 +83,7 @@ const AboutPage = ({ data }) => {
 	  <div className="circle-with-text">
 	  Hilfe zur Selbsthilfe
       </div>
-	  <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
+	  <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. </p>
 	  </div>
 	  <div  className="circle-section">
 	  <div className="circle-with-text">
@@ -95,8 +99,12 @@ const AboutPage = ({ data }) => {
 	  <p>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und Vorstände.</p>
 	  </div>
 	  
+      </div>
+	  <div>
+	  <p style={{padding: "0 5em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
 	  </div>
 	  </div>
+
 	  </div>
 
       
