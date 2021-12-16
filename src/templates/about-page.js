@@ -75,14 +75,12 @@ const AboutPage = ({ data }) => {
 	  <div style={{width: "75%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
 	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf einigen drei Grundgedanken:</h3>
 	  <div style={{padding: "2em 4em", display: "flex", justifyContent: "space-between"}}>
-	  
 	  <div className="circle-section">
 	  <div className="circle-with-text">
-	  Unötige Kosten vermeiden
-          </div>
-	  <p>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und Vorstände.</p>
+	  Hilfe zur Selbsthilfe
+      </div>
+	  <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
 	  </div>
-	  
 	  <div  className="circle-section">
 	  <div className="circle-with-text">
 	  Ehrenamtlich aus Überzeugung
@@ -92,9 +90,9 @@ const AboutPage = ({ data }) => {
 	  
 	  <div className="circle-section">
 	  <div className="circle-with-text">
-	  Hilfe zur Selbsthilfe
-      </div>
-	  <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
+	  Unötige Kosten vermeiden
+          </div>
+	  <p>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und Vorstände.</p>
 	  </div>
 	  
 	  </div>
