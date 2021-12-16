@@ -11,6 +11,17 @@ module.exports = {
   plugins: [
       "gatsby-plugin-react-helmet",
       {
+	  resolve: 'gatsby-plugin-load-script',
+	  options: {
+//              disable: !process.env.SENTRY_DSN, // When do you want to disable it ?
+              src: 'https://browser.sentry-cdn.com/5.15.4/bundle.min.js',
+              integrity:
+              'sha384-Nrg+xiw+qRl3grVrxJtWazjeZmUwoSt0FAVsbthlJ5OMpx0G08bqIq3b/v0hPjhB',
+              crossorigin: 'anonymous',
+              onLoad: `() => Sentry.init({dsn:"${process.env.SENTRY_DSN}"})`,
+	  },
+      },
+      {
         resolve: 'gatsby-plugin-mailchimp',
         options: {
             endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=9c2a8bd81827a96e797239987&amp;id=ad978cbead', // string; add your MC list endpoint here; see instructions below

@@ -43,11 +43,10 @@ const ProjektePage = ({ data }) => {
 
       
           <div className="container" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-	  <div style={{margin: "5em 13% 0 13%", width: "75%"}}>
+	  <div style={{margin: "3em 13% 0 13%", width: "75%"}}>
 
 
 <div>
-
 <p ><b><span >Der Vorstand von Bärenherz entscheidet
 immer zum Ende des Jahres, welche Projekte im kommenden Jahr unterstützt werden
 sollen. Dies kann ein oder mehrere Projekte sein je nach Entscheid auch die
@@ -157,9 +156,6 @@ Informationen auf der Homepage zur Verfügung:</span></p>
 
 </div>
 
-	  <p>Für 2022 haben wir uns entschlossen, die sämtliche Erlöse unseres Vereins dem Projekt PeriMAC-E von Project Hope e.V. zukommen zu lassen. </p>
-	  <p>Hilfe zur Selbsthilfe als Teil unserer Philosophie heisst, dass wir die Situation in den jeweiligen Projekten langfristig und nachhaltig verbessern wollen. Das bedeutet, dass wir nicht nur Geräte und Hilfsmittel zur Verfügung stellen, sondern ganz gezielt sicherstellen wollen, dass diese Zuwendungen auch richtig zum Einsatz kommen. Daher sind Training und Ausbildung des Personals vor Ort ein wesentlicher Bestandteil. 
-	  </p>
 	  </div>
 	  <div className="fourimages">
 	  <img src={projekte1} />
@@ -169,7 +165,7 @@ Informationen auf der Homepage zur Verfügung:</span></p>
 	  </div>
 
       
-	  <div style={{display: "flex", margin: "1em auto 6em auto",width: "75%"}}>
+	  <div style={{display: "flex", margin: "1em auto 3em auto",width: "75%"}}>
 	  <div style={{width: "50%"}}>
 	  <p>Inspiriert wurden die Gründer von Bärenherz durch 
 ihre langjährige aktive Unterstützung von Project Hope 
@@ -181,7 +177,7 @@ chen, als verlässlicher Partner die Arbeit von Project
 Hope e.V. aktiv zu unterstützen. 
 </p>
 	  </div>
-	  <div style={{margin: "1em 0 0 4em"}}>
+	  <div style={{margin: "1em 0 0 2em"}}>
 	  <img src={projecthope} style={{margin: "0 20%"}}/>
 	  <a href="https://www.projecthope.de/" style={{margin: "0 20%"}}>www.projecthope.de</a>
 	  </div>
