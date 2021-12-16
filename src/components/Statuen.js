@@ -1,128 +1,447 @@
+import React from 'react'
 
+export const Statuen = () => {
+    return (
+    <div>
+<p><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span >Statuten
+des Vereins </span></p>
 
+<p ><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span >„Bärenherz
+– Verein für humanitäre Hilfe“</span></p>
 
-<h1>Statuten des Vereins</h1>
-<h1>„Bärenherz – Verein für humanitäre Hilfe“</h1?
-<h2>1.	Namen und Sitz</h2>
-<p>Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.</p>
-<h2>2.	Zweck</h2>
-<p>Der Verein bezweckt die Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von Bedürftigen.
-Es können einzelne Personen oder auch Institutionen vom Verein unterstützt werden.
-Dedizierte Projekte: Nebst dem allgemeinen Vereinszweck gibt es noch dedizierte Projekte, welche mit zweckgebundenen Mitteln finanziert werden. Dazu gehörten unter anderem Projekte des Vereins „Project Hope Germany e.V.“
-Der Verein verfolgt weder Erwerbs- noch Selbsthilfezwecke. Der Verein kann sich auch an Aktionen und Projekten beteiligen oder solche unterstützen, die durch andere Organisationen mit ähnlicher Zielsetzung durchgeführt werden.
-Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die Organe sind ehrenamtlich tätig.</p>
-<h2>3.	Mittel</h2>
+<p><span >1.   Namen undSitz</span></p>
 
-<p>Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
-Weitere Mitteleinkünfte werden aus Spenden und Zuwendungen aller Art von Dritten oder Mitgliedern generiert.
-Das Geschäftsjahr entspricht dem Kalenderjahr.</p>
-<h2>4.	Mitgliedschaft</h2>
+<p><span >Unter dem Namen «Bärenherz
+– Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne
+von Art.&nbsp;60&nbsp;ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell
+unabhängig.</span></p>
 
-<p>Mitglieder können natürliche und juristische Personen werden, die den Vereinszweck unterstützen.
-Alle Mitglieder haben in der Mitgliederversammlung das gleiche Stimmrecht.
-Aufnahmegesuche sind an den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.</p>
-<h2>5.	Erlöschen der Mitgliedschaft</h2>
-<p>Die Mitgliedschaft erlischt</p>
-    <ul>
-<li>bei natürlichen Personen durch Austritt, Ausschluss oder Tod</li>
-<li>bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person</li>
-</ul>
-<h2>6.	Austritt und Ausschluss</h2>
-<p>Ein Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand gerichtet werden. 
+<p><span>2.   Zweck</span></p>
 
-Ein Mitglied kann jederzeit ohne Angaben von Gründen vom Vorstand ausgeschlossen werden. 
-Der Vorstand fällt den Ausschlussentscheid; das Mitglied kann den Ausschlussentscheid an die Mitgliederversammlung weiterziehen.</p>
+<p ><span>Der Verein bezweckt die
+Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von
+Bedürftigen.</span></p>
 
-    <h2>7.	Organe des Vereins</h2>
+<p ><span ><span >Es
+können einzelne Personen oder auch Institutionen vom Verein unterstützt werden.</span></span></p>
 
-    
-<p>Die Organe des Vereins sind:</p>
-    <ul>
-<li>die Mitgliederversammlung</li>
-<li>der Vorstand</li>
-</ul>
-    <h2>8.	Die Mitgliederversammlung</h2>
-    <p>
-Das oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche Mitgliederversammlung findet jährlich in der ersten Jahreshälfte statt.
+<p ><span><u><span >Dedizierte
+Projekte: </span></u></span><span ><span>Nebst
+dem allgemeinen Vereinszweck gibt es noch dedizierte Projekte, welche mit
+zweckgebundenen Mitteln finanziert werden. Dazu gehörten unter anderem Projekte
+des Vereins „Project Hope Germany e.V.“</span></span></p>
 
-Zur Mitgliederversammlung werden die Mitglieder zehn Tage im Voraus schriftlich unter Angabe der Traktanden eingeladen. Einladungen per E-Mail sind gültig.
+<p ><span ><span >Der
+Verein verfolgt weder Erwerbs- noch Selbsthilfezwecke. Der Verein kann sich
+auch an Aktionen und Projekten beteiligen oder solche unterstützen, die durch
+andere Organisationen mit ähnlicher Zielsetzung durchgeführt werden.</span></span></p>
 
-Traktandierungsanträge zuhanden der Mitgliederversammlung sind bis spätestens vier Wochen schriftlich an den Vorstand zu richten.
+<p ><span ><span >Der
+Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die
+Organe sind ehrenamtlich tätig.</span></span></p>
 
-Der Vorstand oder 1/5 der Mitglieder können jederzeit die Einberufung einer ausserordentlichen Mitgliederversammlung unter Angaben des Zwecks verlangen. Die Versammlung hat spätestens acht Wochen nach Eingang des Begehrens zu erfolgen.</p>
+<p ><span >3.   Mittel</span></p>
 
-<p>Die Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:</p>
-<ul>
-<li>Genehmigung des Protokolls der letzten Mitgliederversammlung</li>
-<li>Genehmigung des Jahresberichts des Vorstands</li>
-<li>Genehmigung der Jahresrechnung</li>
-<li>Entlastung des Vorstandes</li>
-<li>Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes</li>
-<li>Kenntnisnahme des Jahresbudgets</li>
-<li>Kenntnisnahme des Tätigkeitsprogrammes</li>
-<li>Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte</li>
-<li>Änderung der Statuten</li>
-<li>Entscheid über Ausschlüsse von Mitgliedern</li>
-<li>Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses</li>
+<div>
 
-<p>Jede ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl Mitglieder beschlussfähig.
+<table >
+ <tr>
+  <td >
+  <p ><span >&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
 
-Die Mitglieder fassen die Beschlüsse mit dem einfachen Mehr. Bei Stimmengleichheit fällt die/der Vorsitzende den Stichentscheid. 
+</div>
 
-Statutenänderungen benötigen die Zustimmung einer 2/3-Mehrheit der Stimmberechtigten.
+<p ><span >Mittelzusicherung:
+Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass
+die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen.
+Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu
+verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine
+Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein
+Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender
+ist ausgeschlossen.</span></p>
 
-Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.</p>
+<p ><span >Weitere Mitteleinkünfte
+werden aus Spenden und Zuwendungen aller Art von Dritten oder Mitgliedern
+generiert.</span></p>
 
-<h2>9.	Der Vorstand</h2>
-<p>Der Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem weiteren Mitglied.
+<p ><span >Das Geschäftsjahr
+entspricht dem Kalenderjahr.</span></p>
 
-Die Amtszeit beträgt fünf Jahre. Wiederwahl ist möglich.
+<p ><span >4.   Mitgliedschaft</span></p>
 
-Der Vorstand führt die laufenden Geschäfte und vertritt den Verein nach aussen.</p>
+<div>
 
-<ul>
-<li>Er erlässt Reglemente.</li>
-<li>Er kann Arbeitsgruppen (Fachgruppen) einsetzen.</li>
-    <li>Er kann für die Erreichung der Vereinsziele Personen gegen eine angemessene Entschädigung anstellen oder beauftragen.</li>
-    </ul>
-<p>Weitere Aufgaben und Kompetenzen des Vorstandes:</p>
-<li>Der Vorstand erstellt das Jahresbudget, stellt die Spendenzuflüsse sicher und entscheidet über die Vergabe der Mittel, welche den Betrag von CHF 1‘000.00 übersteigen. Er tagt mindestens einmal jährlich. Über die Beschlüsse wird ein Protokoll geführt. Der Vorstand leitet alljährlich die Vermögensrechnung mit einem Jahresbericht an die Interessenten weiter.</li>
+<table >
+ <tr>
+  <td >
+  <p ><span >&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
 
-<li>Der Vorstand verfügt über alle Kompetenzen, die nicht von Gesetzes wegen oder gemäss Statuten einem anderen Organ übertragen sind.</li>
+</div>
 
-<p>Im Vorstand sind folgende Ressorts vertreten:</p>
-<ul>
-<li>Präsidium</li>
-<li>Vizepräsidium</li>
-<li>Geschäftsführung </li>
-<li>Ämterkumulation ist möglich.</li>
-<li>Die Geschäftsführung prüft die Unterstützungsgesuche und kann bis zu einem Betrag von CHF 1‘000.00 pro Gesuch selbständig entscheiden. Jährlich erstattet sie dem Vorstand einen Bericht über die Vergabungen und die geplanten Mittelzuflüsse. Sie ist für die ordentliche Buchführung und die allgemeine Administration verantwortlich.</li>
-<li>Jedes Vorstandsmitglied kann unter Angabe der Gründe die Einberufung einer Sitzung verlangen. </li>
-<li>Sofern kein Vorstandsmitglied mündliche Beratung verlangt, ist die Beschlussfassung auf dem Zirkularweg (auch E-Mail) gültig. </li>
-<li>Der Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung der effektiven Spesen. </li>
+<p ><span >Mitglieder können
+natürliche und juristische Personen werden, die den Vereinszweck unterstützen.</span></p>
 
-10.	 Zeichnungsberechtigung
-Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest. 
+<p ><span >Alle Mitglieder haben
+in der Mitgliederversammlung das gleiche Stimmrecht.</span></p>
 
-11.	 Haftung
-Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
+<p ><span >Aufnahmegesuche sind an
+den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.</span></p>
 
-12.	 Auflösung des Vereins
-Die Auflösung des Vereins kann durch Beschluss einer ordentlichen oder ausserordentlichen Mitgliederversammlung beschlossen und mit dem Stimmenmehr von 2/3 Mehrheit der anwesenden Mitglieder aufgelöst werden.
+<p><span >5.   Erlöschen der Mitgliedschaft</span></p>
 
-Der Verein geht ohne Beschlussfassung durch die Mitgliedersammlung unter mit dem Tod Rainer Mücks. Das Vereinsvermögen ist im Sinne des Vereinszwecks zu verwenden. 
-Ein allfälliger Aktivenüberschuss fällt an eine steuerbefreite Organisation mit Sitz in der Schweiz, welche den gleichen oder einen ähnlichen Zweck verfolgt, oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.
+<p><span>Die
+Mitgliedschaft erlischt</span></p>
 
-13.	 Inkraftreten
-Diese Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind mit diesem Datum in Kraft getreten.
+<p><span>&nbsp;</span></p>
 
+<p><span >-<span
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >bei natürlichen
+Personen durch Austritt, Ausschluss oder Tod</span></p>
 
+<p ><span 
+>-<span
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >bei
+juristischen Personen durch Austritt, Ausschluss oder Auflösung der
+juristischen Person</span></p>
 
+<p><span>&nbsp;</span></p>
 
-Ort und Datum:  02.07.2021
+<p><span >6.   Austritt und Ausschluss</span></p>
 
-Der Präsident:					Der Protokollführer:
+<p><span>Ein
+Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier
+Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand
+gerichtet werden. </span></p>
 
+<p><span>&nbsp;</span></p>
 
--------------------------------------        		----------------------------------------
-Rainer Mück					Dr. Hans Brändle 
+<p><span>Ein
+Mitglied kann jederzeit ohne Angaben von Gründen vom Vorstand ausgeschlossen
+werden. </span></p>
+
+<p><span>Der
+Vorstand fällt den Ausschlussentscheid; das Mitglied kann den
+Ausschlussentscheid an die Mitgliederversammlung weiterziehen.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span >7.   Organe des Vereins</span></p>
+
+<p><span>Die
+Organe des Vereins sind:</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p ><span 
+>a)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >die
+Mitgliederversammlung</span></p>
+
+<p ><span 
+>b)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >der Vorstand</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span >8.   Die Mitgliederversammlung</span></p>
+
+<p><span>Das
+oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche
+Mitgliederversammlung findet jährlich in der ersten Jahreshälfte statt.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Zur
+Mitgliederversammlung werden die Mitglieder zehn Tage im Voraus schriftlich
+unter Angabe der Traktanden eingeladen. Einladungen per E-Mail sind gültig.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Traktandierungsanträge
+zuhanden der Mitgliederversammlung sind bis spätestens vier Wochen schriftlich
+an den Vorstand zu richten.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Der
+Vorstand oder 1/5 der Mitglieder können jederzeit die Einberufung einer
+ausserordentlichen Mitgliederversammlung unter Angaben des Zwecks verlangen.
+Die Versammlung hat spätestens acht Wochen nach Eingang des Begehrens zu
+erfolgen.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Die
+Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span 
+>a)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Genehmigung des
+Protokolls der letzten Mitgliederversammlung</span></p>
+
+<p><span 
+>b)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Genehmigung des
+Jahresberichts des Vorstands</span></p>
+
+<p><span 
+>c)<span
+>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >Genehmigung der
+Jahresrechnung</span></p>
+
+<p><span 
+>d)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Entlastung des
+Vorstandes</span></p>
+
+<p><span 
+>e)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Wahl des
+Präsidenten/der Präsidentin und des übrigen Vorstandes</span></p>
+
+<p><span 
+>f)<span
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >Kenntnisnahme
+des Jahresbudgets</span></p>
+
+<p><span 
+>g)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Kenntnisnahme
+des Tätigkeitsprogrammes</span></p>
+
+<p><span 
+>h)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Beschlussfassung
+über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte</span></p>
+
+<p><span 
+>i)<span
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >Änderung der
+Statuten</span></p>
+
+<p><span 
+>j)<span
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >Entscheid über
+Ausschlüsse von Mitgliedern</span></p>
+
+<p><span 
+>k)<span
+>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ >Beschlussfassung
+über die Auflösung des Vereins und die Verwendung des Liquidationserlöses</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Jede
+ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl
+Mitglieder beschlussfähig.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Die
+Mitglieder fassen die Beschlüsse mit dem einfachen Mehr. Bei Stimmengleichheit
+fällt die/der Vorsitzende den Stichentscheid. </span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Statutenänderungen
+benötigen die Zustimmung einer 2/3-Mehrheit der Stimmberechtigten.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Über
+die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span >9.   Der Vorstand</span></p>
+
+<p><span>Der
+Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem
+weiteren Mitglied.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Die
+Amtszeit beträgt fünf Jahre. Wiederwahl ist möglich.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Der
+Vorstand führt die laufenden Geschäfte und vertritt den Verein nach aussen.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Er
+erlässt Reglemente.</span></p>
+
+<p><span>Er
+kann Arbeitsgruppen (Fachgruppen) einsetzen.</span></p>
+
+<p><span>Er
+kann für die Erreichung der Vereinsziele Personen gegen eine angemessene
+Entschädigung anstellen oder beauftragen.</span></p>
+
+<p><span>Weitere
+Aufgaben und Kompetenzen des Vorstandes:</span></p>
+
+<p><span>Der
+Vorstand erstellt das Jahresbudget, stellt die Spendenzuflüsse sicher und
+entscheidet über die Vergabe der Mittel, welche den Betrag von CHF 1‘000.00
+übersteigen. Er tagt mindestens einmal jährlich. Über die Beschlüsse wird ein
+Protokoll geführt. Der Vorstand leitet alljährlich die Vermögensrechnung mit
+einem Jahresbericht an die Interessenten weiter.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Der
+Vorstand verfügt über alle Kompetenzen, die nicht von Gesetzes wegen oder
+gemäss Statuten einem anderen Organ übertragen sind.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Im
+Vorstand sind folgende Ressorts vertreten:</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span 
+>a)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Präsidium</span></p>
+
+<p><span 
+>b)<span
+>&nbsp;&nbsp;&nbsp; </span></span><span
+ >Vizepräsidium</span></p>
+
+<p><span 
+>c)<span
+>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Geschäftsführung
+</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Ämterkumulation
+ist möglich.</span></p>
+
+<p ><span>Die
+Geschäftsführung prüft die Unterstützungsgesuche und kann bis zu einem Betrag
+von CHF 1‘000.00 pro Gesuch selbständig entscheiden. Jährlich erstattet sie dem
+Vorstand einen Bericht über die Vergabungen und die geplanten Mittelzuflüsse.
+Sie ist für die ordentliche Buchführung und die allgemeine Administration
+verantwortlich.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Jedes
+Vorstandsmitglied kann unter Angabe der Gründe die Einberufung einer Sitzung
+verlangen. </span></p>
+
+<p><span>Sofern
+kein Vorstandsmitglied mündliche Beratung verlangt, ist die Beschlussfassung
+auf dem Zirkularweg (auch E-Mail) gültig. </span></p>
+
+<p ><span>Der
+Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung der
+effektiven Spesen. </span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p><span >10.  Zeichnungsberechtigung</span></p>
+
+<p><span>Der
+Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest. </span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span >11.  Haftung</span></p>
+
+<p><span>Für
+die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche
+Haftung der Mitglieder ist ausgeschlossen.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span >12.  Auflösung des Vereins</span></p>
+
+<p><span  >Die
+Auflösung des Vereins kann durch Beschluss einer ordentlichen oder
+ausserordentlichen Mitgliederversammlung beschlossen und mit dem Stimmenmehr von
+2/3 Mehrheit der anwesenden Mitglieder aufgelöst werden.</span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p><span>Der
+Verein geht ohne Beschlussfassung durch die Mitgliedersammlung unter mit dem
+Tod Rainer Mücks. Das Vereinsvermögen ist im Sinne des Vereinszwecks zu
+verwenden. </span></p>
+
+<p><span>Ein
+allfälliger Aktivenüberschuss fällt an eine steuerbefreite Organisation mit
+Sitz in der Schweiz, welche den gleichen oder einen ähnlichen Zweck verfolgt,
+oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den
+Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.</span></p>
+
+<p><span >&nbsp;</span></p>
+
+<p><span >13.  Inkraftreten</span></p>
+
+<p><span>Diese
+Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind
+mit diesem Datum in Kraft getreten.</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Ort
+und Datum:  02.07.2021</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Der
+Präsident:                                                   Der
+Protokollführer:</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>-------------------------------------       
+                       ----------------------------------------</span></p>
+
+<p><span>Rainer
+Mück                                                     Dr. Hans Brändle </span></p>
+
+</div>
+    )
+    }

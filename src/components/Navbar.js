@@ -69,11 +69,13 @@ const Navbar = class extends React.Component {
             <div className="navbar-start navbar-item has-text-centered">
             <NavDropdown title="Über uns" id="nav-dropdown">
             <NavDropdown.Item eventKey="Philosophie">
-	    <Link to="/about">Philosophie</Link>
+	    <Link to="/about#philosophie">Philosophie</Link>
 	</NavDropdown.Item>
-            <NavDropdown.Item eventKey="Vorstand">Vorstand</NavDropdown.Item>
-	    <NavDropdown.Item eventKey="Statuen">
-	        <Link to="/about#Statuen">Statuen</Link>
+            <NavDropdown.Item eventKey="Vorstand">
+	    <Link to="/about#vorstand">Vorstand</Link>
+	    </NavDropdown.Item>
+	    <NavDropdown.Item eventKey="Statuten">
+	        <Link to="/about#statuten">Statuten</Link>
 	</NavDropdown.Item>
 	    
             </NavDropdown>

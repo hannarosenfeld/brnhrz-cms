@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Mailchimp from "../components/Mailchimp"
+import Statuen from "../components/Statuen"
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -69,7 +70,7 @@ const AboutPage = ({ data }) => {
 	  <h3><b>Direkte Hilfe, unbürokratisch und schnell.</b></h3>
 	    </div>
         </div>
-
+<div id="philosophie">
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -105,8 +106,32 @@ const AboutPage = ({ data }) => {
 	  </div>
 	  </div>
 
+      </div>
+
+	  <div id="vorstand" style={{width: "65%", margin: "2em auto"}}>
+	  <div>
+<h3>	  Vorstand</h3>
+	  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
+	  <br />
+	  <ul>
+<li>·       Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
+
+<li>·       Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
+
+<li>·       Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
+
+	  <li>·       Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
+	  </ul>
+	  </div>
 	  </div>
 
+	  <div id="statuten">
+
+	  </div>
+      
+	  </div>
+
+      
       
 	  <div style={{background: "#033277"}}>
 	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
