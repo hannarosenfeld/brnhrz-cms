@@ -379,34 +379,6 @@ mit diesem Datum in Kraft getreten.</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span>&nbsp;</span></p>
-
-<p><span>&nbsp;</span></p>
-
-<p><span>Ort
-und Datum:  02.07.2021</span></p>
-
-<p><span>&nbsp;</span></p>
-
-<p><span>Der
-Präsident:                                                   Der
-Protokollführer:</span></p>
-
-<p><span>&nbsp;</span></p>
-
-<p><span>&nbsp;</span></p>
-
-    <div style={{display: "flex"}}>
-    <div style={{display: "flex", flexDirection: "column", marginRight: "3em"}}>
-    <span>Rainer Mück</span>       
-    <span>-------------------------------------       
-</span>
-    </div>
-        <div style={{display: "flex", flexDirection: "column"}}>
-    <span>Dr. Hans Brändle</span>
-    <span>----------------------------------------</span>
-    </div>
-</div>
 </div>
 )
 
