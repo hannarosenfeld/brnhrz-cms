@@ -73,7 +73,7 @@ const AboutPage = ({ data }) => {
 	  />
 	  <div style={{background: "#D0E4F5"}}>
 	  <div style={{width: "75%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
-	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf einigen drei Grundgedanken:</h3>
+	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf drei Grundgedanken:</h3>
 	  <div style={{padding: "2em 4em", display: "flex", justifyContent: "space-between"}}>
 	  <div className="circle-section">
 	  <div className="circle-with-text">
