@@ -71,21 +71,36 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
 	  />
-	  <div style={{background: "#D0E4F5", padding: "1em 2em"}}>
+	  <div style={{background: "#D0E4F5"}}>
+	  <div style={{width: "75%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
 	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf einigen drei Grundgedanken:</h3>
-	  <div style={{padding: "1em 2em", display: "flex", justifyContent: "space-between"}}>
+	  <div style={{padding: "2em 4em", display: "flex", justifyContent: "space-between"}}>
+	  
+	  <div className="circle-section">
 	  <div className="circle-with-text">
 	  Unötige Kosten vermeiden
           </div>
+	  <p>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und Vorstände.</p>
+	  </div>
+	  
+	  <div  className="circle-section">
 	  <div className="circle-with-text">
 	  Ehrenamtlich aus Überzeugung
-          </div>
+      </div>
+	  <p>Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen, machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir wissen, dass wir damit einen wertvollen Beitrag für Leben unter lebenswerten Bedingungen leisten können.</p>
+	  </div>
+	  
+	  <div className="circle-section">
 	  <div className="circle-with-text">
 	  Hilfe zur Selbsthilfe
-          </div>
+      </div>
+	  <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
 	  </div>
-	  <p style={{padding: "2em 4em"}}>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mit glieder und Vorstände. Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen, machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir wissen, dass wir damit einen wertvollen Beitrag für Leben unter lebenswerten Bedingungen leisten können. So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation. </p>
+	  
 	  </div>
+	  </div>
+	  </div>
+	  
 	  <br />
 
 	  <div style={{background: "#033277"}}>
