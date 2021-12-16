@@ -1,9 +1,7 @@
 ---
-templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+templateKey: index-page
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,8 +9,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: You can change this text by visiting
-  https://zen-aryabhata-bd8020.netlify.app/admin
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -48,6 +44,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+title: Über uns
 main:
   heading: Great coffee with no compromises
   description: >
@@ -64,4 +61,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/home-jumbotron.jpg
+description: You can change this text by visiting
+  https://zen-aryabhata-bd8020.netlify.app/admin
 ---
