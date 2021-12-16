@@ -16,6 +16,7 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
+  description,
   subheading,
 }) => {
 
@@ -35,6 +36,8 @@ export const IndexPageTemplate = ({
 	  <div style={{margin: "2em auto", width: "75%"}}>
 	  <div >
  	  <h3 className="has-text-weight-semibold">Headline</h3>
+                      <p>{description}</p>
+
 	  <p style={{margin: "1em auto 4em auto"}}>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
 	  </div>
 	  </div>
@@ -83,6 +86,8 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  description: PropTypes.string,
+
 };
 
 const IndexPage = ({ data }) => {
@@ -94,7 +99,9 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+      subheading={frontmatter.subheading}
+              description={frontmatter.description}
+
       />
     </Layout>
   );
@@ -122,6 +129,8 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        description
+
       }
     }
   }
