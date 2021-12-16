@@ -62,6 +62,5 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 image: /img/home-jumbotron.jpg
-description: You can change this text by visiting
-  https://zen-aryabhata-bd8020.netlify.app/admin
+description: Beispieltext
 ---
