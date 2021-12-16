@@ -2,21 +2,15 @@ import React, { Suspense } from "react"
 import Layout from "../components/Layout";
 const RaiseNow = React.lazy(() => import( "../components/RaiseNow"));
 
-function SpendenPageTemplate() {
+function SpendenPage() {
     return(
-	    <div>
-	    <div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
+	<Layout>
 	    <Suspense fallback={<div>Loading...</div>}>
 	    <RaiseNow />
 	    </Suspense>
-	</div>
+	    	</Layout>
+
     )
 }
-
-const SpendenPage = () => (
-	<Layout>
-	<SpendenPageTemplate />
-	</Layout>
-)
 
 export default SpendenPage

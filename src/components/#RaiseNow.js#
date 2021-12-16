@@ -1,0 +1,14 @@
+import React from "react"
+import {Helmet} from "react-helmet"
+import Layout from "../components/Layout";
+
+const RaiseNow = () => (
+	<div>
+
+	<div>
+	<div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
+	</div>
+	</div>
+)
+
+export default RaiseNow

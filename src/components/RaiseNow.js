@@ -10,6 +10,7 @@ const RaiseNow = () => (
         </script>
 	<script  type='text/javascript' async defer src="https://tamaro.raisenow.com/brenh-1353/latest/widget.js"></script>
 	</Helmet>
+		    <div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
 	</div>
 )
 
