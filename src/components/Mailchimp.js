@@ -26,7 +26,7 @@ handleInputChange = (event) => {
         return (
 		<form name="subscribeForm" method="POST" id="subscribe-form" className="subscribe-form" onSubmit={this.handleSubmit}>
 		<div className="message" dangerouslySetInnerHTML={{__html: this.state.message}} />
-                <div className="form-row">
+                <div className="form-row" style={{display: "flex"}}>
                 <label>
 		<input
     	        className="subscribe-email"

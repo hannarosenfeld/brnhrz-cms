@@ -298,5 +298,9 @@ dropdown-menu {
     background: #84b9e4;
     color: white;
     font-weight: bold;
-    border: 1.3px solid #84b9e4;
+    border: none !important;
+}
+
+.subscribe-email {
+    border: 1px solid white;
 }
