@@ -61,8 +61,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+        label: "Mitgliedschaft"
+        name: "mitgliedschaft"
         fields:
           - {
               label: "Template Key",
@@ -73,4 +73,4 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: Description, name: description, widget: markdown }
