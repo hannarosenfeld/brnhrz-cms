@@ -98,9 +98,8 @@ const AboutPage = ({ data }) => {
 	  </div>
 	  </div>
 	  </div>
-	  
-	  <br />
 
+      
 	  <div style={{background: "#033277"}}>
 	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
 	  <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
