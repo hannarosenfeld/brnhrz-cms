@@ -9,6 +9,7 @@ import bmw from "../../img/bmw.png"
 import callaway from "../../img/callaway.png"
 import mmp from "../../img/mmp.png"
 import ski from  "../../img/ski.png"
+import ey from  "../../img/EY.jpg"
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -71,7 +72,8 @@ export default class BlogIndexPage extends React.Component {
 	    <img />
 	    <img src={bmw} style={{width: "5em"}}/>
 	    <img src={callaway}  style={{width: "8em"}}/>
-	    <img src={mmp}  style={{width: "9em"}}/>	    
+		<img src={mmp}  style={{width: "9em"}}/>
+			    <img src={ey}  style={{width: "9em"}}/>	    
 	    </div>
 	    </div>
 	    </div>
@@ -115,7 +117,8 @@ export default class BlogIndexPage extends React.Component {
 	    <img />
 	    <img src={bmw} style={{width: "5em"}}/>
 	    <img src={callaway}  style={{width: "8em"}}/>
-	    <img src={mmp}  style={{width: "9em"}}/>	    
+		<img src={mmp}  style={{width: "9em"}}/>
+					    <img src={ey}  style={{width: "9em"}}/>	    
 	    </div>
 	    </div>
 	    </div>
