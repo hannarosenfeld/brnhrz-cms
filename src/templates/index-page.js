@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
 	  </div>
       
 	  <div style={{background: "#033277"}}>
-	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
+	  <div style={{width: "80%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
 	  <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
 	  <div style={{display: "flex", flexDirection: "column"}}>
 	  <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
