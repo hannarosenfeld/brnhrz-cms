@@ -1,3 +1,4 @@
+
 import * as React from "react";
 
 import logo from "../img/logo.png";
@@ -10,12 +11,21 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-            <div className="content has-text-centered" style={{margin: "0 auto", padding: "1em"}}>
+          <div className="content has-text-centered footer-content" style={{margin: "0 auto", padding: "1em"}}>
+	      <div className="footer-address">
+		  <p>Bärenherz</p>
+		  <p>Verein für humanitäre Hilfe</p>
+		  <p>c/o Rainer Mück</p>
+		  <p>Untersellenstrassen 37</p>
+		  <p>CH-8873 Amden</p>
+		  <p style={{marginTop: "2em"}}>info@baerenherz.org</p>
+		  </div>
           <img
             src={logo}
             alt="logo"
-        style={{ width: "14em", margin: "0 auto"}}
+              style={{ width: "50%",margin: "0 auto"}}
           />
+	      <a>Impressum</a>
             </div>
 	    {/*
         <div className="content has-text-centered has-background-black has-text-white-ter">
