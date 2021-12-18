@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout";
-const RaiseNow = React.lazy(() => import( "../components/RaiseNow"));
+import RaiseNow from "../components/RaiseNow"
 
 function SpendenPage() {
     return(
