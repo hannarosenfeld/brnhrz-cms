@@ -5,8 +5,7 @@ import BlogRoll from "../../components/BlogRoll";
 import Mailchimp from "../../components/Mailchimp"
 
 import golfer from "../../img/golfer.png"
-import bmw from "../../img/bmw.png"
-import callaway from "../../img/callaway.png"
+import albego from "../../img/albego.jpg"
 import mmp from "../../img/mmp.png"
 import ski from  "../../img/ski.png"
 import ey from  "../../img/EY.jpg"
@@ -70,10 +69,9 @@ export default class BlogIndexPage extends React.Component {
 	    <h3 style={{color: "#0023A5", marginTop: "2em"}}>Unsere Partner:</h3>
 	    <div className="golf-tunier-partner-logos">
 	    <img />
-	    <img src={bmw} style={{width: "5em"}}/>
-	    <img src={callaway}  style={{width: "8em"}}/>
-		<img src={mmp}  style={{width: "9em"}}/>
-			    <img src={ey}  style={{width: "9em"}}/>	    
+	    <img src={albego}/>
+     	    <img src={mmp}/>
+	    <img src={ey}/>	    
 	    </div>
 	    </div>
 	    </div>
@@ -115,10 +113,9 @@ export default class BlogIndexPage extends React.Component {
 	    <h3 style={{color: "#0023A5", marginTop: "2em"}}>Unsere Partner:</h3>
 	    <div className="golf-tunier-partner-logos">
 	    <img />
-	    <img src={bmw} style={{width: "5em"}}/>
-	    <img src={callaway}  style={{width: "8em"}}/>
-		<img src={mmp}  style={{width: "9em"}}/>
-					    <img src={ey}  style={{width: "9em"}}/>	    
+	    <img src={albego} />
+		<img src={mmp} />
+	    <img src={ey} />	    
 	    </div>
 	    </div>
 	    </div>

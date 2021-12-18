@@ -345,3 +345,13 @@ dropdown-menu {
     padding: 2em 0;
     color: white;
 }
+
+.golf-tunier-partner-logos {
+    display: flex;
+    align-items: baseline;
+}
+.golf-tunier-partner-logos img {
+    display: flex;
+    width: 20%;
+    height: 20%;
+}
