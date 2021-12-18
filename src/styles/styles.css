@@ -320,18 +320,28 @@ dropdown-menu {
 
 .footer-content {
     display: flex;
-    width: 80%;
+    width: 90%;
     content-align: baseline;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    margin: 0 auto;
+		  
 }
 
-.footer-address p,a,img {
+.footer-address p, .footer-content a {
     margin-bottom: 0px ! important;
     font-weight: 600;
 }
 
-.footer-address img{
+.footer-img {
     padding: 1em;
-    border: 2px solid pink !important;
+   
 }
 
+.footer-address {
+    text-align: left;
+}
+
+.footer-content a, .footer-address {
+    padding: 2em 0;
+    color: white;
+}

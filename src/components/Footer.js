@@ -23,9 +23,10 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="logo"
-              style={{ width: "50%",margin: "0 auto"}}
+              style={{ width: "30%", margin: "0 auto"}}
+	      className="footer-img"
           />
-	      <a>Impressum</a>
+	      <a href="/impressum" >Impressum</a>
             </div>
 	    {/*
         <div className="content has-text-centered has-background-black has-text-white-ter">
