@@ -367,3 +367,7 @@ dropdown-menu {
     width: 20%;
     height: 20%;
 }
+
+.bold {
+    font-weight: bold;
+}

@@ -109,19 +109,19 @@ const AboutPage = ({ data }) => {
       </div>
 
 	  <div id="vorstand" style={{width: "65%", margin: "3em auto 4em auto"}}>
-	  <div>
-<h3>	  Vorstand</h3>
-	  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
-	  <br />
-	  <ul>
-<li>·       Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
+	      <div>
+		            <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>Vorstand</h2>
+		  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
+		  <br />
+		  <ul>
+<li>Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
 
-<li>·       Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
+<li>Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
 
-<li>·       Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
+<li>Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
 
-	  <li>·       Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
-	  </ul>
+		      <li>Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
+		      </ul>
 	  </div>
 	  </div>
 

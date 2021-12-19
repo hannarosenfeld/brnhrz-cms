@@ -1,16 +1,16 @@
 import React from 'react'
 
 const Statuten = () => (
-	<div>
-	    <h3><p>Statuten des Vereins</p>
-	    <p>„Bärenherz
-– Verein für humanitäre Hilfe“  </p></h3>
-<p>1.   Namen undSitz</p>
+    <div>
+			            <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>Statuten des Vereins<br />„Bärenherz
+– Verein für humanitäre Hilfe“</h2>
+
+					<p className="bold" >1. Namen und Sitz</p>
 <p>Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne
 von Art.&nbsp;60&nbsp;ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell
 unabhängig.</p>
 
-<p>2.   Zweck</p>
+<p className="bold">2.   Zweck</p>
 
 <p >Der Verein bezweckt die
 Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von
@@ -27,7 +27,7 @@ andere Organisationen mit ähnlicher Zielsetzung durchgeführt werden.</p>
 <p>Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die
 Organe sind ehrenamtlich tätig.</p>
 
-<p>3.   Mittel</p>
+<p className="bold">3.   Mittel</p>
 
 <p ><span >Mittelzusicherung:
 Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass
@@ -45,7 +45,7 @@ generiert.</span></p>
 <p ><span >Das Geschäftsjahr
 entspricht dem Kalenderjahr.</span></p>
 
-<p ><span >4.   Mitgliedschaft</span></p>
+<p ><span  className="bold">4.   Mitgliedschaft</span></p>
 <p ><span >Mitglieder können
 natürliche und juristische Personen werden, die den Vereinszweck unterstützen.</span></p>
 
@@ -55,7 +55,7 @@ in der Mitgliederversammlung das gleiche Stimmrecht.</span></p>
 <p ><span >Aufnahmegesuche sind an
 den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.</span></p>
 
-<p><span >5.   Erlöschen der Mitgliedschaft</span></p>
+<p className="bold"><span >5.   Erlöschen der Mitgliedschaft</span></p>
 
 <p><span>Die
 Mitgliedschaft erlischt</span></p>
@@ -76,7 +76,7 @@ juristischen Person</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span >6.   Austritt und Ausschluss</span></p>
+<p className="bold"><span >6.   Austritt und Ausschluss</span></p>
 
 <p><span>Ein
 Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier
@@ -95,7 +95,7 @@ Ausschlussentscheid an die Mitgliederversammlung weiterziehen.</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span >7.   Organe des Vereins</span></p>
+<p className="bold"><span >7.   Organe des Vereins</span></p>
 
 <p><span>Die
 Organe des Vereins sind:</span></p>
@@ -115,7 +115,7 @@ Mitgliederversammlung</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span >8.   Die Mitgliederversammlung</span></p>
+<p className="bold"><span >8.   Die Mitgliederversammlung</span></p>
 
 <p><span>Das
 oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche
@@ -238,7 +238,7 @@ die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.</span
 
 <p><span>&nbsp;</span></p>
 
-<p><span >9.   Der Vorstand</span></p>
+<p className="bold"><span >9.   Der Vorstand</span></p>
 
 <p><span>Der
 Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem
@@ -339,7 +339,7 @@ Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest. </span></
 
 <p><span>&nbsp;</span></p>
 
-<p><span >11.  Haftung</span></p>
+<p className="bold"><span >11.  Haftung</span></p>
 
 <p><span>Für
 die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche
@@ -347,7 +347,7 @@ Haftung der Mitglieder ist ausgeschlossen.</span></p>
 
 <p><span>&nbsp;</span></p>
 
-<p><span >12.  Auflösung des Vereins</span></p>
+<p className="bold"><span >12.  Auflösung des Vereins</span></p>
 
 <p><span  >Die
 Auflösung des Vereins kann durch Beschluss einer ordentlichen oder
@@ -369,7 +369,7 @@ Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.<
 
 <p><span >&nbsp;</span></p>
 
-<p><span >13.  Inkraftreten</span></p>
+<p className="bold"><span >13.  Inkraftreten</span></p>
 
 <p><span>Diese
 Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind
