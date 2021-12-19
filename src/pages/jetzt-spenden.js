@@ -6,8 +6,7 @@ function SpendenPage() {
     return(
 	<Layout>
 	    <RaiseNow />
-	    	</Layout>
-
+    	</Layout>
     )
 }
 

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react"
 import {Helmet} from "react-helmet"
 
-function Child({}) {
+function Child() {
         return(
-	<>
+	    <>
 	<Helmet>
 	<script type='text/javascript' aysnc>
 	{` window.rnw.tamaro.runWidget('.dds-widget-container', {language: 'de'}) `}
@@ -17,7 +17,7 @@ function Child({}) {
 }
 
 function RaiseNow() {
-    const [loaded, setLoaded] = useState([false])
+    const [loaded, setLoaded] = useState(false)
 
     useEffect(() => {
 	const scriptTag = document.createElement('script')
