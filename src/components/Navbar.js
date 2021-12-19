@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import logo from "../img/logo.png";
+import logo_header from "../img/logo_header.png";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavDropdown } from "react-bootstrap";
@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="logo" />
+            <img src={logo_header} alt="logo" />
             </Link>
             {/* Hamburger menu */}
             <div

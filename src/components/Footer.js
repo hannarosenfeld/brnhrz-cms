@@ -18,7 +18,7 @@ const Footer = class extends React.Component {
 		  <p>c/o Rainer Mück</p>
 		  <p>Untersellenstrassen 37</p>
 		  <p>CH-8873 Amden</p>
-		  <p style={{marginTop: "2em"}}>info@baerenherz.org</p>
+		  <p style={{marginTop: "2em"}}>Email: <a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p>
 		  </div>
           <img
             src={logo}

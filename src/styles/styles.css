@@ -44,7 +44,7 @@ h3 {
 
 .navbar-item img {
     max-height: none !important;
-    width: 50px !important;
+    width: 80px !important;
 }
 
 .navbar-menu {
@@ -250,6 +250,18 @@ dropdown-menu {
 .blog-list-item a {
     font-size: 0.8rem !important;
 }
+
+@media (max-width: 900px) {
+    .circle-container {
+	flex-direction: column;
+    }
+    .circle-section {
+	width: 100% !important;
+    }
+    .circle-section p {
+    }
+}
+
 
 @media (max-width: 1023px) {
     .image-box, .newsletter-box {

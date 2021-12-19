@@ -19,7 +19,7 @@ const photos = [
 	css_id: "banner-image-one",
 	heading: 'unsere mission',
 	description: 'Lebensrettende Hilfe für die Schwächsten',
-	link: "#",
+	link: "/projekte",
 	link_text: "mehr erfahren",
     },
     {
@@ -27,7 +27,7 @@ const photos = [
 	url: banner_image_2,
 	css_id: "banner-image-two",
 	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
-	link: "#",
+	link: "blog/#golf",
 	link_text: "Hier anmelden!",
 	badge: golf_cup_logo
     },
@@ -37,7 +37,7 @@ const photos = [
 	css_id: "banner-image-three",
 	heading: 'unsere projekte',
 	description: 'Hilfe, die dort ankommt, wo sie am dringensten gebraucht wird!',
-	link: "#",
+	link: "/projekte",
 	link_text: "mehr erfahren"
     }
 ]
@@ -65,7 +65,7 @@ class HomepageBanner extends Component{
 			    <img src={photo.badge} width="100%" position="absolute" className="banner-badge"/>
 			    <h1>{photo.heading}</h1>
 			    <p>{photo.description}</p>
-			    <a className="banner-link" src={photo.link}>{photo.link_text}</a>
+			    <a className="banner-link" href={photo.link}>{photo.link_text}</a>
 			    </div>
 			    </div>
 		    )

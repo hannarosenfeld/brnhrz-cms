@@ -9,10 +9,8 @@ function Child() {
 	{` window.rnw.tamaro.runWidget('.dds-widget-container', {language: 'de'}) `}
         </script>
 	</Helmet>
-		<div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
+		    <div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
 	  </>  
-
-
     )
 }
 

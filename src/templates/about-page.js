@@ -79,7 +79,7 @@ const AboutPage = ({ data }) => {
 	  <div style={{background: "#D0E4F5"}}>
 	  <div style={{width: "75%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
 	  <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf drei Grundgedanken:</h3>
-	  <div style={{padding: "2em 4em", display: "flex", justifyContent: "space-between"}}>
+	  <div className="circle-container" style={{display: "flex", justifyContent: "space-between"}}>
 	  <div className="circle-section">
 	  <div className="circle-with-text">
 	  Hilfe zur Selbsthilfe
@@ -102,7 +102,7 @@ const AboutPage = ({ data }) => {
 	  
       </div>
 	  <div>
-	  <p style={{padding: "0 5em", marginBottom: "2em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
+	      <p style={{padding: "1em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
 	  </div>
 	  </div>
 
