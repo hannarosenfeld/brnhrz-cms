@@ -377,10 +377,11 @@ dropdown-menu {
     display: flex;
     align-items: center;
     width: 85%;
+    justify-content: space-between;
 }
 
 .jetzt-spenden-button {
-    padding: 0.5em 2em;
+    padding: 0x.5em 2em;
     font-size: 2rem;
     text-align: center;
 }
