@@ -7,9 +7,9 @@ import Slider from "react-slick"
 import "../styles/bannerstyles.css"
 
 import banner_image_1 from '../img/banner1.jpg'
-import banner_image_2 from '../img/golf_charity.png'
+import banner_image_2 from '../img/golferin.jpg'
 import banner_image_3 from '../img/baby.jpg'
-//import golf_cup_logo from '../img/golf_cup_logo.png'
+import golf_cup_logo from '../img/golf_cup_logo.png'
 
 
 const photos = [
@@ -29,7 +29,7 @@ const photos = [
 //	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
 	link: "blog/#golf",
 	link_text: "Hier anmelden!",
-//	badge: golf_cup_logo
+	badge: golf_cup_logo
     },
     {
 	id: '3',
@@ -61,8 +61,10 @@ class HomepageBanner extends Component{
 		    return(
 			    <div id="homepagebanner-img-container">
 			    <img id="homepagebanner-img" width="100%" alt="homepagebanner-image" src={photo.url} />
-			    <div className="homepagebanner-text" id={photo.css_id}>
-			    <img src={photo.badge} width="100%" position="absolute" className="banner-badge"/>
+				<div className="homepagebanner-text" id={photo.css_id}>
+				    <div>
+					<img src={photo.badge} width="100%" position="absolute" className="banner-badge"/>
+					</div>
 			    <h1>{photo.heading}</h1>
 			    <p>{photo.description}</p>
 			    <a className="banner-link" href={photo.link}>{photo.link_text}</a>
@@ -77,3 +79,4 @@ class HomepageBanner extends Component{
 }
 
 export default HomepageBanner
+

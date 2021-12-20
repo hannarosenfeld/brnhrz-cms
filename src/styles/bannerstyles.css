@@ -29,7 +29,7 @@
 .homepagebanner-text {
     position: absolute;
     padding: 1em 2em;
-    max-width: 65%;
+    
 }
 
 .homepagebanner-text h1 {
@@ -44,7 +44,6 @@
     font-weight: bold;
     line-height: 1.2;
 }
-
 #banner-image-one {
     color: #033277;
     border: 2px solid  #033277;
@@ -52,36 +51,38 @@
     left: 4em;
     background: rgb(255,255,255,0.8);
 }
-
 #banner-image-one h1{
     border-bottom: 2px solid  #033277;
 }
-
 #banner-image-one a {
     color:  #033277;
+    bottom: 80%;
 }
 
 #banner-image-two {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
     color:  #033277;
     border: none;
-    top: 40%;
-    left: 44%;
+    top: -13%;
+    left: 20%;
     padding: 0;
 }
-
-#banner-image-two p{
+#banner-image-two p {
     color:  #033277;
-}
 
+}
 #banner-image-two a {
+    margin: -23% 30% 0 30%;
+    text-align: center;
     padding: 0.6em 1em;
     color: white;
     background: #033277;
 
 }
-
-#banner-image-two p {
-    margin-bottom: 0.5em;
+.banner-badge {
+    position: relative;
 }
 
 #banner-image-three {
@@ -100,11 +101,6 @@
     color: hotpink;
 }
 
-.banner-badge {
-    position: absolute;
-    left: -95%;
-    bottom: -180%;
-}
 
 #homepagebanner-text h1 {
     font-weight: bold;
@@ -114,21 +110,8 @@
     display: none !important;
 }
 
-
 .subtitle {
     font-weight: normal;
-}
-
-
-/* Spenden Module */
-
-.dds-widget-container {
-    margin: 0 auto;
-}
-
-#lema-container.lema-container {
-    min-width: 100% !important;
-    max-width: 100% !important;
 }
 
 @media (max-width: 1023px) {
@@ -137,6 +120,7 @@
 	transform: none !important;
     }
 }
+
 /*Mobile devices*/
 @media(min-width: 200px) and (max-width: 550px){
     #homepagebanner p{
@@ -149,15 +133,6 @@
     #homepagebanner a{
 	font-size: 0.6rem !important;
     }
-    #banner-image-two {
-	bottom: 60%;
-	left: 40%;
-    }
-    .banner-badge {
-	position: absolute;
-	left: -80%;
-	bottom: -100%;
-    }
     #banner-image-one, #banner-image-three {
 	bottom: 2em;
 	left: 1em;
@@ -165,11 +140,7 @@
 
 }
 
-.old-banner {
-    visibility: hidden;
-    display: none;
-    border: 2px solid pink;
-}
+
 
 @media(min-width: 551px) and (max-width: 960px){
     #homepagebanner p{
@@ -217,7 +188,7 @@
 /* Extra large screens, TVs */
 @media (min-width: 1201px) {
     .homepagebanner-text {
-	max-width: 45% !important;
+	max-width: 70% !important;
     }
 }
 
