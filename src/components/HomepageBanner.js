@@ -27,8 +27,8 @@ const photos = [
 	url: banner_image_2,
 	css_id: "banner-image-two",
 //	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
-	link: "blog/#golf",
-	link_text: "Hier anmelden!",
+	link: "/blog/#golf",
+	link_text: "",
 	badge: golf_cup_logo
     },
     {

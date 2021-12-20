@@ -74,6 +74,7 @@
 
 }
 #banner-image-two a {
+    display: none;
     margin: -23% 30% 0 30%;
     text-align: center;
     padding: 0.6em 1em;
