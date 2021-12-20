@@ -1,5 +1,3 @@
-
-
 /* Homepage Banner  */
 #homepagebanner {
     margin: 0 auto;
@@ -48,33 +46,37 @@
 }
 
 #banner-image-one {
-    color: navy;
-    border: 2px solid navy;
+    color: #033277;
+    border: 2px solid  #033277;
     bottom: 5em;
     left: 4em;
     background: rgb(255,255,255,0.8);
 }
 
 #banner-image-one h1{
-    border-bottom: 2px solid navy;
+    border-bottom: 2px solid  #033277;
 }
 
 #banner-image-one a {
-    color: navy;
+    color:  #033277;
 }
 
 #banner-image-two {
-    color: #24684f;
+    color:  #033277;
     border: none;
-    bottom: 66%;
-    left: 50%;
+    top: 40%;
+    left: 44%;
     padding: 0;
+}
+
+#banner-image-two p{
+    color:  #033277;
 }
 
 #banner-image-two a {
     padding: 0.6em 1em;
     color: white;
-    background: #41aa86;
+    background: #033277;
 
 }
 

@@ -22,10 +22,8 @@ export const IndexPageTemplate = ({
   return (
 	  <div>
 	  <HomepageBanner style={{marginBottom: "5em"}}/>
-	  
 	  <p style={{margin: "3em"}}></p>
-	  
-            <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
+          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
           <div style={{display: "flex", alignItems: "center", width: "77%", margin: "2em auto"}} className="image-box">
 	        <img src={care}/>
                 <img src={radicia} />
@@ -59,8 +57,6 @@ export const IndexPageTemplate = ({
 	  </div>
 	  </div>
        */}
-
-
       {/*	  <div className="mitgliedschaft-testimony">
 <h3 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
 Arbeit von Bärenherz unterstützen und habe
@@ -76,16 +72,13 @@ ankommt.“</h3>
 	  
   );
 };
-
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
 
 };
-
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-
   return (
 	  <Layout>
       <IndexPageTemplate

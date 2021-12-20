@@ -184,11 +184,13 @@ Hope e.V. aktiv zu unterstützen.
 	  </div>
 	  </div>
 	  
-	  <div style={{background: "#84B9E4", display: "flex", padding: "1em 15%", alignItems: "center", marginTop: "1em", justifyContent: "space-between"}}>
+    <div style={{background: "#84B9E4"}}>
+	<div className="spenden-content">
 	  <h4 style={{color: "white", padding: "1em", fontSize: "2.8rem", fontWeight: "bold", width: "60%"}}>
 	  Mit Ihrer Spende helfen Sie uns, Leben zu retten.
 	  </h4>
-	  <a style={{color: "white", fontSize: "1.3rem", background: "#033277", padding: "0.5em 2em"}} href="/jetzt-spenden">Jetzt spenden</a>
+	    <a className="jetzt-spenden-button" style={{color: "white", fontSize: "1.3rem", background: "#033277"}} href="/jetzt-spenden">Jetzt spenden</a>
+	    </div>
 	  </div>
 
 

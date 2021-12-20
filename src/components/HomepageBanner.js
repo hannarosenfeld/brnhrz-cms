@@ -7,9 +7,9 @@ import Slider from "react-slick"
 import "../styles/bannerstyles.css"
 
 import banner_image_1 from '../img/banner1.jpg'
-import banner_image_2 from '../img/golferin.jpg'
+import banner_image_2 from '../img/golf_charity.png'
 import banner_image_3 from '../img/baby.jpg'
-import golf_cup_logo from '../img/golf_cup_logo.png'
+//import golf_cup_logo from '../img/golf_cup_logo.png'
 
 
 const photos = [
@@ -26,10 +26,10 @@ const photos = [
 	id: '2',
 	url: banner_image_2,
 	css_id: "banner-image-two",
-	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
+//	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
 	link: "blog/#golf",
 	link_text: "Hier anmelden!",
-	badge: golf_cup_logo
+//	badge: golf_cup_logo
     },
     {
 	id: '3',
