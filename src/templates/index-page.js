@@ -7,9 +7,6 @@ import BlogRoll from "../components/BlogRoll";
 import Mailchimp from "../components/Mailchimp"
 import HomepageBanner from "../components/HomepageBanner"
 
-import care from "../img/care.jpg"
-import radicia from "../img/radicia.jpeg"
-
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -24,10 +21,6 @@ export const IndexPageTemplate = ({
 	  <HomepageBanner style={{marginBottom: "5em"}}/>
 	  <p style={{margin: "3em"}}></p>
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-          <div style={{display: "flex", alignItems: "center", width: "77%", margin: "2em auto"}} className="image-box">
-	        <img src={care}/>
-                <img src={radicia} />
-	      </div>
 	  
 	  <div style={{margin: "2em auto 6em auto", width: "75%"}}>
 	  <div >

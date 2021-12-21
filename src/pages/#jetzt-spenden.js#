@@ -1,0 +1,19 @@
+import React, { Suspense } from "react"
+import Loadable from 'react-loadable';
+
+
+
+const LoadableComponent = Loadable({
+  loader: () => import('../components/RaiseNow'),
+    loading() {
+	return <div>Loading</div>
+    }
+});
+
+export default class SpendenPage extends React.Component {
+  render() {
+      return <LoadableComponent/>
+  }
+}
+
+
