@@ -263,6 +263,15 @@ dropdown-menu {
 }
 
 @media (max-width: 900px) {
+    .blaue-kaesten {
+	flex-direction: column;
+	width: 100%;
+    }
+    .medizin-container, .fortbildung-container {
+    background: #C6EAFA;
+    max-width: 100% !important;
+    padding: 1em;
+}
     .circle-container {
 	flex-direction: column;
     }
