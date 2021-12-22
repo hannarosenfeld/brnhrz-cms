@@ -109,19 +109,19 @@ const AboutPage = ({ data }) => {
       </div>
 
 	  <div id="vorstand" style={{width: "65%", margin: "3em auto 4em auto"}}>
-	      <div>
-		            <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>Vorstand</h2>
-		  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
-		  <br />
-		  <ul>
-<li>Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
+	  <div>
+	  <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>Vorstand</h2>
+	  <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
+	  <br />
+	  <ul>
+	  <li>Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
 
-<li>Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
+	  <li>Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
 
-<li>Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
+	  <li>Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
 
-		      <li>Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
-		      </ul>
+	  <li>Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
+	  </ul>
 	  </div>
 	  </div>
 
@@ -135,31 +135,31 @@ const AboutPage = ({ data }) => {
 	  <Mailchimp />
 	  </div>
 	  </div>
-         </div>
+          </div>
 
 	  <div id="statuten" style={{margin: "4em auto", width: "65%"}}>
 	  <Statuten />
 	  </div>
-      
-	  </div>
+	  
+      </div>
 
       	  <div className="mitgliedschaft-testimony">
-<h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
-Arbeit von Bärenherz unterstützen und habe
-das gute Gefühl, eine Hilfe zu leisten, die auch
-ankommt.“</h4>
-<div style={{lineHeight: "0.2", marginTop: "4em"}}>
+	  <h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
+      Arbeit von Bärenherz unterstützen und habe
+      das gute Gefühl, eine Hilfe zu leisten, die auch
+      ankommt.“</h4>
+	  <div style={{lineHeight: "0.2", marginTop: "4em"}}>
 	  <h4 style={{margin: "1em"}}><b>Arno Bohn</b></h4>
-<h4>Selbständiger Unternehmer, Freiburg im Breisgau</h4>
-</div>
-</div>
+	  <h4>Selbständiger Unternehmer, Freiburg im Breisgau</h4>
+	  </div>
+	  </div>
 
-    </Layout>
+      </Layout>
   );
 };
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+    data: PropTypes.object.isRequired,
 };
 
 export default AboutPage;

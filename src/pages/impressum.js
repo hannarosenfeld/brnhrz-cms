@@ -13,7 +13,8 @@ const Impressum = () => {
 <p>CH-8873 Amden</p>
 <p>Switzerland</p>
 
-		<p>    Vorsitzender: Rainer Mück</p>
+	    <p>    Vorsitzender: Rainer Mück</p>
+	     <p><a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p> 
     </div>
 
 		<div style={{padding: "4em"}}>
