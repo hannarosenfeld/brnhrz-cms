@@ -85,8 +85,10 @@ möchte:</span></p>
 
 <p ><span >&nbsp;</span></p>
 
+<div className="blaue-kaesten">      
+	  <div className="medizin-container">
 <p ><b><span>Medizintechnik:</span></b></p>
-
+<br />
 <p ><span >Auch im Jahr 2022
 wird Project HOPE e.V. sein Engagement für das Land Nordmazedonien fortsetzen.
 Mit dem klaren Ziel, dort weiterhin die Säuglingssterblichkeit zu reduzieren,
@@ -112,17 +114,19 @@ Beatmungsgeräte, Wärmebettchen.</span></p>
 
 <p ><span >·<span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><i><span >Beatmungsgerät: € 10.000</span></i></p>
+	  </div>
 
+      
 <p ><span >&nbsp;</span></p>
-
-	  <p ><b><span  style={{color:"#0070C0"}}>Fortbildung:</span></b></p>
-
+<div className="fortbildung-container">
+	  <p ><b>Fortbildung:</b></p>
+<br />
 <p  ><span >Weil insbesondere
 die ersten kritischen 10 Minuten im Leben eines Neugeborenen gut bewältigt
 werden müssen, wird ein umfangreiches <b>Ausbildungsprogramm</b> mit dem
 Schwerpunkt auf diese neonatale Erstversorgung durchgeführt [NLS=Newborn Life
-							     Support]. <span style={{color:'#0070C0'}}>Project HOPE vertraut auf die
-ehrenamtliche Unterstützung der Universitätskliniken Amsterdam und Bonn. </span></span></p>
+							     Support].Project HOPE vertraut auf die
+ehrenamtliche Unterstützung der Universitätskliniken Amsterdam und Bonn.</span></p>
 
 <p><span >&nbsp;</span></p>
 
@@ -134,6 +138,8 @@ profitieren. Sie schenken somit nicht nur vielen Neugeborenen einen sicheren
 Start ins Leben sondern leisten einen unermesslichen Beitrag zur Motivation /
 zum Engagement des medizinischen Personals. </span></p>
 
+      </div>
+	  </div>
 <p><span >&nbsp;</span></p>
 
 <p ><span >Wir

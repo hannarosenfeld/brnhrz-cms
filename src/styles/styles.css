@@ -396,3 +396,14 @@ dropdown-menu {
     font-size: 2rem;
     text-align: center;
 }
+
+.blaue-kaesten {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medizin-container, .fortbildung-container {
+    background: #C6EAFA;
+    max-width: 48%;
+    padding: 1em;
+}
