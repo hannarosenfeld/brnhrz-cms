@@ -101,7 +101,7 @@ export default class BlogIndexPage extends React.Component {
 >Hier vormerken </a></p>
 	     */}
 	    <div className="partner-logos-container">
-	    <h3 style={{color: "#0023A5", marginTop: "2em"}}>Unsere Partner:</h3>
+	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
 	    <img src={ey} />
 	    <img src={mmp} />

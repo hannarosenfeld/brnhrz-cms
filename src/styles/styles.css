@@ -178,7 +178,7 @@ dropdown-menu {
 }
 
 .partner-logos-container h3{
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .partner-logos {
@@ -261,8 +261,17 @@ dropdown-menu {
 .blog-list-item a {
     font-size: 0.8rem !important;
 }
+@media (max-width: 500px) {
+    .partner-logos {
+	flex-direction: column;
+}
+
+}
 
 @media (max-width: 900px) {
+    .partner-logos-container {
+	flex-direction: column;
+}
     .blaue-kaesten {
 	flex-direction: column;
 	width: 100%;
@@ -376,16 +385,6 @@ dropdown-menu {
 .footer-content a, .footer-address {
     padding: 2em 0;
     color: white;
-}
-
-.golf-tunier-partner-logos {
-    display: flex;
-    align-items: baseline;
-}
-.golf-tunier-partner-logos img {
-    display: flex;
-    width: 20%;
-    height: 20%;
 }
 
 .bold {
