@@ -16,7 +16,7 @@ const Footer = class extends React.Component {
 		  <p>Bärenherz</p>
 		  <p>Verein für humanitäre Hilfe</p>
 		  <p>c/o Rainer Mück</p>
-		  <p>Untersellenstrassen 27</p>
+		  <p>Untersellenstrasse 27</p>
 		  <p>CH-8873 Amden</p>
 		  <p style={{marginTop: "2em"}}>Email: <a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p>
 		  </div>
