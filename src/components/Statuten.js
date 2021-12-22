@@ -9,7 +9,7 @@ const Statuten = () => (
 <p>Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne
 von Art.&nbsp;60&nbsp;ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell
 unabhängig.</p>
-
+<br />
 <p className="bold">2.   Zweck</p>
 
 <p >Der Verein bezweckt die
@@ -26,7 +26,7 @@ auch an Aktionen und Projekten beteiligen oder solche unterstützen, die durch
 andere Organisationen mit ähnlicher Zielsetzung durchgeführt werden.</p>
 <p>Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die
 Organe sind ehrenamtlich tätig.</p>
-
+<br />
 <p className="bold">3.   Mittel</p>
 
 <p ><span >Mittelzusicherung:
@@ -44,7 +44,7 @@ generiert.</span></p>
 
 <p ><span >Das Geschäftsjahr
 entspricht dem Kalenderjahr.</span></p>
-
+<br />
 <p ><span  className="bold">4.   Mitgliedschaft</span></p>
 <p ><span >Mitglieder können
 natürliche und juristische Personen werden, die den Vereinszweck unterstützen.</span></p>
@@ -54,7 +54,7 @@ in der Mitgliederversammlung das gleiche Stimmrecht.</span></p>
 
 <p ><span >Aufnahmegesuche sind an
 den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.</span></p>
-
+<br />
 <p className="bold"><span >5.   Erlöschen der Mitgliedschaft</span></p>
 
 <p><span>Die
@@ -75,7 +75,7 @@ juristischen Personen durch Austritt, Ausschluss oder Auflösung der
 juristischen Person</span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >6.   Austritt und Ausschluss</span></p>
 
 <p><span>Ein
@@ -94,7 +94,7 @@ Vorstand fällt den Ausschlussentscheid; das Mitglied kann den
 Ausschlussentscheid an die Mitgliederversammlung weiterziehen.</span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >7.   Organe des Vereins</span></p>
 
 <p><span>Die
@@ -114,7 +114,7 @@ Mitgliederversammlung</span></p>
  >der Vorstand</span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >8.   Die Mitgliederversammlung</span></p>
 
 <p><span>Das
@@ -237,7 +237,7 @@ benötigen die Zustimmung einer 2/3-Mehrheit der Stimmberechtigten.</span></p>
 die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.</span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >9.   Der Vorstand</span></p>
 
 <p><span>Der
@@ -331,14 +331,14 @@ Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung d
 effektiven Spesen. </span></p>
 
 <p><span >&nbsp;</span></p>
-
-<p><span >10.  Zeichnungsberechtigung</span></p>
+<br />
+<p><b>10.  Zeichnungsberechtigung</b></p>
 
 <p><span>Der
 Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest. </span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >11.  Haftung</span></p>
 
 <p><span>Für
@@ -346,7 +346,7 @@ die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche
 Haftung der Mitglieder ist ausgeschlossen.</span></p>
 
 <p><span>&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >12.  Auflösung des Vereins</span></p>
 
 <p><span  >Die
@@ -368,7 +368,7 @@ oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den
 Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.</span></p>
 
 <p><span >&nbsp;</span></p>
-
+<br />
 <p className="bold"><span >13.  Inkraftreten</span></p>
 
 <p><span>Diese
