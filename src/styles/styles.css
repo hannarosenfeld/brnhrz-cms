@@ -172,11 +172,22 @@ dropdown-menu {
     margin-top: -2em;
 }
 
-.golf-tunier-partner-logos {
-
+.partner-logos-container {
+    display: flex;
+    align-items: baseline;
 }
 
-.golf-tunier-partner-logos img {
+.partner-logos-container h3{
+    margin-right: 2em;
+}
+
+.partner-logos {
+    display: flex;
+    align-items: baseline;
+}
+
+.partner-logos img {
+    width: 8em;
     margin: 1em 2em;
 }
 
@@ -189,7 +200,7 @@ dropdown-menu {
 }
 
 .dropdown-menu {
-    text-align: center;
+    text-align: left;
 }
 
 .nav-link {

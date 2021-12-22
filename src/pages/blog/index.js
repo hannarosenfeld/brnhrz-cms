@@ -65,15 +65,6 @@ export default class BlogIndexPage extends React.Component {
 	     */}
 	
 	    <p>Lassen Sie Sich überraschend und geniessen Sie mit uns einen unvergessenen Tag. Für uns selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute kommt. Weitere Details, das Pro gramm und das Anmeldeformular stehen voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf Sie! </p>
-	    <div>
-	    <h3 style={{color: "#0023A5", marginTop: "2em"}}>Unsere Partner:</h3>
-	    <div className="golf-tunier-partner-logos">
-	    <img />
-	    <img src={albego}/>
-     	    <img src={mmp}/>
-	    <img src={ey}/>	    
-	    </div>
-	    </div>
 	    </div>
             </div>
           </div>
@@ -109,13 +100,12 @@ export default class BlogIndexPage extends React.Component {
         }}
 >Hier vormerken </a></p>
 	     */}
-	    <div>
+	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5", marginTop: "2em"}}>Unsere Partner:</h3>
-	    <div className="golf-tunier-partner-logos">
-	    <img />
+	    <div className="partner-logos">
+	    <img src={ey} />
+	    <img src={mmp} />
 	    <img src={albego} />
-		<img src={mmp} />
-	    <img src={ey} />	    
 	    </div>
 	    </div>
 	    </div>
