@@ -9,7 +9,7 @@ const Impressum = () => {
 		<div style={{paddingLeft: "4em"}}>
 <p>Bärenherz – Verein für humanitäre Hilfe</p>
 <p>c/o Rainer Mück</p>
-<p>Untersellenstrasse 37</p>
+<p>Untersellenstrasse 27</p>
 <p>CH-8873 Amden</p>
 <p>Switzerland</p>
 
