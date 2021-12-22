@@ -185,7 +185,9 @@ Hope e.V. aktiv zu unterstützen.
 	  </div>
 	  <div style={{margin: "1em 0 0 2em"}}>
 	  <img src={projecthope} style={{margin: "0 20%"}}/>
-	  <a href="https://www.projecthope.de/" style={{margin: "0 20%"}}>www.projecthope.de</a>
+	  <br/>
+	  <br/>
+	  <a href="https://www.projecthope.de/" style={{margin: "4em 20%"}}>www.projecthope.de</a>
 	  </div>
 	  </div>
 	  </div>
