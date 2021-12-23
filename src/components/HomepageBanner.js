@@ -27,8 +27,8 @@ const photos = [
 	url: banner_image_2,
 	css_id: "banner-image-two",
 //	description: 'Dabei sein und (Golf-) spielend Gutes tun!',
-	link: "/blog/#golf",
-	link_text: "",
+	link_text: "mehr erfahren",
+	link: "/blog#golf",
 	badge: golf_cup_logo
     },
     {
@@ -63,8 +63,9 @@ class HomepageBanner extends Component{
 			    <img id="homepagebanner-img" width="100%" alt="homepagebanner-image" src={photo.url} />
 				<div className="homepagebanner-text" id={photo.css_id}>
 				    <div>
-					<img src={photo.badge} width="100%" position="absolute" className="banner-badge"/>
-					</div>
+			    <img src={photo.badge} width="100%" position="absolute" className="banner-badge"/>
+			</div>
+
 			    <h1>{photo.heading}</h1>
 			    <p>{photo.description}</p>
 			    <a className="banner-link" href={photo.link}>{photo.link_text}</a>
