@@ -89,7 +89,7 @@ const Navbar = class extends React.Component {
             <NavDropdown.Item eventKey="Charity Golftunier 2022">
 	    <Link to="/blog#golf-tunier">Charity Golftunier 2022</Link>
 	    </NavDropdown.Item>
-            <NavDropdown.Item eventKey="Charity Skitag 2022">
+            <NavDropdown.Item eventKey="Charity Ski-Weekend 2022">
 	    	    <Link to="/blog#ski-tag">Charity Skitag 2022</Link>
 </NavDropdown.Item>
             </NavDropdown>
