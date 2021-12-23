@@ -32,25 +32,22 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-  - name: "events"
-    label: "Events"
-    folder: "src/pages/events"
-    create: true
-    slug: "{{title}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "product-page",
-        }
-      - { label: Title, name: title, widget: string }
-      - { label: Image, name: image, widget: image }
-      - { label: Heading, name: heading, widget: string }
-      - { label: Description, name: description, widget: markdown }
+      
   - name: "pages"
     label: "Pages"
     files:
+      - file: "src/pages/events.json"
+        name: "events"
+        label: "Events"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "event-page",
+            }
+          - { label: GolfTurnier, name: golfturnier, widget: markdown }
+          - { label: SkiWeekend, name: skiweekend, widget: markdown }	  
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
