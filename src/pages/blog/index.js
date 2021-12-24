@@ -1,7 +1,7 @@
 import * as React from "react";
+import { graphql } from 'gatsby';
 
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll";
 import Mailchimp from "../../components/Mailchimp"
 
 import golfer from "../../img/golfer.png"
@@ -10,10 +10,10 @@ import mmp from "../../img/mmp.png"
 import ski from  "../../img/ski.png"
 import ey from  "../../img/EY.jpg"
 
-import events from "../events.json"
-
 
 export default class BlogIndexPage extends React.Component {
+      const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
+
   render() {
     return (
       <Layout>
@@ -54,8 +54,6 @@ export default class BlogIndexPage extends React.Component {
         }}
 	    >
 	    
-	{events.golfturnier}
-	
 	    <br />
 	    <br />	    
 	
@@ -103,7 +101,6 @@ export default class BlogIndexPage extends React.Component {
 	    margin: "2em auto",
         }}
 	    >
-	    	{events.skiweekend}
 	    {/*
 	    <p style={{display: "flex", alignItems: "center"}}><a
 	  style={{
@@ -120,5 +117,21 @@ export default class BlogIndexPage extends React.Component {
             </section>
       </Layout>
     );
+  }
+}
+
+export const query = graphql`
+  query {
+    allFile (filter: {sourceInstanceName: {eq: "pages"} name: {eq: "events"}}) {
+      edges {
+        node {
+          childMarkdownRemark {
+            frontmatter {
+              golfturnier
+              skiweekend
+          }
+        }
+      }
+    }
   }
 }
