@@ -23,5 +23,5 @@ skiweekend: Als zweiten Charity-Event planen wir im Dezember 2022 ein
   Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
   Olympiazweiter. Weitere Details folgen in Kürze.
 title: test
-description: testtest
+description: testtesttest
 ---
