@@ -1,0 +1,4 @@
+---
+golfturnier: Test
+skiweekend: Test
+---
