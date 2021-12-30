@@ -21,5 +21,11 @@ Grundgedanken:
         Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder
         und Vorstände."
   heading: "Die Philosophie unseres Vereins beruht auf drei Grundgedanken:"
+philosophie:
+  title: title
+  description: desc
+vorstand:
+  description: desccc
+  title: title
 ---
 Die Grundidee unseres Vereins ist es, dort zu helfen, wo Hilfe wirklich gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu schaffen oder in unverschuldeten Notsituationen einen schnellen und unbürokratischen Beitrag zur Soforthilfe der Betroffenen zu leisten.
