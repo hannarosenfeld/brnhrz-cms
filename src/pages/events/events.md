@@ -1,3 +1,7 @@
+---
+golfturnier: test
+skiweekend: test
+---
 <<<<<<< HEAD
 =======
 ---
