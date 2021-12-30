@@ -25,8 +25,8 @@ description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
   Olympiazweiter. Weitere Details folgen in Kürze.
 golfturnier:
   title: test
-  description: desc
+  description: desc1
 skiweekend:
   title: testi2
-  description: desc
+  description: desc2
 ---
