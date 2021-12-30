@@ -9,4 +9,23 @@ philosophie:
     Beitrag zur Soforthilfe zu leisten.
 vorstand:
 
+<<<<<<< HEAD
+=======
+    -Markus T. Schweizer, Senior Partner, EY – Mitglied
+  title: Vorstand
+  body: >-
+    Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
+
+
+    Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
+
+
+    Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
+
+
+    Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied
+
+
+    Markus T. Schweizer, Senior Partner, EY – Mitglied
+>>>>>>> e507123a7b88933cbe36cdf5e06f791a16d6315c
 ---
