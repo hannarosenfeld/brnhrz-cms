@@ -77,7 +77,7 @@ export const EventsPageTemplate = ({
 
 
 	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
-	    <p>{golfturnier.description}</p>
+	    <p>{golfturnier.body}</p>
 	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
@@ -122,7 +122,7 @@ export const EventsPageTemplate = ({
 	     */}
 	</div>
 	    	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
-	    <p >{skiweekend.description}</p>
+	    <p >{skiweekend.body}</p>
 
             </div>
           </div>
@@ -166,11 +166,11 @@ export const pageQuery = graphql`
       frontmatter {
         golfturnier {
           title
-          description
+          body
         }
         skiweekend {
           title
-          description
+          body
         }
       }
     }

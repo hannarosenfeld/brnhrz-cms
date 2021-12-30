@@ -44,7 +44,7 @@ export const AboutPageTemplate = ({philosophie, vorstand}) => {
             <div className="section">
 	    <div id="philosophie">
 	    <h3>{philosophie.title}</h3>
-	    <p>{philosophie.description}</p>
+	    <p>{philosophie.body}</p>
 	    <br />
 	    <br />
 	    <div style={{background: "#D0E4F5"}}>
@@ -81,18 +81,10 @@ export const AboutPageTemplate = ({philosophie, vorstand}) => {
 
 	    <div id="vorstand" style={{width: "65%", margin: "3em auto 4em auto"}}>
 	    <div>
-	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>Vorstand</h2>
-	    <p>Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:</p>
-	    <br />
-	    <ul>
-	    <li>Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident</li> 
-
-	    <li>Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident </li>
-
-	    <li>Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied </li>
-
-	    <li>Markus T. Schweizer, Senior Partner, EY – Mitglied</li>
-	    </ul>
+	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{vorstand.title}</h2>
+	    <div>
+	    {vorstand.body}
+	    </div>
 	    </div>
 	    </div>
 
@@ -164,11 +156,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         philosophie {
           title
-          description
+          body
         }
         vorstand {
           title
-          description
+          body
         }
       }
     }
