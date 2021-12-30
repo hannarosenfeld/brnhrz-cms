@@ -32,22 +32,21 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-      
   - name: "pages"
     label: "Pages"
     files:
       - file: "src/pages/events/events.md"
-        name: "events"
         label: "Events"
+        name: "events"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "event-page",
+              default: "events-page",
             }
-          - { label: GolfTurnier, name: golfturnier, widget: markdown }
-          - { label: SkiWeekend, name: skiweekend, widget: markdown }	  
+          - { label: Title, name: title, widget: markdown }
+          - { label: Description, name: description, widget: markdown }	  
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
@@ -58,8 +57,8 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: markdown }
+          - { label: GolfTurnier, name: title, widget: string }
+          - { label: SkiWeekend, name: description, widget: markdown }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

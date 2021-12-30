@@ -1,5 +1,6 @@
 import * as React from "react";
 import { graphql } from 'gatsby';
+import PropTypes from "prop-types";
 
 import Layout from "../../components/Layout";
 import Mailchimp from "../../components/Mailchimp"
@@ -11,13 +12,11 @@ import ski from  "../../img/ski.png"
 import ey from  "../../img/EY.jpg"
 
 
-export default class BlogIndexPage extends React.Component {
-      const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
-
-  render() {
-    return (
-      <Layout>
-        <div
+const EventsPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+  return (
+	  <Layout>
+	          <div
           className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
               backgroundImage: `url('/img/glove.jpg')`,
@@ -38,13 +37,15 @@ export default class BlogIndexPage extends React.Component {
 		color: "white",
 		lineHeight: "2.3",
             }}
-          >
+            >
+
 	    Unsere Aktivitäten
         </h1>
 	    <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
 	    </div>
         </div>
-        <section className="section">
+
+	          <section className="section">
           <div className="container">
             <div id="golf-tunier" className="content">
 	    <img src={golfer} />
@@ -53,22 +54,15 @@ export default class BlogIndexPage extends React.Component {
 	    margin: "2em auto",
         }}
 	    >
-	    
-	    <br />
-	    <br />	    
-	
-	    {/*
-	    <p style={{display: "flex", alignItems: "center"}}><a
-	  style={{
-	      background: "#0023A5",
-	      color: "white",
-	      margin: "1em auto",
-	      padding: "1em",
-        }}
->Hier vormerken </a></p>
-	     */}
-	
-	    	    <div className="partner-logos-container">
+
+
+
+            <EventsPageTemplate
+      title={frontmatter.title}
+      description={frontmatter.description}
+	  />
+
+	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
 	    <img src={ey} />
@@ -81,6 +75,16 @@ export default class BlogIndexPage extends React.Component {
             </div>
           </div>
             </section>
+
+    </Layout>
+  );
+};
+
+class BlogIndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
+
 
 	  <div style={{background: "#033277"}}>
 	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
@@ -120,18 +124,51 @@ export default class BlogIndexPage extends React.Component {
   }
 }
 
-export const query = graphql`
-  query {
-    allFile (filter: {sourceInstanceName: {eq: "pages"} name: {eq: "events"}}) {
-      edges {
-        node {
-          childMarkdownRemark {
-            frontmatter {
-              golfturnier
-              skiweekend
-          }
-        }
+
+export const EventsPageTemplate = ({
+    title,
+    description,
+}) => {
+    return (
+	    <div>
+	    <h3 className="has-text-weight-semibold">{title}</h3>
+	    <p>{description}</p>
+	</div>
+    )
+}
+
+EventsPageTemplate.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+
+};
+
+
+
+
+
+EventsPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
+};
+
+export default EventsPage
+
+export const pageQuery = graphql`
+  query EventsPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "events-page" } }) {
+      frontmatter {
+        title 
+        description
       }
     }
   }
-}
+`;
+
+
+
+
+
