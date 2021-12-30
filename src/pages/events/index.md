@@ -2,7 +2,8 @@
 templateKey: events-page
 golfturnier:
   title: Charity Golfturnier
-  description: "Am 6. Mai 2022 ist es soweit! Mit dem Charity Golfturnier auf der
+  description: >-
+    Am 6. Mai 2022 ist es soweit! Mit dem Charity Golfturnier auf der
     wunderschönen Anlage in Lipperswil startet Bärenherz seine
     Charity-Aktivitäten. Das Golfturnier soll ein fester Bestandteil in unserem
     jährlichen Aktivitätenprogramm werden. Starten möchten wir mit 48 aktiven
@@ -17,11 +18,10 @@ golfturnier:
     gesorgt, wie für einen or dentlichen Empfang nach der Runde. Am Abend steht
     das grosse Galadinner auf dem Programm, bei dem neben einer hochkarätigen
     Tombola auch aussergewöhnliche Objekte zur Versteigerung kommen. Lassen Sie
-    sich überraschen und geniessen Sie mit uns einen unvergessenen Tag. Für uns
-    selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute
-    kommt. Weitere Details, das Programm und das Anmeldeformular stehen
-    voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf
-    Sie!"
+    sich überraschen und geniessen Sie mit uns einen unvergessenen Tag. 
+
+
+    Für uns selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute kommt. Weitere Details, das Programm und das Anmeldeformular stehen voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf Sie!
 skiweekend:
   title: Charity Ski-Wochenende
   description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
