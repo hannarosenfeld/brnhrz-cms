@@ -43,9 +43,10 @@ golfturnier:
     sich überraschen und geniessen Sie mit uns einen unvergessenen Tag. Für uns
     selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute
     kommt. Weitere Details, das Programm und das Anmeldeformular stehen
-    voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf Sie"
+    voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf
+    Sie!"
 skiweekend:
-  title: Charity Ski-Wochenende 2022
+  title: Charity Ski-Wochenende
   description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
     Ski-Wochenende in den Schweizer Alpen unter kompetenter Leitung unseres
     Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
