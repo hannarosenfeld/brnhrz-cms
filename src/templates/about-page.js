@@ -37,8 +37,6 @@ export const AboutPageTemplate = ({philosophie, vorstand}) => {
 	    </div>
             </div>
 
-
-	
 	  <section className="section section--gradient">
       <div className="container">
           <div className="columns">
@@ -47,8 +45,10 @@ export const AboutPageTemplate = ({philosophie, vorstand}) => {
 	    <div id="philosophie">
 	    <h3>{philosophie.title}</h3>
 	    <p>{philosophie.description}</p>
+	    <br />
+	    <br />
 	    <div style={{background: "#D0E4F5"}}>
-	    <div style={{width: "66%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
+	    <div style={{width: "90%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
 	    <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf drei Grundgedanken:</h3>
 	    <div className="circle-container" style={{display: "flex", justifyContent: "space-between"}}>
 	    <div className="circle-section">
