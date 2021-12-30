@@ -12,11 +12,12 @@ import ski from  "../../img/ski.png"
 import ey from  "../../img/EY.jpg"
 
 
-class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <div
+
+const EventsPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+  return (
+	  <Layout>
+	          <div
           className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
               backgroundImage: `url('/img/glove.jpg')`,
@@ -44,6 +45,19 @@ class BlogIndexPage extends React.Component {
 	    <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
 	    </div>
         </div>
+	  <EventsPageTemplate
+        golfturnier={frontmatter.golfturnier}      
+        skiweekend={frontmatter.skiweekend}      
+	  />
+	  
+    </Layout>
+  );
+};
+
+class BlogIndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
         <section className="section">
           <div className="container">
             <div id="golf-tunier" className="content">
@@ -130,9 +144,9 @@ export const EventsPageTemplate = ({
     return (
 	    <div>
 	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
-	    <h3 className="has-text-weight-semibold">{golfturnier.description}</h3>
+	    <p className="has-text-weight-semibold">{golfturnier.description}</p>
 	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
-	    <h3 className="has-text-weight-semibold">{skiweekend.description}</h3>
+	    <p className="has-text-weight-semibold">{skiweekend.description}</p>
 	    
 	</div>
     )
@@ -144,17 +158,7 @@ EventsPageTemplate.propTypes = {
 };
 
 
-const EventsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
-  return (
-	  <Layout>
-	  <EventsPageTemplate
-        golfturnier={frontmatter.golfturnier}      
-        skiweekend={frontmatter.skiweekend}      
-      />
-    </Layout>
-  );
-};
+
 
 
 EventsPage.propTypes = {
