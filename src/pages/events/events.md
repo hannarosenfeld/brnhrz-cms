@@ -50,5 +50,5 @@ skiweekend:
   description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
     Ski-Wochenende in den Schweizer Alpen unter kompetenter Leitung unseres
     Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
-    Olympiazweiter. Weitere Details folgen in Kürze.
+    Olympiazweiter. Weitere Details folgen in Kürze
 ---
