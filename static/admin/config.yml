@@ -45,8 +45,26 @@ collections:
               widget: "hidden",
               default: "events-page",
             }
-          - { label: Title, name: title, widget: markdown }
-          - { label: Description, name: description, widget: markdown }
+          - {
+              label: GolfTurnier,
+              name: golfturnier,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
+          - {
+              label: SkiWeekend,
+              name: skiweekend,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                ],
+            }
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"

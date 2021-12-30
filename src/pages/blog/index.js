@@ -124,21 +124,23 @@ class BlogIndexPage extends React.Component {
 
 
 export const EventsPageTemplate = ({
-    title,
-    description,
+    golfturnier,
+    skiweekend,
 }) => {
     return (
 	    <div>
-	    <h3 className="has-text-weight-semibold">{title}</h3>
-	    <h3 className="has-text-weight-semibold">{description}</h3>
+	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
+	    <h3 className="has-text-weight-semibold">{golfturnier.description}</h3>
+	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
+	    <h3 className="has-text-weight-semibold">{skiweekend.description}</h3>
+	    
 	</div>
     )
 }
 
 EventsPageTemplate.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-
+  golfturnier: PropTypes.object,
+  skiweekend: PropTypes.object,
 };
 
 
@@ -146,9 +148,9 @@ const EventsPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
 	  <Layout>
-      <EventsPageTemplate
-      title={frontmatter.title}
-      description={frontmatter.description}
+	  <EventsPageTemplate
+        golfturnier={frontmatter.golfturnier}      
+        skiweekend={frontmatter.skiweekend}      
       />
     </Layout>
   );
@@ -169,8 +171,14 @@ export const pageQuery = graphql`
   query EventsPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "events-page" } }) {
       frontmatter {
-        title 
-        description
+        golfturnier {
+          title
+          description
+        }
+        skiweekend {
+          title
+          description
+        }
       }
     }
   }
