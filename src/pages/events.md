@@ -1,6 +1,6 @@
 ---
 golfturnier: Test
 skiweekend: Test
-title: hitest
+title: hid
 description: hihi
 ---
