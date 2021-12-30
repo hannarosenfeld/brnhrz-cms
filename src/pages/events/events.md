@@ -24,7 +24,7 @@ description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
   Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
   Olympiazweiter. Weitere Details folgen in Kürze.
 golfturnier:
-  title: title1
+  title: Charity Golfturnier
   description: "Am 6. Mai 2022 ist es soweit! Mit dem Charity Golfturnier auf der
     wunderschönen Anlage in Lipperswil startet Bärenherz seine
     Charity-Aktivitäten. Das Golfturnier soll ein fester Bestandteil in unserem
@@ -45,7 +45,7 @@ golfturnier:
     kommt. Weitere Details, das Programm und das Anmeldeformular stehen
     voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf Sie"
 skiweekend:
-  title: testi2
+  title: Charity Ski-Wochenende
   description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
     Ski-Wochenende in den Schweizer Alpen unter kompetenter Leitung unseres
     Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
