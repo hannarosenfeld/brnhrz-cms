@@ -13,11 +13,25 @@ import ey from  "../../img/EY.jpg"
 
 
 
-const EventsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
-  return (
-	  <Layout>
-	          <div
+class BlogIndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
+
+
+      </Layout>
+    );
+  }
+}
+
+
+export const EventsPageTemplate = ({
+    golfturnier,
+    skiweekend,
+}) => {
+    return (
+	<div>
+	    	          <div
           className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
               backgroundImage: `url('/img/glove.jpg')`,
@@ -44,21 +58,10 @@ const EventsPage = ({ data }) => {
         </h1>
 	    <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
 	    </div>
-        </div>
-	  <EventsPageTemplate
-        golfturnier={frontmatter.golfturnier}      
-        skiweekend={frontmatter.skiweekend}      
-	  />
-	  
-    </Layout>
-  );
-};
-
-class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <section className="section">
+            </div>
+	    
+	    <div>
+	            <section className="section">
           <div className="container">
             <div id="golf-tunier" className="content">
 	    <img src={golfer} />
@@ -84,7 +87,11 @@ class BlogIndexPage extends React.Component {
 >Hier vormerken </a></p>
 	     */}
 	
-	    	    <div className="partner-logos-container">
+
+
+	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
+	    <p>{golfturnier.description}</p>
+	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
 	    <img src={ey} />
@@ -92,10 +99,9 @@ class BlogIndexPage extends React.Component {
 	    <img src={albego} />
 	    </div>
 	    </div>
-
 	    </div>
             </div>
-          </div>
+            </div>
             </section>
 
 	  <div style={{background: "#033277"}}>
@@ -127,39 +133,38 @@ class BlogIndexPage extends React.Component {
         }}
 >Hier vormerken </a></p>
 	     */}
-	    </div>
+	</div>
+	    	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
+	    <p >{skiweekend.description}</p>
+
             </div>
           </div>
             </section>
-      </Layout>
-    );
-  }
-}
 
 
-export const EventsPageTemplate = ({
-    golfturnier,
-    skiweekend,
-}) => {
-    return (
-	    <div>
-	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
-	    <p className="has-text-weight-semibold">{golfturnier.description}</p>
-	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
-	    <p className="has-text-weight-semibold">{skiweekend.description}</p>
-	    
+	
+	    </div>
 	</div>
     )
 }
+
+
+const EventsPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+    return (
+	<Layout>
+	  <EventsPageTemplate
+        golfturnier={frontmatter.golfturnier}      
+        skiweekend={frontmatter.skiweekend}      
+	  />
+	    </Layout>
+  );
+};
 
 EventsPageTemplate.propTypes = {
   golfturnier: PropTypes.object,
   skiweekend: PropTypes.object,
 };
-
-
-
-
 
 EventsPage.propTypes = {
   data: PropTypes.shape({
