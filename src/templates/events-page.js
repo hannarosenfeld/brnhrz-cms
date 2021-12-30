@@ -50,7 +50,7 @@ export const EventsPageTemplate = ({
 	    <div>
 	            <section className="section">
           <div className="container">
-            <div id="golf-tunier" className="content">
+            <div id="golf-turnier" className="content">
 	    <img src={golfer} />
 	    <div
 	style={{
@@ -103,7 +103,7 @@ export const EventsPageTemplate = ({
 
 	            <section className="section">
           <div className="container">
-            <div id="ski-tag" className="content">
+            <div id="ski-weekend" className="content">
 	    <img src={ski} />
 	    <div
 	style={{
