@@ -18,7 +18,7 @@ title: "Am 6. Mai 2022 ist es soweit! Mit dem Charity Golfturnier auf der
   einen unvergessenen Tag. Für uns selbst, aber auch für diejenigen, denen der
   Erlös des Turniers zu Gute kommt. Weitere Details, das Programm und das
   Anmeldeformular stehen voraussichtlich Ende Januar 2022 hier zur Verfügung.
-  Wir freuen uns auf Sie!"
+  Wir freuen uns auf Sie! test"
 description: Als zweiten Charity-Event planen wir im Dezember 2022 ein
   Ski-Wochenende in den Schweizer Alpen unter kompetenter Leitung unseres
   Vizepräsidenten Andy Wenzel, ehemaliger Ski-Weltmeister, Weltcup-Sieger und
