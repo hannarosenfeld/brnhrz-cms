@@ -1,6 +1,4 @@
 ---
-title: another testd
-description: another test
 templateKey: events-page
 title: "Am 6. Mai 2022 ist es soweit! Mit dem Charity Golfturnier auf der
   wunderschönen Anlage in Lipperswil startet Bärenherz seine
