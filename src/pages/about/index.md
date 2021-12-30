@@ -13,12 +13,6 @@ vorstand:
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
 
 
-
-
-
-
-
-
     Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
 
 
