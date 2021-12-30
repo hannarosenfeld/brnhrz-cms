@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
 
 import Layout from "../components/Layout";
-
 import Mailchimp from "../components/Mailchimp"
 import Statuten from "../components/Statuten"
 
@@ -147,6 +146,14 @@ const AboutPage = ({ data }) => {
 
 AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
+};
+
+AboutPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default AboutPage;
