@@ -12,11 +12,11 @@ import ski from  "../../img/ski.png"
 import ey from  "../../img/EY.jpg"
 
 
-const EventsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
-  return (
-	  <Layout>
-	          <div
+class BlogIndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <div
           className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
           style={{
               backgroundImage: `url('/img/glove.jpg')`,
@@ -44,8 +44,7 @@ const EventsPage = ({ data }) => {
 	    <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
 	    </div>
         </div>
-
-	          <section className="section">
+        <section className="section">
           <div className="container">
             <div id="golf-tunier" className="content">
 	    <img src={golfer} />
@@ -55,14 +54,23 @@ const EventsPage = ({ data }) => {
         }}
 	    >
 
+	    <br />
+	    <br />	    
 
 
-            <EventsPageTemplate
-      title={frontmatter.title}
-      description={frontmatter.description}
-	  />
 
-	    <div className="partner-logos-container">
+	    {/*
+	    <p style={{display: "flex", alignItems: "center"}}><a
+	  style={{
+	      background: "#0023A5",
+	      color: "white",
+	      margin: "1em auto",
+	      padding: "1em",
+        }}
+>Hier vormerken </a></p>
+	     */}
+	
+	    	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
 	    <img src={ey} />
@@ -75,16 +83,6 @@ const EventsPage = ({ data }) => {
             </div>
           </div>
             </section>
-
-    </Layout>
-  );
-};
-
-class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-
 
 	  <div style={{background: "#033277"}}>
 	  <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
@@ -132,7 +130,7 @@ export const EventsPageTemplate = ({
     return (
 	    <div>
 	    <h3 className="has-text-weight-semibold">{title}</h3>
-	    <p>{description}</p>
+	    <h3 className="has-text-weight-semibold">{description}</h3>
 	</div>
     )
 }
@@ -144,7 +142,17 @@ EventsPageTemplate.propTypes = {
 };
 
 
-
+const EventsPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+  return (
+	  <Layout>
+      <EventsPageTemplate
+      title={frontmatter.title}
+      description={frontmatter.description}
+      />
+    </Layout>
+  );
+};
 
 
 EventsPage.propTypes = {
