@@ -26,7 +26,7 @@ vorstand:
 
 
     -Markus T. Schweizer, Senior Partner, EY – Mitglied
-  title: Der Vorstand
+  title: Vorstand
   body: >-
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:
 
