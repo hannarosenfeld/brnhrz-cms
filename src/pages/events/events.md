@@ -2,7 +2,7 @@
 golfturnier: testtesttesthannatesttestiibrngrz
 skiweekend: test
 title: another test
-description: n
+description: another test
 ---
 <<<<<<< HEAD
 =======
