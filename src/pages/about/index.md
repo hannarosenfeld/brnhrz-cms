@@ -2,16 +2,6 @@
 templateKey: about-page
 path: /about
 philosophie:
-<<<<<<< HEAD
-  title: sfd
-  body: dd
-vorstand:
-  title: test
-  body:
-    test
-
-    sdf
-=======
   title: Unsere Philosophie
   description: Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe
     wirklich gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu
@@ -37,12 +27,18 @@ vorstand:
 
     -Markus T. Schweizer, Senior Partner, EY – Mitglied
   title: Vorstand
-  body: "Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: \\*
-    Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident
-    \\* Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude
-    durch Bewussheit, sowie General Project Manager, Personal Sport Record –
-    Vizepräsident \\* Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental
-    Health, sowie Research & Innovation Manager EUrelations AG – Mitglied \\*
-    Markus T. Schweizer, Senior Partner, EY – Mitglie *"
->>>>>>> c883943aa4ec449eee2fb8741207849c4f100a2c
+  body: >-
+    Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
+
+
+    Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
+
+
+    Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
+
+
+    Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied
+
+
+    Markus T. Schweizer, Senior Partner, EY – Mitglied
 ---
