@@ -3,11 +3,15 @@ templateKey: about-page
 path: /about
 philosophie:
   title: Unsere Philosophie
+  description: Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe
+    wirklich gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu
+    schafen oder in unverschuldeten Notsituationen einen schnellen uns
+    unbürokratischen Beitrag zur Soforthilfe zu leisten.
+  body: Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe wirklich
+    gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu schafen oder
+    in unverschuldeten Notsituationen einen schnellen uns unbürokratischen
+    Beitrag zur Soforthilfe zu leisten.
 vorstand:
-<<<<<<< HEAD
-  title: Der Vorstand
-  body:
-=======
   description: >-
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen:
 
@@ -32,6 +36,8 @@ vorstand:
     * Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident
 
     * Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied
->>>>>>> f6e78c6cf544b8ad7b829d951b6743ebc3eed742
 
+    * Markus T. Schweizer, Senior Partner, EY – Mitglie
+
+    *
 ---
