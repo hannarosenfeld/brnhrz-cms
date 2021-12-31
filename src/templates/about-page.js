@@ -1,21 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Content, { HTMLContent } from "../components/Content";
-import { MDXProvider } from "@mdx-js/react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+//import Content, { HTMLContent } from "../components/Content";
+//import { MDXProvider } from "@mdx-js/react"
+//import { MDXRenderer } from "gatsby-plugin-mdx"
 import showdown from 'showdown'
 
 import Layout from "../components/Layout";
 
 import Mailchimp from "../components/Mailchimp"
-import Statuten from "../components/Statuten"
+
 
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({
     philosophie,
     vorstand,
+    statuten,
 }) => {
 
     const converter = new showdown.Converter()
@@ -129,8 +130,11 @@ export const AboutPageTemplate = ({
             <div className="section">
 
 	    <div id="statuten" style={{margin: "1em auto"}}>
-	    <Statuten />
-	    </div>
+	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{statuten.title}</h2>
+	    <br />
+	    <br />
+	        	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(statuten.body)}} />
+	    	    </div>
 	    
 
             </div>
@@ -146,7 +150,8 @@ export const AboutPageTemplate = ({
 
 AboutPageTemplate.propTypes = {
   philosophie: PropTypes.object,
-  vorstand: PropTypes.object,
+    vorstand: PropTypes.object,
+    statuten: PropTypes.object,    
 };
 
 const AboutPage = ({ data }) => {
@@ -155,7 +160,8 @@ const AboutPage = ({ data }) => {
 	    <Layout>
 	    	  <AboutPageTemplate
         philosophie={frontmatter.philosophie}      
-        vorstand={frontmatter.vorstand}      
+        vorstand={frontmatter.vorstand}
+        statuten={frontmatter.statuten}      	
 	  />
 	</Layout>
   );
@@ -180,6 +186,10 @@ export const aboutPageQuery = graphql`
           body
         }
         vorstand {
+          title
+          body
+        }
+        statuten {
           title
           body
         }

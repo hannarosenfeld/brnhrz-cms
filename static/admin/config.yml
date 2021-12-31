@@ -107,6 +107,16 @@ collections:
                   { label: Body, name: body, widget: markdown },
                 ],
             }
+          - {
+              label: Statuten,
+              name: statuten,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Body, name: body, widget: markdown },
+                ],
+            }
       - file: "src/pages/products/index.md"
         label: "Mitgliedschaft"
         name: "mitgliedschaft"
