@@ -2,14 +2,24 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import showdown from 'showdown'
 
 import Layout from "../components/Layout";
 
 import Mailchimp from "../components/Mailchimp"
 import Statuten from "../components/Statuten"
 
+
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ philosophie, vorstand }) => {
+export const AboutPageTemplate = ({
+    philosophie,
+    vorstand,
+}) => {
+
+    const converter = new showdown.Converter()
+
     return (
 	<div>
 		    <div
@@ -45,8 +55,11 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
 	    <div id="philosophie">
-	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{philosophie.title}</h2>
-	    <p>{philosophie.body}</p>
+	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{philosophie.title}</h2>	
+
+	
+	{philosophie.body}
+
 	    <br />
 	    <br />
 	    <div style={{background: "#D0E4F5"}}>
@@ -83,9 +96,8 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
 	    <div id="vorstand" style={{margin: "4em auto 0 auto"}}>
 	    <div>
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{vorstand.title}</h2>
-	    <div>
-	    {vorstand.body}
-	    </div>
+	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(vorstand.body)}} />
+
 	    </div>
 	    </div>
 
@@ -150,7 +162,9 @@ const AboutPage = ({ data }) => {
 };
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default AboutPage;
@@ -159,6 +173,7 @@ export default AboutPage;
 export const aboutPageQuery = graphql`
   query AboutPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
+      html
       frontmatter {
         philosophie {
           title

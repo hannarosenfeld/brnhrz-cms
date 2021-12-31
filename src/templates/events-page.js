@@ -163,16 +163,16 @@ export default EventsPage
 export const pageQuery = graphql`
   query EventsPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "events-page" } }) {
-      frontmatter {
-        golfturnier {
-          title
-          body
-        }
-        skiweekend {
-          title
-          body
+          frontmatter {
+            golfturnier {
+              title
+              body
+            }
+            skiweekend {
+              title
+              body
         }
       }
     }
-  }
+    }
 `;

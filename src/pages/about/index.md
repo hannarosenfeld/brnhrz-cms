@@ -9,7 +9,7 @@ philosophie:
     Beitrag zur Soforthilfe zu leisten.
 vorstand:
   title: Vorstand
-  body: >-
+  body: |
     **Aktuell setzt sich der Vorstand aus den folgenden Personen** zusammen: 
 
 

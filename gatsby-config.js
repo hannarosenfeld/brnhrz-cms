@@ -60,7 +60,9 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+      "gatsby-transformer-sharp",
+          `gatsby-plugin-mdx`,
+
     {
       resolve: "gatsby-transformer-remark",
       options: {
