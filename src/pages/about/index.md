@@ -25,6 +25,11 @@ philosophie:
         Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder
         und Vorstände."
   heading: "Die Philosophie unseres Vereins beruht auf drei Grundgedanken:"
+  description: Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity
+    Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben
+    aber gerade mit dem Wissen über un sere persönliche privilegierte
+    Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht
+    so gut geht. Das ist unser Antrieb und unsere Motivation.
 vorstand:
   title: Vorstand
   body: >-
