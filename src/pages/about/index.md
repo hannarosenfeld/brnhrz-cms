@@ -22,12 +22,12 @@ vorstand:
     * **Markus T. Schweizer,** Senior Partner, EY – Mitglied
 statuten:
   body: >-
-    **1. Namen und Sitz**\
+    **1. Namen und Sitz**
 
     Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.
 
 
-    **2. Zweck**\
+    **2. Zweck**
 
     Der Verein bezweckt die Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von Bedürftigen.
 
@@ -35,7 +35,7 @@ statuten:
     Es können einzelne Personen oder auch Institutionen vom Verein unterstützt werden.
 
 
-    *\>Dedizierte Projekte:*Nebst dem allgemeinen Vereinszweck gibt es noch dedizierte Projekte, welche mit zweckgebundenen Mitteln finanziert werden. Dazu gehörten unter anderem Projekte des Vereins „Project Hope Germany e.V.“
+    *Dedizierte Projekte:* Nebst dem allgemeinen Vereinszweck gibt es noch dedizierte Projekte, welche mit zweckgebundenen Mitteln finanziert werden. Dazu gehörten unter anderem Projekte des Vereins „Project Hope Germany e.V.“
 
 
     Der Verein verfolgt weder Erwerbs- noch Selbsthilfezwecke. Der Verein kann sich auch an Aktionen und Projekten beteiligen oder solche unterstützen, die durch andere Organisationen mit ähnlicher Zielsetzung durchgeführt werden.
@@ -44,7 +44,7 @@ statuten:
     Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die Organe sind ehrenamtlich tätig.
 
 
-    **3. Mittel**\
+    **3. Mittel**
 
     Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
 
@@ -57,30 +57,25 @@ statuten:
 
     **4. Mitgliedschaft**
 
-
     Mitglieder können natürliche und juristische Personen werden, die den Vereinszweck unterstützen.
 
-
-    Alle Mitglieder haben in der Mitgliederversammlung das gleiche Stimmrecht.
-
+    Alle Mitglieder haben in der Mitgliederversammlung das gleiche Stimmrecht.\
 
     Aufnahmegesuche sind an den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.
 
 
     **5. Erlöschen der Mitgliedschaft**
 
-
     Die Mitgliedschaft erlischt
 
 
-    \-       bei natürlichen Personen durch Austritt, Ausschluss oder Tod
+    -       bei natürlichen Personen durch Austritt, Ausschluss oder Tod
 
 
-    \-       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
+    -       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
 
 
     **6. Austritt und Ausschluss**
-
 
     Ein Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand gerichtet werden.
 
@@ -93,7 +88,6 @@ statuten:
 
     **7. Organe des Vereins**
 
-
     Die Organe des Vereins sind:
 
 
@@ -104,7 +98,6 @@ statuten:
 
 
     **8. Die Mitgliederversammlung**
-
 
     Das oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche Mitgliederversammlung findet jährlich in der ersten Jahreshälfte statt.
 
@@ -166,10 +159,8 @@ statuten:
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
 
 
-     \
 
     **9. Der Vorstand**
-
 
     Der Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem weiteren Mitglied.
 
@@ -227,18 +218,15 @@ statuten:
 
     **10. Zeichnungsberechtigung**
 
-
     Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest.
 
 
     **11. Haftung**
 
-
     Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
 
 
     **12. Auflösung des Vereins**
-
 
     Die Auflösung des Vereins kann durch Beschluss einer ordentlichen oder ausserordentlichen Mitgliederversammlung beschlossen und mit dem Stimmenmehr von 2/3 Mehrheit der anwesenden Mitglieder aufgelöst werden.
 
@@ -250,7 +238,6 @@ statuten:
 
 
     **13. Inkraftreten**
-
 
     Diese Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind mit diesem Datum in Kraft getreten.
   title: Statuten des Vereins „Bärenherz – Verein für humanitäre Hilfe“
