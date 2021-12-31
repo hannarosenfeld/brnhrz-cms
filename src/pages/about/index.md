@@ -30,6 +30,32 @@ philosophie:
     aber gerade mit dem Wissen über un sere persönliche privilegierte
     Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht
     so gut geht. Das ist unser Antrieb und unsere Motivation.
+  kreise:
+    heading: "Die Philosophie unseres Vereins beruht auf drei Grundgedanken:"
+    first: >+
+      So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den
+      von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht
+      einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige
+      Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige
+      Verbesserung erreicht werden kann.
+
+    second: >+
+      Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen,
+      machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir wissen,
+      dass wir damit einen wertvollen Beitrag für Leben unter lebenswerten
+      Bedingungen leisten können.
+
+    third: >+
+      Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen
+      halten wir auf einem Minimum und finanzieren diese intern durch unsere
+      Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und
+      Vorstände.
+
+    description: Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity
+      Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass
+      haben aber gerade mit dem Wissen über un sere persönliche privilegierte
+      Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es
+      nicht so gut geht. Das ist unser Antrieb und unsere Motivation.
 vorstand:
   title: Vorstand
   body: >-
