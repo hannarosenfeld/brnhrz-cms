@@ -70,27 +70,27 @@ export const AboutPageTemplate = ({
 	    Hilfe zur Selbsthilfe
 	</div>
 	    <br />
-	    {philosophie.kreise.first}
+	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(philosophie.kreise.first)}} />
+
 	    </div>
 	    <div  className="circle-section">
 	    <div className="circle-with-text">
 	    Ehrenamtlich aus Überzeugung
 	</div>
 	    <br />
-	    	    {philosophie.kreise.second}
+	    	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(philosophie.kreise.second)}} />
 	    </div>
 	    <div className="circle-section">
 	    <div className="circle-with-text">
 	    Unnötige Kosten vermeiden
         </div>
 	    <br/>
-	    	    {philosophie.kreise.third}	    	    
+	    	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(philosophie.kreise.third)}} />	    
 	    </div>
-	    
 	</div>
 	    <div>
 	    <br />
-	    {philosophie.kreise.description}
+	    	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(philosophie.kreise.description)}} />	    
 	<br />
 	    </div>
 	    </div>
