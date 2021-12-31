@@ -10,7 +10,7 @@ philosophie:
 vorstand:
   title: Vorstand
   body: >-
-    Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
+    **Aktuell setzt sich der Vorstand aus den folgenden Personen** zusammen: 
 
 
     Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
