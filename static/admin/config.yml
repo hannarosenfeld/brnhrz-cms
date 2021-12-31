@@ -95,6 +95,18 @@ collections:
                 [
                   { label: Title, name: title, widget: string },
                   { label: Body, name: body, widget: markdown },
+                  { label: Kreise,
+                    name: kreise,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Heading, name: heading, widget: string },
+                        { label: First, name: first, widget: text },
+                        { label: Second, name: second, widget: text },
+                        { label: Third, name: third, widget: text },
+                        { label: Description, name: description, widget: text },		  		  
+                      ],
+                  },	  
                 ],
             }
           - {

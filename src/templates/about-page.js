@@ -17,6 +17,7 @@ export const AboutPageTemplate = ({
     philosophie,
     vorstand,
     statuten,
+    kreise,
 }) => {
 
     const converter = new showdown.Converter()
@@ -57,39 +58,40 @@ export const AboutPageTemplate = ({
             <div className="section">
 	    <div id="philosophie">
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{philosophie.title}</h2>	
-
-	
-	{philosophie.body}
-
+	    {philosophie.body}
 	    <br />
 	    <br />
-	    <div style={{background: "#D0E4F5"}}>
+	    <div style={{background: "#D0E4F5", paddingBottom: "2em"}}>
 	    <div style={{width: "90%", display: "flex", flexDirection: "column", margin: "0 auto"}}>
-	    <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>Die Philosophie unseres Vereins beruht auf drei Grundgedanken:</h3>
+	    <h3 style={{padding: "1em 4em", textAlign: "center", fontWeight: "bold"}}>{philosophie.kreise.heading}</h3>
 	    <div className="circle-container" style={{display: "flex", justifyContent: "space-between"}}>
 	    <div className="circle-section">
 	    <div className="circle-with-text">
 	    Hilfe zur Selbsthilfe
 	</div>
-	    <p>So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige Notsituation so verbessern, dass mittel- bis langfristig eine nachhaltige Verbesserung erreicht werden kann. </p>
+	    <br />
+	    {philosophie.kreise.first}
 	    </div>
 	    <div  className="circle-section">
 	    <div className="circle-with-text">
 	    Ehrenamtlich aus Überzeugung
 	</div>
-	    <p>Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen, machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir wissen, dass wir damit einen wertvollen Beitrag für Leben unter lebenswerten Bedingungen leisten können.</p>
+	    <br />
+	    	    {philosophie.kreise.second}
 	    </div>
-	    
 	    <div className="circle-section">
 	    <div className="circle-with-text">
 	    Unnötige Kosten vermeiden
         </div>
-	    <p>Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen halten wir auf einem Minimum und finanzieren diese intern durch unsere Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder und Vorstände.</p>
+	    <br/>
+	    	    {philosophie.kreise.third}	    	    
 	    </div>
 	    
 	</div>
 	    <div>
-	    <p style={{padding: "1em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
+	    <br />
+	    {philosophie.kreise.description}
+	<br />
 	    </div>
 	    </div>
 	</div>
@@ -151,17 +153,19 @@ export const AboutPageTemplate = ({
 AboutPageTemplate.propTypes = {
   philosophie: PropTypes.object,
     vorstand: PropTypes.object,
-    statuten: PropTypes.object,    
+    statuten: PropTypes.object,
+    kreise: PropTypes.object,        
 };
 
 const AboutPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
     return (
 	    <Layout>
-	    	  <AboutPageTemplate
+	    <AboutPageTemplate
         philosophie={frontmatter.philosophie}      
         vorstand={frontmatter.vorstand}
-        statuten={frontmatter.statuten}      	
+        statuten={frontmatter.statuten}
+        kreise={frontmatter.kreise}      		
 	  />
 	</Layout>
   );
@@ -184,7 +188,14 @@ export const aboutPageQuery = graphql`
         philosophie {
           title
           body
-        }
+          kreise {
+          heading
+          first
+          second
+          third
+          description
+         }
+       }
         vorstand {
           title
           body

@@ -7,29 +7,6 @@ philosophie:
     gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu schafen oder
     in unverschuldeten Notsituationen einen schnellen uns unbürokratischen
     Beitrag zur Soforthilfe zu leisten.
-  grundgedanken:
-    - title: Hilfe zur Selbsthilfe
-      body: "So wie in der Vergangenheit bei Project Hope e.V. leisten auch wir in den
-        von uns unterstützen Projekten Hilfe zur Selbsthilfe: Wir wollen nicht
-        einfach materielle Zuwendun gen geben, sondern aktiv die jeweilige
-        Notsituation so verbessern, dass mittel- bis langfristig eine
-        nachhaltige Verbesserung erreicht werden kann."
-    - title: Ehrenamtlich aus Überzeugung
-      body: "Wir arbeiten ehrenamtlich und aus Überzeugung: Alles was wir bewegen,
-        machen wir mit viel Freunde und Elan in unserer Freizeit, weil wir
-        wissen, dass wir damit einen wertvollen Beitrag für Leben unter
-        lebenswerten Bedingungen leisten können."
-    - title: Unnötige Kosten vermeiden
-      body: "Wir wollen unnötige Kosten vermeiden: Unsere administrativen Aufwendungen
-        halten wir auf einem Minimum und finanzieren diese intern durch unsere
-        Mitgliedbeiträge und sonstigen finanziellen Zuwendungen der Mitglieder
-        und Vorstände."
-  heading: "Die Philosophie unseres Vereins beruht auf drei Grundgedanken:"
-  description: Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity
-    Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben
-    aber gerade mit dem Wissen über un sere persönliche privilegierte
-    Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht
-    so gut geht. Das ist unser Antrieb und unsere Motivation.
   kreise:
     heading: "Die Philosophie unseres Vereins beruht auf drei Grundgedanken:"
     first: >+
