@@ -7,6 +7,7 @@ vorsitzender: "Vorsitzender: Rainer Mück"
 strasse: Untersellenstrasse 27
 title: Disclaimer
 email: info@baerenherz.org
+description: test
 ---
 Die in dieser Website enthaltenen Informationen sind *allgemeiner Art.* Sie sind weder dafür vorgesehen noch dazu geeignet, eine individuelle Beratung durch fachkundige Personen unter Berücksichtigung der konkreten Umstände des jeweiligen Einzelfalls zu ersetzen. Für weiterführende individuelle Informationen bitten wir Sie, die jeweils im Text genannten Personen und Stellen zu kontaktieren oder uns eine Online-Anfrage zu senden.
 
