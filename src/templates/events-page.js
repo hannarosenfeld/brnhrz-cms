@@ -1,7 +1,8 @@
 import * as React from "react";
 import { graphql } from 'gatsby';
 import PropTypes from "prop-types";
-
+import showdown from 'showdown'
+    
 import Layout from "../components/Layout";
 import Mailchimp from "../components/Mailchimp"
 
@@ -16,6 +17,7 @@ export const EventsPageTemplate = ({
     golfturnier,
     skiweekend,
 }) => {
+        const converter = new showdown.Converter()
     return (
 	<div>
 	    	          <div
@@ -77,7 +79,7 @@ export const EventsPageTemplate = ({
 
 
 	    <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
-	    <p>{golfturnier.body}</p>
+	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(golfturnier.body)}} />
 	    <div className="partner-logos-container">
 	    <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	    <div className="partner-logos">
@@ -121,9 +123,8 @@ export const EventsPageTemplate = ({
 >Hier vormerken </a></p>
 	     */}
 	</div>
-	    	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
-	    <p >{skiweekend.body}</p>
-
+	    <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
+	    	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(skiweekend.body)}} />
             </div>
           </div>
             </section>
