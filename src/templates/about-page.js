@@ -45,7 +45,7 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
 	    <div id="philosophie">
-	    <h3>{philosophie.title}</h3>
+	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{philosophie.title}</h2>
 	    <p>{philosophie.body}</p>
 	    <br />
 	    <br />
@@ -78,10 +78,9 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
 	    <p style={{padding: "1em"}}>Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass haben aber gerade mit dem Wissen über un sere persönliche privilegierte Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es nicht so gut geht. Das ist unser Antrieb und unsere Motivation.</p>
 	    </div>
 	    </div>
-
 	</div>
-
-	    <div id="vorstand" style={{width: "65%", margin: "3em auto 4em auto"}}>
+	    </div>
+	    <div id="vorstand" style={{margin: "4em auto 0 auto"}}>
 	    <div>
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{vorstand.title}</h2>
 	    <div>
@@ -90,6 +89,14 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
 	    </div>
 	    </div>
 
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+	    </section>
+	
 	
 	
 	    <div style={{background: "#033277"}}>
@@ -102,28 +109,25 @@ export const AboutPageTemplate = ({ philosophie, vorstand }) => {
 	    </div>
             </div>
 
-	    <div id="statuten" style={{margin: "4em auto", width: "65%"}}>
+	
+	  <section className="section section--gradient">
+      <div className="container">
+          <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <div className="section">
+
+	    <div id="statuten" style={{margin: "1em auto"}}>
 	    <Statuten />
 	    </div>
 	    
-	</div>
 
-      	    <div className="mitgliedschaft-testimony">
-	    <h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
-	Arbeit von Bärenherz unterstützen und habe
-	das gute Gefühl, eine Hilfe zu leisten, die auch
-	ankommt.“</h4>
-	    <div style={{lineHeight: "0.2", marginTop: "4em"}}>
-	    <h4 style={{margin: "1em"}}><b>Arno Bohn</b></h4>
-	    <h4>Selbständiger Unternehmer, Freiburg im Breisgau</h4>
-	    </div>
-	    </div>
-	
             </div>
           </div>
         </div>
       </div>
-	  </section>
+	    </section>
+
+	
 	    </div>
   );
 };
