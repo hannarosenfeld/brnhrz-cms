@@ -129,17 +129,15 @@ collections:
                   { label: Body, name: body, widget: markdown },
                 ],
             }
-      - file: "src/pages/products/index.md"
-        label: "Mitgliedschaft"
-        name: "mitgliedschaft"
+      - file: "src/pages/impressum/index.json"
+        label: "Impressum"
+        name: "impressum"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "product-page",
+              default: "impressum-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
