@@ -133,9 +133,6 @@ statuten:
     b)    der Vorstand
 
 
-     
-
-
 
 
     **8. Die Mitgliederversammlung**
