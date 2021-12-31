@@ -9,23 +9,15 @@ philosophie:
     Beitrag zur Soforthilfe zu leisten.
 vorstand:
   title: Vorstand
-<<<<<<< HEAD
-  body: |
-    **Aktuell setzt sich der Vorstand aus den folgenden Personen** zusammen: 
-=======
   body: >-
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
->>>>>>> 1387ec829f3739339340626d6f7d48b57eeccee2
 
 
-    -Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
+    * Rainer Mück, Gründer und Vorstand, Mück Management Partners AG – Präsident 
 
+    * Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
 
-    -Andreas Wenzel, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
+    * Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied 
 
-
-    -Dr. Andrea Degen, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied 
-
-
-    -Markus T. Schweizer, Senior Partner, EY – Mitglied
+    * Markus T. Schweizer, Senior Partner, EY – Mitglied
 ---
