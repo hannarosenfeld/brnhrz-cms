@@ -27,6 +27,7 @@ statuten:
     Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.
 
 
+
     **2. Zweck**
 
     Der Verein bezweckt die Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von Bedürftigen.
@@ -44,6 +45,7 @@ statuten:
     Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die Organe sind ehrenamtlich tätig.
 
 
+
     **3. Mittel**
 
     Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
@@ -55,6 +57,7 @@ statuten:
     Das Geschäftsjahr entspricht dem Kalenderjahr.
 
 
+
     **4. Mitgliedschaft**
 
     Mitglieder können natürliche und juristische Personen werden, die den Vereinszweck unterstützen.
@@ -62,6 +65,7 @@ statuten:
     Alle Mitglieder haben in der Mitgliederversammlung das gleiche Stimmrecht.\
 
     Aufnahmegesuche sind an den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.
+
 
 
     **5. Erlöschen der Mitgliedschaft**
@@ -75,6 +79,7 @@ statuten:
     -       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
 
 
+
     **6. Austritt und Ausschluss**
 
     Ein Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand gerichtet werden.
@@ -86,6 +91,7 @@ statuten:
     Der Vorstand fällt den Ausschlussentscheid; das Mitglied kann den Ausschlussentscheid an die Mitgliederversammlung weiterziehen.
 
 
+
     **7. Organe des Vereins**
 
     Die Organe des Vereins sind:
@@ -95,6 +101,7 @@ statuten:
 
 
     b)    der Vorstand
+
 
 
     **8. Die Mitgliederversammlung**
@@ -160,6 +167,7 @@ statuten:
 
 
 
+
     **9. Der Vorstand**
 
     Der Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem weiteren Mitglied.
@@ -216,14 +224,17 @@ statuten:
     Der Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung der effektiven Spesen.
 
 
+
     **10. Zeichnungsberechtigung**
 
     Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest.
 
 
+
     **11. Haftung**
 
     Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
+
 
 
     **12. Auflösung des Vereins**
@@ -235,6 +246,7 @@ statuten:
 
 
     Ein allfälliger Aktivenüberschuss fällt an eine steuerbefreite Organisation mit Sitz in der Schweiz, welche den gleichen oder einen ähnlichen Zweck verfolgt, oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.
+
 
 
     **13. Inkraftreten**
