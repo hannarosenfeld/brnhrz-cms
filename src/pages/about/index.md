@@ -3,10 +3,10 @@ templateKey: about-page
 path: /about
 philosophie:
   title: Philosophie
-  body: Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe wirklich
+  body: "**Die Grundidee unseres Vereins ist es, da zu helfen, wo Hilfe wirklich
     gebraucht wird, um Leben zu retten, lebenswerte Bedingungen zu schafen oder
-    in unverschuldeten Notsituationen einen schnellen uns unbürokratischen
-    Beitrag zur Soforthilfe zu leisten.
+    in unverschuldeten Notsituationen einen schnellen uns unbü**rokratischen
+    Beitrag zur Soforthilfe zu leisten."
 vorstand:
   title: Vorstand
   body: >-
