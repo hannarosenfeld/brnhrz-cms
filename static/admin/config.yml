@@ -35,6 +35,22 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "src/pages/projekte/index.json"
+        label: "Projekte"
+        name: "projekte"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "projekte-page",
+            }
+          - { label: Einleitung, name: einleitung, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
+          - { label: Medizintechnik, name: medizintechnik, widget: markdown }
+          - { label: Fortbildung, name: fortbildung, widget: markdown }
+          - { label: Description, name: description, widget: markdown }
+          - { label: ProjectHope, name: projecthope, widget: markdown }
       - file: "src/pages/events/index.md"
         label: "Events"
         name: "events"
