@@ -28,15 +28,13 @@ vorstand:
     * Markus T. Schweizer, Senior Partner, EY – Mitglied
 statuten:
   body: >-
-    1. Namen und Sitz
+    **1. Namen und Sitz**
 
 
     Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.
 
 
-
-
-    2. Zweck
+    **2. Zweck**
 
 
     Der Verein bezweckt die Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von Bedürftigen.
@@ -54,9 +52,7 @@ statuten:
     Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die Organe sind ehrenamtlich tätig.
 
 
-
-
-    3. Mittel
+    **3. Mittel**
 
 
     Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
@@ -68,9 +64,7 @@ statuten:
     Das Geschäftsjahr entspricht dem Kalenderjahr.
 
 
-
-
-    4. Mitgliedschaft
+    **4. Mitgliedschaft**
 
 
     Mitglieder können natürliche und juristische Personen werden, die den Vereinszweck unterstützen.
@@ -84,7 +78,7 @@ statuten:
 
 
 
-    5. Erlöschen der Mitgliedschaft
+    **5. Erlöschen der Mitgliedschaft**
 
 
     Die Mitgliedschaft erlischt
@@ -104,7 +98,7 @@ statuten:
 
 
 
-    6. Austritt und Ausschluss
+    **6. Austritt und Ausschluss**
 
 
     Ein Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand gerichtet werden.
@@ -124,7 +118,7 @@ statuten:
 
 
 
-    7. Organe des Vereins
+    **7. Organe des Vereins**
 
 
     Die Organe des Vereins sind:
@@ -144,7 +138,7 @@ statuten:
 
 
 
-    8. Die Mitgliederversammlung
+    **8. Die Mitgliederversammlung**
 
 
     Das oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche Mitgliederversammlung findet jährlich in der ersten Jahreshälfte statt.
@@ -239,7 +233,7 @@ statuten:
 
 
 
-    9. Der Vorstand
+    **9. Der Vorstand**
 
 
     Der Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem weiteren Mitglied.
@@ -336,18 +330,15 @@ statuten:
 
 
 
-    11. Haftung
+    **11. Haftung**
 
 
     Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
 
 
-     
 
 
-
-
-    12. Auflösung des Vereins
+    **12. Auflösung des Vereins**
 
 
     Die Auflösung des Vereins kann durch Beschluss einer ordentlichen oder ausserordentlichen Mitgliederversammlung beschlossen und mit dem Stimmenmehr von 2/3 Mehrheit der anwesenden Mitglieder aufgelöst werden.
@@ -365,9 +356,7 @@ statuten:
      
 
 
-
-
-    13. Inkraftreten
+    **13. Inkraftreten**
 
 
     Diese Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind mit diesem Datum in Kraft getreten.
