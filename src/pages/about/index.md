@@ -253,5 +253,5 @@ statuten:
 
 
     Diese Statuten wurden an der Gründungsversammlung vom 02.07.2021 angenommen und sind mit diesem Datum in Kraft getreten.
-  title: '"Statuten des Vereins „Bärenherz – Verein für humanitäre Hilfe“'
+  title: Statuten des Vereins „Bärenherz – Verein für humanitäre Hilfe“
 ---
