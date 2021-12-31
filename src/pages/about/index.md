@@ -13,29 +13,21 @@ vorstand:
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
 
 
-
-
-
-
-
-
     * **Rainer Mück**, Gründer und Vorstand, Mück Management Partners AG – Präsident 
 
     * **Andreas Wenzel**, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
 
     * **Dr. Andrea Degen**, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied 
 
-    * Markus T. Schweizer, Senior Partner, EY – Mitglied
+    * **Markus T. Schweizer**, Senior Partner, EY – Mitglied
 statuten:
   body: >-
-    **1. Namen und Sitz**
-
+    **1. Namen und Sitz**\
 
     Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.
 
 
-    **2. Zweck**
-
+    **2. Zweck**\
 
     Der Verein bezweckt die Unterstützung von Menschen in Not sowie die Verbesserung der Lebensqualität von Bedürftigen.
 
@@ -52,8 +44,7 @@ statuten:
     Der Verein verfolgt keine kommerziellen Zwecke und erstrebt keinen Gewinn. Die Organe sind ehrenamtlich tätig.
 
 
-    **3. Mittel**
-
+    **3. Mittel**\
 
     Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
 
@@ -82,9 +73,6 @@ statuten:
     Die Mitgliedschaft erlischt
 
 
-     
-
-
     \-       bei natürlichen Personen durch Austritt, Ausschluss oder Tod
 
 
@@ -97,25 +85,16 @@ statuten:
     Ein Vereinsaustritt ist jederzeit möglich. Das Austrittsschreiben muss mindestens vier Wochen vor der ordentlichen Mitgliederversammlung schriftlich an den Vorstand gerichtet werden.
 
 
-     
-
-
     Ein Mitglied kann jederzeit ohne Angaben von Gründen vom Vorstand ausgeschlossen werden.
 
 
     Der Vorstand fällt den Ausschlussentscheid; das Mitglied kann den Ausschlussentscheid an die Mitgliederversammlung weiterziehen.
 
 
-     
-
-
     **7. Organe des Vereins**
 
 
     Die Organe des Vereins sind:
-
-
-     
 
 
     a)    die Mitgliederversammlung
@@ -130,31 +109,16 @@ statuten:
     Das oberste Organ des Vereins ist die Mitgliederversammlung. Eine ordentliche Mitgliederversammlung findet jährlich in der ersten Jahreshälfte statt.
 
 
-     
-
-
     Zur Mitgliederversammlung werden die Mitglieder zehn Tage im Voraus schriftlich unter Angabe der Traktanden eingeladen. Einladungen per E-Mail sind gültig.
-
-
-     
 
 
     Traktandierungsanträge zuhanden der Mitgliederversammlung sind bis spätestens vier Wochen schriftlich an den Vorstand zu richten.
 
 
-     
-
-
     Der Vorstand oder 1/5 der Mitglieder können jederzeit die Einberufung einer ausserordentlichen Mitgliederversammlung unter Angaben des Zwecks verlangen. Die Versammlung hat spätestens acht Wochen nach Eingang des Begehrens zu erfolgen.
 
 
-     
-
-
     Die Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:
-
-
-     
 
 
     a)    Genehmigung des Protokolls der letzten Mitgliederversammlung
@@ -190,25 +154,13 @@ statuten:
     k)     Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
 
 
-     
-
-
     Jede ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl Mitglieder beschlussfähig.
-
-
-     
 
 
     Die Mitglieder fassen die Beschlüsse mit dem einfachen Mehr. Bei Stimmengleichheit fällt die/der Vorsitzende den Stichentscheid.
 
 
-     
-
-
     Statutenänderungen benötigen die Zustimmung einer 2/3-Mehrheit der Stimmberechtigten.
-
-
-     
 
 
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
@@ -222,19 +174,10 @@ statuten:
     Der Vorstand besteht aus mindestens zwei Personen, einem Präsidenten und einem weiteren Mitglied.
 
 
-     
-
-
     Die Amtszeit beträgt fünf Jahre. Wiederwahl ist möglich.
 
 
-     
-
-
     Der Vorstand führt die laufenden Geschäfte und vertritt den Verein nach aussen.
-
-
-     
 
 
     Er erlässt Reglemente.
@@ -252,19 +195,10 @@ statuten:
     Der Vorstand erstellt das Jahresbudget, stellt die Spendenzuflüsse sicher und entscheidet über die Vergabe der Mittel, welche den Betrag von CHF 1‘000.00 übersteigen. Er tagt mindestens einmal jährlich. Über die Beschlüsse wird ein Protokoll geführt. Der Vorstand leitet alljährlich die Vermögensrechnung mit einem Jahresbericht an die Interessenten weiter.
 
 
-     
-
-
     Der Vorstand verfügt über alle Kompetenzen, die nicht von Gesetzes wegen oder gemäss Statuten einem anderen Organ übertragen sind.
 
 
-     
-
-
     Im Vorstand sind folgende Ressorts vertreten:
-
-
-     
 
 
     a)    Präsidium
@@ -276,16 +210,10 @@ statuten:
     c)     Geschäftsführung
 
 
-     
-
-
     Ämterkumulation ist möglich.
 
 
     Die Geschäftsführung prüft die Unterstützungsgesuche und kann bis zu einem Betrag von CHF 1‘000.00 pro Gesuch selbständig entscheiden. Jährlich erstattet sie dem Vorstand einen Bericht über die Vergabungen und die geplanten Mittelzuflüsse. Sie ist für die ordentliche Buchführung und die allgemeine Administration verantwortlich.
-
-
-     
 
 
     Jedes Vorstandsmitglied kann unter Angabe der Gründe die Einberufung einer Sitzung verlangen.
@@ -297,14 +225,10 @@ statuten:
     Der Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung der effektiven Spesen.
 
 
-
-
     **10. Zeichnungsberechtigung**
 
 
     Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest.
-
-
 
 
     **11. Haftung**
@@ -313,24 +237,16 @@ statuten:
     Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
 
 
-
-
     **12. Auflösung des Vereins**
 
 
     Die Auflösung des Vereins kann durch Beschluss einer ordentlichen oder ausserordentlichen Mitgliederversammlung beschlossen und mit dem Stimmenmehr von 2/3 Mehrheit der anwesenden Mitglieder aufgelöst werden.
 
 
-     
-
-
     Der Verein geht ohne Beschlussfassung durch die Mitgliedersammlung unter mit dem Tod Rainer Mücks. Das Vereinsvermögen ist im Sinne des Vereinszwecks zu verwenden.
 
 
     Ein allfälliger Aktivenüberschuss fällt an eine steuerbefreite Organisation mit Sitz in der Schweiz, welche den gleichen oder einen ähnlichen Zweck verfolgt, oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.
-
-
-     
 
 
     **13. Inkraftreten**
