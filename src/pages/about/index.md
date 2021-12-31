@@ -19,7 +19,7 @@ vorstand:
 
     * **Dr. Andrea Degen**, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied 
 
-    * **Markus T. Schweizer**, Senior Partner, EY – Mitglied
+    * **Markus T. Schweizer,** Senior Partner, EY – Mitglied
 statuten:
   body: >-
     **1. Namen und Sitz**\
