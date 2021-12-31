@@ -13,6 +13,12 @@ vorstand:
     Aktuell setzt sich der Vorstand aus den folgenden Personen zusammen: 
 
 
+
+
+
+
+
+
     * **Rainer Mück**, Gründer und Vorstand, Mück Management Partners AG – Präsident 
 
     * **Andreas Wenzel**, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
