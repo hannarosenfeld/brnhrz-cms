@@ -76,8 +76,6 @@ statuten:
     Aufnahmegesuche sind an den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.
 
 
-
-
     **5. Erlöschen der Mitgliedschaft**
 
 
@@ -91,11 +89,6 @@ statuten:
 
 
     \-       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
-
-
-     
-
-
 
 
     **6. Austritt und Ausschluss**
@@ -116,8 +109,6 @@ statuten:
      
 
 
-
-
     **7. Organe des Vereins**
 
 
@@ -131,8 +122,6 @@ statuten:
 
 
     b)    der Vorstand
-
-
 
 
     **8. Die Mitgliederversammlung**
@@ -225,10 +214,7 @@ statuten:
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
 
 
-     
-
-
-    \
+     \
 
     **9. Der Vorstand**
 
@@ -311,18 +297,12 @@ statuten:
     Der Vorstand ist grundsätzlich ehrenamtlich tätig, er hat Anrecht auf Vergütung der effektiven Spesen.
 
 
-     
-
-
 
 
     **10. Zeichnungsberechtigung**
 
 
     Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest.
-
-
-     
 
 
 
