@@ -30,7 +30,7 @@ philosophie:
 
     description: "**Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity
       Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass
-      haben aber gerade mit dem Wissen über un sere persönliche privilegierte
+      haben aber gerade mit dem Wissen über unsere persönliche privilegierte
       Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es
       nicht so gut geht. Das ist unser Antrieb und unsere Motivation.**"
 vorstand:
@@ -80,6 +80,7 @@ statuten:
 
 
 
+
     **3. Mittel**
 
     Mittelzusicherung: Während der Aufbauphase bis Ende 2021 sichert Rainer Mück dem Verein zu, dass die in 2021 dem Verein zufliessenden Mitteln mindestens CHF 1‘000.- betragen. Das Vereinsvermögen ist nach den Grundsätzen einer sicheren Anlage zu verwalten. Aus dem Vereinsvermögen und dessen Erträgnissen dürfen keine Leistungen erbracht werden, die nicht dem Vereinszweck entsprechen. Ein Rückfall des Vereinsvermögens an die Mitglieder oder an aussenstehende Spender ist ausgeschlossen.
@@ -107,10 +108,11 @@ statuten:
     Die Mitgliedschaft erlischt
 
 
-    -       bei natürlichen Personen durch Austritt, Ausschluss oder Tod
+    \-  bei natürlichen Personen durch Austritt, Ausschluss oder Tod
 
 
-    -       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
+    \-  bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
+
 
 
 
@@ -131,10 +133,10 @@ statuten:
     Die Organe des Vereins sind:
 
 
-    a)    die Mitgliederversammlung
+    a)  die Mitgliederversammlung
 
 
-    b)    der Vorstand
+    b)  der Vorstand
 
 
 
@@ -155,37 +157,37 @@ statuten:
     Die Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:
 
 
-    a)    Genehmigung des Protokolls der letzten Mitgliederversammlung
+    a)  Genehmigung des Protokolls der letzten Mitgliederversammlung
 
 
-    b)    Genehmigung des Jahresberichts des Vorstands
+    b)  Genehmigung des Jahresberichts des Vorstands
 
 
-    c)     Genehmigung der Jahresrechnung
+    c)  Genehmigung der Jahresrechnung
 
 
-    d)    Entlastung des Vorstandes
+    d)  Entlastung des Vorstandes
 
 
-    e)    Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
+    e)  Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
 
 
-    f)      Kenntnisnahme des Jahresbudgets
+    f)  Kenntnisnahme des Jahresbudgets
 
 
-    g)    Kenntnisnahme des Tätigkeitsprogrammes
+    g)  Kenntnisnahme des Tätigkeitsprogrammes
 
 
-    h)    Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
+    h)  Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
 
 
-    i)      Änderung der Statuten
+    i)  Änderung der Statuten
 
 
-    j)      Entscheid über Ausschlüsse von Mitgliedern
+    j)  Entscheid über Ausschlüsse von Mitgliedern
 
 
-    k)     Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
+    k)  Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
 
 
     Jede ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl Mitglieder beschlussfähig.
@@ -198,7 +200,6 @@ statuten:
 
 
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
-
 
 
 
@@ -234,13 +235,13 @@ statuten:
     Im Vorstand sind folgende Ressorts vertreten:
 
 
-    a)    Präsidium
+    a)  Präsidium
 
 
-    b)    Vizepräsidium
+    b)  Vizepräsidium
 
 
-    c)     Geschäftsführung
+    c)  Geschäftsführung
 
 
     Ämterkumulation ist möglich.
