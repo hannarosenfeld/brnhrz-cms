@@ -45,14 +45,11 @@ vorstand:
 
 
 
-
     * **Andreas Wenzel**, Inhaber und Geschäftsführer, IZMI It’s me – Mehr Freude durch Bewussheit, sowie General Project Manager, Personal Sport Record – Vizepräsident 
 
 
 
-
     * **Dr. Andrea Degen**, Co-Founder und CEO, Institute for Mental Health, sowie Research & Innovation Manager EUrelations AG – Mitglied 
-
 
 
 
@@ -62,7 +59,6 @@ statuten:
     **1. Namen und Sitz**
 
     Unter dem Namen «Bärenherz – Verein für humanitäre Hilfe» besteht ein Verein für humanitäre Hilfe im Sinne von Art. 60 ff. ZGB mit Sitz in Amden SG. Er ist politisch und konfessionell unabhängig.
-
 
 
 
@@ -97,7 +93,6 @@ statuten:
 
 
 
-
     **4. Mitgliedschaft**
 
     Mitglieder können natürliche und juristische Personen werden, die den Vereinszweck unterstützen.
@@ -105,7 +100,6 @@ statuten:
     Alle Mitglieder haben in der Mitgliederversammlung das gleiche Stimmrecht.\
 
     Aufnahmegesuche sind an den Vorstand zu richten; über die Aufnahme entscheidet der Vorstand.
-
 
 
 
@@ -134,17 +128,15 @@ statuten:
 
 
 
-
     **7. Organe des Vereins**
 
     Die Organe des Vereins sind:
 
 
-    a) die Mitgliederversammlung
+    a)  die Mitgliederversammlung
 
 
-    b) der Vorstand
-
+    b)  der Vorstand
 
 
 
@@ -165,37 +157,37 @@ statuten:
     Die Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:
 
 
-    a) Genehmigung des Protokolls der letzten Mitgliederversammlung
+    a)  Genehmigung des Protokolls der letzten Mitgliederversammlung
 
 
-    b) Genehmigung des Jahresberichts des Vorstands
+    b)  Genehmigung des Jahresberichts des Vorstands
 
 
-    c) Genehmigung der Jahresrechnung
+    c)  Genehmigung der Jahresrechnung
 
 
-    d) Entlastung des Vorstandes
+    d)  Entlastung des Vorstandes
 
 
-    e) Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
+    e)  Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
 
 
-    f) Kenntnisnahme des Jahresbudgets
+    f)  Kenntnisnahme des Jahresbudgets
 
 
-    g) Kenntnisnahme des Tätigkeitsprogrammes
+    g)  Kenntnisnahme des Tätigkeitsprogrammes
 
 
-    h) Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
+    h)  Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
 
 
-    i) Änderung der Statuten
+    i)  Änderung der Statuten
 
 
-    j) Entscheid über Ausschlüsse von Mitgliedern
+    j)  Entscheid über Ausschlüsse von Mitgliedern
 
 
-    k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
+    k)  Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
 
 
     Jede ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl Mitglieder beschlussfähig.
@@ -208,7 +200,6 @@ statuten:
 
 
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
-
 
 
 
@@ -244,13 +235,13 @@ statuten:
     Im Vorstand sind folgende Ressorts vertreten:
 
 
-    a)    Präsidium
+    a)  Präsidium
 
 
-    b)    Vizepräsidium
+    b)  Vizepräsidium
 
 
-    c)     Geschäftsführung
+    c)  Geschäftsführung
 
 
     Ämterkumulation ist möglich.
@@ -269,18 +260,15 @@ statuten:
 
 
 
-
     **10. Zeichnungsberechtigung**
 
     Der Vorstand legt die Zeichnungsberechtigung der Vorstandsmitglieder fest.
 
 
 
-
     **11. Haftung**
 
     Für die Schulden des Vereins haftet nur das Vereinsvermögen. Eine persönliche Haftung der Mitglieder ist ausgeschlossen.
-
 
 
 
@@ -293,7 +281,6 @@ statuten:
 
 
     Ein allfälliger Aktivenüberschuss fällt an eine steuerbefreite Organisation mit Sitz in der Schweiz, welche den gleichen oder einen ähnlichen Zweck verfolgt, oder an das Gemeinwesen. Die Verteilung des Vereinsvermögens unter den Mitgliedern, Gründern oder dessen Erben oder Drittspendern ist ausgeschlossen.
-
 
 
 
