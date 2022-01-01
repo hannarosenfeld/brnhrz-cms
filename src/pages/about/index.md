@@ -30,7 +30,7 @@ philosophie:
 
     description: "**Diese Hilfe erreichen wir im Wesentlichen mit unseren Charity
       Aktionen. Hier möchten wir in einem spannenden Umfeld gemeinsam Spass
-      haben aber gerade mit dem Wissen über un sere persönliche privilegierte
+      haben aber gerade mit dem Wissen über unsere persönliche privilegierte
       Lebenssituation auch einen Teil an diejenigen weiterreichen, denen es
       nicht so gut geht. Das ist unser Antrieb und unsere Motivation.**"
 vorstand:
