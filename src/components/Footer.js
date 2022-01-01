@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-          <div className="content has-text-centered footer-content" style={{margin: "0 auto", padding: "1em"}}>
+            <div className="content has-text-centered footer-content" style={{margin: "0 auto", padding: "1em", display: "flex", justifyContent: "space-between"}}>
 	      <div className="footer-address">
 		  <p>Bärenherz</p>
 		  <p>Verein für humanitäre Hilfe</p>
@@ -20,12 +20,6 @@ const Footer = class extends React.Component {
 		  <p>CH-8873 Amden</p>
 		  <p style={{marginTop: "2em"}}>Email: <a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p>
 		  </div>
-          <img
-            src={logo}
-            alt="logo"
-              style={{ width: "400px", margin: "0 auto"}}
-	      className="footer-img"
-          />
 	      <a href="/impressum" >Impressum</a>
             </div>
 	    {/*

@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-import mitgliedschaftsantrag from "../../static/pdf/Mitgliedschaftsantrag.pdf"
+import persoenlich from "../../static/pdf/persoenlich.pdf"
+import unternehmen from "../../static/pdf/unternehmen.pdf"
 
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
@@ -60,14 +61,14 @@ export const ProductPageTemplate = ({
 	  <h4>Persönliche Mitgliedschaft</h4>
 	  <p>Jahresbeitrag CHF 250.00</p>
 	  <div className="mitgliedschaft-form-button">
-	  <a href={mitgliedschaftsantrag} target='_blank' rel='noopener noreferrer'>Persönliches Mitglied werden</a>
+	  <a href={persoenlich} target='_blank' rel='noopener noreferrer'>Persönliches Mitglied werden</a>
 	  </div>
 	  </div>
 	  <div className="mitgliedschaft-form-right">
 	  <h4>Unternehmensmitgliedschaft</h4>
 	  <p>Jahresbeitrag CHF 1'000.00</p>
 <div className="mitgliedschaft-form-button">
-          <a href={mitgliedschaftsantrag} target='_blank' rel='noopener noreferrer'>Unternehmensmitglied werden</a>
+          <a href={unternehmen} target='_blank' rel='noopener noreferrer'>Unternehmensmitglied werden</a>
 </div>
 	  </div>
 	  </div>

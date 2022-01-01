@@ -8,6 +8,8 @@ import { withPrefix } from "gatsby";
 
 import "../styles/styles.css"
 
+import herz from "../img/herz.png"
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
@@ -20,24 +22,24 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix("/")}img/apple-touch-icon.png`}
+          href={herz}
         />
         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix("/")}img/favicon-32x32.png`}
+      type="image/png"
+      href={herz}      
           sizes="32x32"
         />
         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix("/")}img/favicon-16x16.png`}
+      type="image/png"
+      href={herz}      
           sizes="16x16"
         />
 
         <link
-          rel="mask-icon"
-          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
+      rel="mask-icon"
+      href={herz}            
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
