@@ -3,6 +3,7 @@ import React, {Component} from "react"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
+import { Link } from "gatsby";
 
 import "../styles/bannerstyles.css"
 
@@ -58,8 +59,10 @@ class HomepageBanner extends Component{
 	return (
 		<div id="homepagebanner">
 		<Slider {...settings}>
-		{photos.map((photo) => {
-		    return(
+        	{photos.map((photo) => {
+		    if (photo.id = 1) {
+			return (
+			<a href="/events#golf-turnier">
 			    <div id="homepagebanner-img-container">
 			    <img id="homepagebanner-img" width="100%" alt="homepagebanner-image" src={photo.url} />
 				<div className="homepagebanner-text" id={photo.css_id}>
@@ -69,10 +72,22 @@ class HomepageBanner extends Component{
 			    <h1>{photo.heading}</h1>
 			    <p>{photo.description}</p>
 			    <a className="banner-link" href={photo.link}>{photo.link_text}</a>
-
+			    </div>
+				</div>
+				</a>
+			)
+		    } else {
+			return(
+			    <div id="homepagebanner-img-container">
+			    <img id="homepagebanner-img" width="100%" alt="homepagebanner-image" src={photo.url} />
+				<div className="homepagebanner-text" id={photo.css_id}>
+			    <h1>{photo.heading}</h1>
+			    <p>{photo.description}</p>
+			    <a className="banner-link" href={photo.link}>{photo.link_text}</a>
 			    </div>
 			    </div>
-		    )
+			)
+		    }
 		})}
 	    </Slider>
 		</div>
