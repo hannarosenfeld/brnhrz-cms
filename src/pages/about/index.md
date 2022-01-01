@@ -114,10 +114,10 @@ statuten:
     Die Mitgliedschaft erlischt
 
 
-    -       bei natürlichen Personen durch Austritt, Ausschluss oder Tod
+    \-  bei natürlichen Personen durch Austritt, Ausschluss oder Tod
 
 
-    -       bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
+    \-  bei juristischen Personen durch Austritt, Ausschluss oder Auflösung der juristischen Person
 
 
 
@@ -140,10 +140,10 @@ statuten:
     Die Organe des Vereins sind:
 
 
-    a)    die Mitgliederversammlung
+    a) die Mitgliederversammlung
 
 
-    b)    der Vorstand
+    b) der Vorstand
 
 
 
@@ -165,37 +165,37 @@ statuten:
     Die Mitgliederversammlung hat folgende unentziehbare Aufgaben und Kompetenzen:
 
 
-    a)    Genehmigung des Protokolls der letzten Mitgliederversammlung
+    a) Genehmigung des Protokolls der letzten Mitgliederversammlung
 
 
-    b)    Genehmigung des Jahresberichts des Vorstands
+    b) Genehmigung des Jahresberichts des Vorstands
 
 
-    c)    Genehmigung der Jahresrechnung
+    c) Genehmigung der Jahresrechnung
 
 
-    d)    Entlastung des Vorstandes
+    d) Entlastung des Vorstandes
 
 
-    e)    Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
+    e) Wahl des Präsidenten/der Präsidentin und des übrigen Vorstandes
 
 
-    f)    Kenntnisnahme des Jahresbudgets
+    f) Kenntnisnahme des Jahresbudgets
 
 
-    g)    Kenntnisnahme des Tätigkeitsprogrammes
+    g) Kenntnisnahme des Tätigkeitsprogrammes
 
 
-    h)    Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
+    h) Beschlussfassung über weitere von den Mitgliedern oder dem Vorstand eingebrachte Geschäfte
 
 
-    i)    Änderung der Statuten
+    i) Änderung der Statuten
 
 
-    j)    Entscheid über Ausschlüsse von Mitgliedern
+    j) Entscheid über Ausschlüsse von Mitgliedern
 
 
-    k)    Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
+    k) Beschlussfassung über die Auflösung des Vereins und die Verwendung des Liquidationserlöses
 
 
     Jede ordnungsgemäss einberufene Mitgliederversammlung ist unabhängig von der Anzahl Mitglieder beschlussfähig.
@@ -208,7 +208,6 @@ statuten:
 
 
     Über die gefassten Beschlüsse ist zumindest ein Beschlussprotokoll abzufassen.
-
 
 
 
