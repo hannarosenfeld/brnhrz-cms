@@ -1,4 +1,3 @@
-
 import * as React from "react";
 
 import logo from "../img/logo.png";
@@ -11,7 +10,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-            <div className="content has-text-centered footer-content" style={{margin: "0 auto", padding: "1em", display: "flex", justifyContent: "space-between"}}>
+            <div className="container has-text-centered footer-content" style={{margin: "0 auto", padding: "1em", display: "flex", justifyContent: "space-between"}}>
 	      <div className="footer-address">
 		  <p>Bärenherz</p>
 		  <p>Verein für humanitäre Hilfe</p>

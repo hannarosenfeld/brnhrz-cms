@@ -21,7 +21,7 @@ h3 {
     color:  #033277;
 }
 .container {
-    max-width: 100%;
+    max-width: 1400px;
 }
 
 .footer, footer {
@@ -361,7 +361,7 @@ dropdown-menu {
 
 .footer-content {
     display: flex;
-    width: 90%;
+
     content-align: baseline;
     font-size: 0.7rem;
     margin: 0 auto;
