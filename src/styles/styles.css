@@ -28,6 +28,13 @@ h3 {
     padding: 0 !important;
 }
 
+
+.subscribe-email {
+    width: 333px;
+}
+
+
+
 .fourimages {
     margin: 0  auto 2em auto;
 }
@@ -35,6 +42,7 @@ h3 {
 .fourimages img {
     width: 50%;
 }
+
 
 /* Navbar */
 .spenden-button {
@@ -61,7 +69,7 @@ h3 {
 
 .navbar-item a:hover
 {
-    background: #94C1E5 !important;
+    background: rgba(148,193,229, 0.3) !important;
     color: black !important;
 }
 

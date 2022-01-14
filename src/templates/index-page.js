@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
 	  <HomepageBanner style={{marginBottom: "5em"}}/>
 	  <p style={{margin: "3em"}}></p>
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-	  <div className="section" >
+	  <div style={{padding: "3em 0 2em 0"}}>
  	  <h3 className="has-text-weight-semibold">{title}</h3>
           <p>{description}</p>
 	  </div>
