@@ -19,11 +19,12 @@ export const IndexPageTemplate = ({
 	  <HomepageBanner style={{marginBottom: "5em"}}/>
 	  <p style={{margin: "3em"}}></p>
           <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-	  <div style={{margin: "4em 0 5em 0"}}>
+	  <div className="section" >
  	  <h3 className="has-text-weight-semibold">{title}</h3>
-                      <p>{description}</p>
+          <p>{description}</p>
 	  </div>
-	  
+	  <br/>
+	  <br/>	  
 	  </div>
       
 	  <div style={{background: "#033277"}}>

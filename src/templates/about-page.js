@@ -53,8 +53,6 @@ export const AboutPageTemplate = ({
 
 	  <section className="section section--gradient">
       <div className="container">
-          <div className="columns">
-          <div className="column is-10 is-offset-1">
             <div className="section">
 	    <div id="philosophie">
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{philosophie.title}</h2>	
@@ -107,19 +105,19 @@ export const AboutPageTemplate = ({
 
 
             </div>
-          </div>
-        </div>
       </div>
 	    </section>
 	
 	
 	
 	    <div style={{background: "#033277"}}>
-	    <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
+	    <div className="container">
+	    <div style={{display: "flex", margin: "0 auto", padding: "2em 0"}} className="newsletter-box">
 	    <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
 	    <div style={{display: "flex", flexDirection: "column"}}>
 	    <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
 	    <Mailchimp />
+	    </div>
 	    </div>
 	    </div>
             </div>
@@ -127,8 +125,6 @@ export const AboutPageTemplate = ({
 	
 	  <section className="section section--gradient">
       <div className="container">
-          <div className="columns">
-          <div className="column is-10 is-offset-1">
             <div className="section">
 
 	    <div id="statuten" style={{margin: "1em auto"}}>
@@ -137,10 +133,6 @@ export const AboutPageTemplate = ({
 	    <br />
 	        	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(statuten.body)}} />
 	    	    </div>
-	    
-
-            </div>
-          </div>
         </div>
       </div>
 	    </section>
