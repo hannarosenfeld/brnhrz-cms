@@ -38,7 +38,7 @@ const photos = [
 	url: banner_image_3,
 	css_id: "banner-image-three",
 	heading: 'unsere projekte',
-	description: 'Hilfe, die dort ankommt, wo sie am dringensten gebraucht wird!',
+	description: 'Hilfe, die dort ankommt, wo sie am dringendsten gebraucht wird!',
 	link: "/projekte",
 	link_text: "mehr erfahren"
     }

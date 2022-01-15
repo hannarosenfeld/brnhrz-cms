@@ -8,11 +8,9 @@ import unternehmen from "../../static/pdf/unternehmen.pdf"
 
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
-  image,
   title,
   subheading,
   heading,
-  fullImage,
 }) => {
 
   return (
@@ -97,11 +95,9 @@ ankommt.“</h4>
 };
 
 ProductPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   subheading: PropTypes.string,
   heading: PropTypes.string,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const ProductPage = ({ data }) => {
@@ -110,11 +106,9 @@ const ProductPage = ({ data }) => {
   return (
     <Layout>
       <ProductPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         subheading={frontmatter.subheading}
         heading={frontmatter.heading}
-        fullImage={frontmatter.full_image}
       />
     </Layout>
   );
@@ -136,17 +130,7 @@ export const productPageQuery = graphql`
       frontmatter {
         title
         subheading
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         heading
-        full_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
       }
     }
   }
