@@ -7,10 +7,9 @@ import { graphql } from "gatsby";
 import showdown from 'showdown'
 
 import Layout from "../components/Layout";
-
 import Mailchimp from "../components/Mailchimp"
 
-
+import vorstand_foto from "../img/vorstand_foto.jpg"
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({
@@ -98,7 +97,9 @@ export const AboutPageTemplate = ({
 	    <div>
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{vorstand.title}</h2>
 	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(vorstand.body)}} />
-
+	    <img src={vorstand_foto} style={{margin: "1em auto"}}/>
+	    <p>Die Mitglieder des Vorstands (v.l.n.r.): Markus T. Schweizer, Rainer Mück, Dr. Andrea Degen, Andreas Wenzel
+</p>
 	    </div>
 	    </div>
 
@@ -126,18 +127,15 @@ export const AboutPageTemplate = ({
 	  <section className="section section--gradient">
       <div className="container">
             <div className="section">
-
 	    <div id="statuten" style={{margin: "1em auto"}}>
 	    <h2 className="title has-text-weight-bold is-bold-light" style={{color: "#0023A5", fontSize: "3rem"}}>{statuten.title}</h2>
 	    <br />
 	    <br />
-	        	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(statuten.body)}} />
-	    	    </div>
-        </div>
-      </div>
+	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(statuten.body)}} />
+	    </div>
+            </div>
+	    </div>
 	    </section>
-
-	
 	    </div>
   );
 };
