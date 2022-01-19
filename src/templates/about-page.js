@@ -23,7 +23,7 @@ export const AboutPageTemplate = ({
 
     return (
 	<div>
-		    <div
+	    <div
         className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
         style={{
             backgroundImage: `url('/img/philosophie.jpg')`,
