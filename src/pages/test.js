@@ -3,6 +3,7 @@ import React from 'react'
 const SignUpForm = () => {
   return (
     <form name="contact" method="POST" data-netlify="true" style={{border: "2px solid", margin: "1em auto", padding: "1em"}}>
+      <input type="hidden" name="form-name" value="contact" />
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
       </p>
