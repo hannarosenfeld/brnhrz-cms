@@ -5,14 +5,14 @@ import Loading from "./Loading"
 
 function Child() {
   return(
-	<>
+	<div style={{width: "75%", margin: "4em auto"}} >
 	  <Helmet>
 	    <script type='text/javascript' aysnc>
 	      {` window.rnw.tamaro.runWidget('.dds-widget-container', {language: 'de'}) `}
         </script>
 	  </Helmet>
-	  <div style={{width: "75%", margin: "4em auto"}} className="dds-widget-container"></div>
-	</>
+	  <div className="dds-widget-container"></div>
+	</div>
   )
 }
 
