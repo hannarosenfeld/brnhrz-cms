@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 import {Helmet} from "react-helmet"
 
+import Loading from "./Loading"
+
 function Child() {
   return(
 	<>
@@ -30,7 +32,7 @@ function RaiseNow() {
 
   return (
 	<>
-	  {loaded ? <Child /> : 'not loaded'}
+	  {loaded ? <Child /> : <Loading/>}
 	</>
   )
 }
