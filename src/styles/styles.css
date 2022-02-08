@@ -183,6 +183,7 @@ dropdown-menu {
 .partner-logos-container {
     display: flex;
     align-items: baseline;
+
 }
 
 .partner-logos-container h3{
@@ -192,6 +193,7 @@ dropdown-menu {
 .partner-logos {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .partner-logos img {
@@ -304,7 +306,7 @@ dropdown-menu {
     .image-box, .newsletter-box {
 	flex-direction: column;
     }
-    
+
     .dropdown-menu {
 	position: relative !important;
 	transform: none !important;
@@ -373,7 +375,7 @@ dropdown-menu {
     content-align: baseline;
     font-size: 0.7rem;
     margin: 0 auto;
-		  
+
 }
 
 .footer-address p, .footer-content a {
@@ -383,7 +385,7 @@ dropdown-menu {
 
 .footer-img {
     padding: 1em;
-   
+
 }
 
 .footer-address {

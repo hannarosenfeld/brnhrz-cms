@@ -7,10 +7,17 @@ import Layout from "../components/Layout";
 import Mailchimp from "../components/Mailchimp"
 
 import golfer from "../img/golfer.png"
-import albego from "../img/albego.jpg"
-import mmp from "../img/mmp.png"
 import ski from  "../img/ski.png"
-import ey from  "../img/EY.jpg"
+
+// logos
+import ey from  "../img/logos/EY.jpg"
+import albego from "../img/logos/albego.jpg"
+import mmp from "../img/logos/mmp.png"
+import callaway from "../img/logos/callaway.png"
+import kitzhof from "../img/logos/Kitzhof.png"
+import beuerberg from "../img/logos/Logo_Beuerberg.png"
+import b_services from "../img/logos/b_services.png"
+import golf_leuk from "../img/logos/GolfLeuk_logo_.png"
 
 
 export const EventsPageTemplate = ({
@@ -83,6 +90,11 @@ export const EventsPageTemplate = ({
 	                <img src={ey} />
 	                <img src={mmp} />
 	                <img src={albego} />
+	                <img src={kitzhof} />
+	                <img src={callaway} />
+	                <img src={b_services} />
+	                <img src={beuerberg} />
+	                <img src={golf_leuk} />
 	              </div>
 	            </div>
 	          </div>
