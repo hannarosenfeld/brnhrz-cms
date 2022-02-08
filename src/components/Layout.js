@@ -10,7 +10,7 @@ import "../styles/styles.css"
 
 import herz from "../img/herz.png"
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
@@ -27,19 +27,19 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="icon"
       type="image/png"
-      href={herz}      
+      href={herz}
           sizes="32x32"
         />
         <link
           rel="icon"
       type="image/png"
-      href={herz}      
+      href={herz}
           sizes="16x16"
         />
 
         <link
       rel="mask-icon"
-      href={herz}            
+      href={herz}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
@@ -59,4 +59,4 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-export default TemplateWrapper;
+export default Layout;
