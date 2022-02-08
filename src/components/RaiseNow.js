@@ -24,18 +24,19 @@ function RaiseNow() {
 	scriptTag.src='https://tamaro.raisenow.com/brenh-1353/latest/widget.js'
 	scriptTag.addEventListener('load', ()=> setLoaded(true))
 	document.body.appendChild(scriptTag)
+    return ()=>{
+      scriptTag.removeEventListener('load', setLoaded(false)); // check if necessary
+    }
+
   }, []);
 
-  useEffect(() => {
-	if (!loaded) return;
-  }, [loaded])
 
   return (
 	<>
 	  {loaded ? <Child /> : <Loading/>}
 	</>
   )
-}
+      }
 
 
 export default RaiseNow
