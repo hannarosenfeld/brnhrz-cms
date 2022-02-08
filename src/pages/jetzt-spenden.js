@@ -3,10 +3,10 @@ import Layout from "../components/Layout";
 import RaiseNow from "../components/RaiseNow"
 
 function SpendenPage() {
-    return(
-	<Layout>
-	    <RaiseNow />
-    	</Layout>
+  return(
+    <Layout>
+	<RaiseNow />
+    </Layout>
     )
 }
 
