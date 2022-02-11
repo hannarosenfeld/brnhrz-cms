@@ -28,10 +28,40 @@ h3 {
     padding: 0 !important;
 }
 
-
 .subscribe-email {
     width: 333px;
 }
+
+
+/* SignUpForm Golf*/
+.signupform{
+    border: 2px solid pink;
+}
+.signupform-fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.signupform-fields p {
+    width: 45%;
+    margin: 0 0.5em;
+}
+
+.signupform-fields p label{
+    display: flex;
+    flex-direction: column;
+}
+
+.signupform-fields p label input, option{
+    background: #E2F4FC;
+}
+
+.signupform-fields p label option{
+    border: 1px solid red;
+}
+
+
 
 
 
