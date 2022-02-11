@@ -36,6 +36,19 @@ function SignUpForm() {
           <label>Email<input type="email" name="email" /></label>
         </p>
       </div>
+      <div className="d-flex flex-column signupform-checkboxes">
+        <p>
+          <label><input type="checkbox" name="teilnahmebestätigung"/>Ja, ich/wir nehmen am Charity Golf Cup 2022 teil.</label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="gala"/>
+            Ich komme in Begleitung von
+            <input type="text" name="begleitung-name" />
+            <input type="text" name="begleitung-club" />
+          </label>
+        </p>
+      </div>
       <br/>
       <p>
         <button type="submit">Send</button>
