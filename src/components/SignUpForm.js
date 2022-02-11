@@ -6,9 +6,9 @@ function SignUpForm() {
   return(
     <form className="signupform" name="turnier-form" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="turnier-form" />
-      <div style={{margin: "0 auto", padding: "0.5em"}}>
+      <div>
         <header>image goes here</header>
-        <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem", margin: "0.5em auto"}}>ANMELDUNG</h2>
+        <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
         <p>Bitte senden Sie uns Ihre Anmeldung per Email: <span>info@baerenherz.org</span></p>
       </div>
       <div className="signupform-fields">
@@ -38,18 +38,22 @@ function SignUpForm() {
         </p>
       </div>
 
-      <div className="d-flex flex-column signupform-checkboxes m-2">
+      <div className="d-flex flex-column signupform-checkboxes">
         <p>
           <input type="checkbox" name="teilnahmebestätigung"/><label>&nbsp;&nbsp;Ja, ich/wir nehmen am Charity Golf Cup 2022 teil.</label>
         </p>
         <p>
           <label><input type="checkbox" name="nur-gala"/>&nbsp;&nbsp;Ich/ wir nehmen ausschliesslich an der Charity Golf Cup Gala teil.</label>
         </p>
-        <p>
+        <p className="d-flex">
+          <div>
           <input type="checkbox" name="gala"/>
           <label>&nbsp;&nbsp;Ich komme in Begleitung von&nbsp;&nbsp;</label>
-          <input type="text" name="begleitung-name" />
-          <input type="text" name="begleitung-club" />
+          </div>
+          <div className="d-flex">
+            <div className="d-flex flex-column"><input type="text" name="begleitung-name" /><label>Vorname,Name</label></div>
+            <div className="d-flex flex-column"><input type="text" name="begleitung-club" /><label>Heimatclub, Hcp.</label></div>
+            </div>
         </p>
         <p>
           <input type="checkbox" class="signupform-checkbox" name="nur-gala"/>
@@ -61,12 +65,12 @@ function SignUpForm() {
             <label>&nbsp;&nbsp;Nur Gala: 285,00 CHF</label>
           </p>
         </p>
-      </div>
+          </div>
 
 
-      <div className="flug">
-        <input type="checkbox" name="nur-gala"/>
-        <label>&nbsp;&nbsp;Wir möchten einen eigenen Flight buchen</label>
+          <div className="flug">
+            <input type="checkbox" name="nur-gala"/>
+            <label>&nbsp;&nbsp;Wir möchten einen eigenen Flight buchen</label>
     <p>Kosten für einen 4er-Flight: 1.140,00 CHF</p>
     <div class="flug-felder">
       <p class="flug-row">
@@ -89,13 +93,13 @@ function SignUpForm() {
         <div class="flugdetail"><input type="text" name="flugticket-4-name" /><label>Name</label></div>
         <div class="flugdetail"><input type="text" name="flugticket-4-heimatclub-hcp" /><label>Heimatclub, Hcp.</label></div>
       </p>
-        </div>
     </div>
+          </div>
 
-    <br/>
-    <p>
-      <button type="submit">Send</button>
-    </p>
+          <br/>
+          <p>
+            <button type="submit">Send</button>
+          </p>
     </form>
   )
 }

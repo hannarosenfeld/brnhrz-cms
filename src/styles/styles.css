@@ -34,18 +34,13 @@ h3 {
 
 
 /* SignUpForm Golf*/
-.signupform{
-    border: 2px solid pink;
-}
 .signupform-fields {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
 }
 
 .signupform-fields p {
     width: 45%;
-    margin: 0 0.5em;
 }
 
 .signupform-fields p label{
@@ -53,12 +48,19 @@ h3 {
     flex-direction: column;
 }
 
-.signupform-fields p label input, option{
+.signupform input {
     background: #E2F4FC;
 }
 
-.signupform-fields p label option{
-    border: 1px solid red;
+.flug-row {
+    width: 100%;
+    display: flex;
+}
+
+.flugdetail {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
 
