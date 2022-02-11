@@ -34,16 +34,25 @@ h3 {
 
 
 /* SignUpForm Golf*/
-.signupform-fields {
+.signup-banner img{
+    background-color: black; /* fallback color */
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.signupform-fields-container {
+    margin: 1em auto;
+    width: 95%;
+}
+.signupform-fields-address{
     display: flex;
     flex-wrap: wrap;
 }
-
-.signupform-fields p {
+.signupform-fields-address p {
     width: 45%;
 }
-
-.signupform-fields p label{
+.signupform-fields-address p label{
     display: flex;
     flex-direction: column;
 }
@@ -51,6 +60,7 @@ h3 {
 .signupform input {
     background: #E2F4FC;
 }
+
 
 .flug-row {
     width: 100%;
