@@ -3,8 +3,8 @@ import React from 'react'
 
 function SignUpForm() {
   return(
-    <form className="signupform" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contact" />
+    <form className="signupform" name="turnier-form" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="turnier-form" />
       <div style={{margin: "0 auto", padding: "0.5em"}}>
         <header>image goes here</header>
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem", margin: "0.5em auto"}}>ANMELDUNG</h2>
