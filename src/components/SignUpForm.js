@@ -61,12 +61,12 @@ function SignUpForm() {
           </p>
           <p>
             <input type="checkbox" class="signupform-checkbox" name="nur-gala"/>
-            <label>&nbsp;&nbsp;Ich/ wir nehmen als Privatpersonen teil.</label>
-            <p><label>Teilnahme:&nbsp;&nbsp;</label>
-              <input type="checkbox" name="privatpersonen-golf-und-gala"/>
-              <label>&nbsp;&nbsp;Golfturnier & Gala: 285,00 CHF&nbsp;&nbsp;&nbsp;&nbsp;</label>
-              <input type="checkbox" name="privatpersonen-nur-gala"/>
-              <label>&nbsp;&nbsp;Nur Gala: 285,00 CHF</label>
+            <label style={{fontSize: "1.2rem", color: "#05AFEE"}}><b>&nbsp;&nbsp;Ich/ wir nehmen als Privatpersonen teil.</b></label>
+            <p><label><b>Teilnahme:</b>&nbsp;&nbsp;</label>
+            <input type="checkbox" name="privatpersonen-golf-und-gala"/>
+            <label>&nbsp;&nbsp;Golfturnier & Gala: 285,00 CHF&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" name="privatpersonen-nur-gala"/>
+            <label>&nbsp;&nbsp;Nur Gala: 285,00 CHF</label>
             </p>
           </p>
         </div>
@@ -74,7 +74,7 @@ function SignUpForm() {
 
         <div className="flug">
           <input type="checkbox" name="nur-gala"/>
-          <label>&nbsp;&nbsp;Wir möchten einen eigenen Flight buchen</label>
+          <label style={{fontSize: "1.2rem", color: "#05AFEE"}}><b>&nbsp;&nbsp;Wir möchten einen eigenen Flight buchen</b></label>
     <p>Kosten für einen 4er-Flight: 1.140,00 CHF</p>
     <div class="flug-felder">
       <p class="flug-row">
@@ -98,8 +98,11 @@ function SignUpForm() {
         <div class="flugdetail"><input type="text" name="flugticket-4-heimatclub-hcp" /><label>Heimatclub, Hcp.</label></div>
       </p>
     </div>
+    <br/>
+    <p><b>Bitte überweisen Sie das entsprechende Startgeld mit Ihrer Anmeldung unter dem Betreff «Charity Golf Cup 2022» auf
+      das Bärenherz Konto: CH91 0078 4297 6098 0200 1 bei der Thurgauer Kantonalbank. Die Teilnehmerzahl des Golfturniers
+      ist auf 48 Personen begrenzt. Das Datum des Eingangs der Überweisung entscheidet bei zu grosser Nachfrage.</b></p>
         </div>
-
         <br/>
         <p>
           <button type="submit">Send</button>
