@@ -34,6 +34,15 @@ h3 {
 
 
 /* SignUpForm Golf*/
+
+.form-field {
+    width: 49%;
+}
+
+.form-address-section {
+    justify-content: space-between;
+}
+
 .signup-banner img{
     background-color: black; /* fallback color */
     object-fit: cover;
@@ -41,10 +50,18 @@ h3 {
     width: 100%;
 }
 
-.signupform-fields-container {
-    margin: 1em auto;
-    width: 95%;
+.signup-banner h2 {
+    background: #00aeef;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 1.8rem;
 }
+
+.signupform-fields-container {
+    margin: 0 auto;
+}
+
 .signupform-fields-address{
     display: flex;
     flex-wrap: wrap;
