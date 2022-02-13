@@ -27,27 +27,27 @@ function SignUpForm() {
               <Form.Control type="text" name="name" />
               <Form.Label>Name</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicFirma">
               <Form.Control type="text" name="firma" />
               <Form.Label>Firma, Funktion</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicHeimatclub">
               <Form.Control type="text" name="heimatclub"/>
               <Form.Label>Heimatclub</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicStrasse">
               <Form.Control type="text" name="strasse" />
               <Form.Label>Strasse, Nr.</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicPLZ">
               <Form.Control type="text" name="plz" />
               <Form.Label>PLZ, Ort</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicTelefon">
               <Form.Control type="text" name="telefon" />
               <Form.Label>Telefon/Telefax</Form.Label>
             </Form.Group>
-            <Form.Group className="form-field" controlId="formBasicName">
+            <Form.Group className="form-field" controlId="formBasicEmail">
               <Form.Control type="email" name="email" />
               <Form.Label>Email</Form.Label>
             </Form.Group>
