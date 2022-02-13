@@ -75,7 +75,7 @@ function SignUpForm() {
             </Form.Group>
 
             <Form.Group className="d-flex flex-column mt-2" controlId="formBasicCheckbox">
-              <div className="text-info h3 mb-1">
+              <div className="text-info h4 mb-1">
                 <Form.Check type="checkbox" label="Ich/wir nehmen als Privatpersonen teil" name="privatperson" />
               </div>
               <div className="d-flex">
@@ -89,7 +89,7 @@ function SignUpForm() {
               </div>
             </Form.Group>
             <Form.Group className="mt-4" controlId="formBasicName">
-              <Form.Check type="checkbox" className="text-info h3 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
+              <Form.Check type="checkbox" className="text-info h4 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
               <p className="mb-2">Kosten für einen 4er-Flight: 1.140,00 CHF</p>
               <div className="d-flex">
                 <Form.Group className="form-field" controlId="formBasicName">
