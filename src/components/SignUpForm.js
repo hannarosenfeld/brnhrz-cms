@@ -101,7 +101,7 @@ function SignUpForm() {
               </div>
             </Form.Group>
 
-            <Form.Group className="mt-4" controlId="formBasicName">
+            <Form.Group className="mt-4" controlId="formBasicFlug">
               <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
               <p className="mb-2">Kosten für einen 4er-Flight: 1.140,00 CHF</p>
               <div className="d-flex">
