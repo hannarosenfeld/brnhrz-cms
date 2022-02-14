@@ -105,16 +105,56 @@ function SignUpForm() {
               <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
               <p className="mb-2">Kosten für einen 4er-Flight: 1.140,00 CHF</p>
               <div className="d-flex">
-                <Form.Group className="form-field" controlId="formBasicName">
+                <Form.Group className="form-field" controlId="formBasicFlugPersonEinsVorName">
                   <Form.Control type="text" name="flugperson-1-vorname" />
                   <Form.Label>Vorname</Form.Label>
                 </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicName">
+                <Form.Group className="form-field" controlId="formBasicFlugpersoneinsName">
                   <Form.Control type="text" name="flugperson-1-name" />
                   <Form.Label>Name</Form.Label>
                 </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicName">
+                <Form.Group className="form-field" controlId="formBasicFlugPersoneinsHcp">
                   <Form.Control type="text" name="flugperson-1-heimatclub-hcp" />
+                  <Form.Label>Heimatclub, Hcp.</Form.Label>
+                </Form.Group>
+              </div>
+              <div className="d-flex">
+                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiVorName">
+                  <Form.Control type="text" name="flugperson-2-vorname" />
+                  <Form.Label>Vorname</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiName">
+                  <Form.Control type="text" name="flugperson-2-name" />
+                  <Form.Label>Name</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiHcp">
+                  <Form.Control type="text" name="flugperson-2-heimatclub-hcp" />
+                  <Form.Label>Heimatclub, Hcp.</Form.Label>
+                </Form.Group>
+              </div>              <div className="d-flex">
+                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiVorName">
+                  <Form.Control type="text" name="flugperson-3-vorname" />
+                  <Form.Label>Vorname</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiName">
+                  <Form.Control type="text" name="flugperson-3-name" />
+                  <Form.Label>Name</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiHcp">
+                  <Form.Control type="text" name="flugperson-3-heimatclub-hcp" />
+                  <Form.Label>Heimatclub, Hcp.</Form.Label>
+                </Form.Group>
+              </div>              <div className="d-flex">
+                <Form.Group className="form-field" controlId="formBasicFlugPersonVierVorName">
+                  <Form.Control type="text" name="flugperson-4-vorname" />
+                  <Form.Label>Vorname</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonVierName">
+                  <Form.Control type="text" name="flugperson-4-name" />
+                  <Form.Label>Name</Form.Label>
+                </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicFlugPersonVierHcp">
+                  <Form.Control type="text" name="flugperson-4-heimatclub-hcp" />
                   <Form.Label>Heimatclub, Hcp.</Form.Label>
                 </Form.Group>
               </div>
