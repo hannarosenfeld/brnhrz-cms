@@ -12,6 +12,7 @@ function SignUpForm() {
     <main
       style={{
         fontSize: "0.9em",
+        fontWeight: "500",
       }}
     >
       <div>
@@ -73,12 +74,11 @@ function SignUpForm() {
               </Form.Group>
             </div>
 
-            <Form.Group className="d-flex mt-5 mb-5" controlId="formBasicBegleitung" style={{width: "100%"}}>
+            <Form.Group className="d-flex mt-4 mb-2" controlId="formBasicBegleitung" style={{width: "100%"}}>
               <Form.Group className="" controlId="formBasicBegleitungDaten">
                 <Form.Check type="checkbox" label="Ich komme in Begleitung von"  style={{margin: "0 1em 0 0"}} name="checkbox-3" />
               </Form.Group>
               <div className="flug-begleitung-info d-flex flex-column" style={{width: "100%"}}>
-
                 <div className="d-flex">
                   <Form.Group controlId="formBasicName" style={{width: "50%"}}>
                     <Form.Control type="text" name="begleitung-name" />
@@ -89,7 +89,6 @@ function SignUpForm() {
                     <Form.Label>Heimatclub, Hcp.</Form.Label>
                   </Form.Group>
                 </div>
-
                 <div className="d-flex">
                   <Form.Group controlId="formBasicBegleitungGanzerAnlass">
                     <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="begleitung-ganzer-anlass" />
@@ -99,27 +98,11 @@ function SignUpForm() {
                     <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-nur-gala" />
                   </Form.Group>
                 </div>
-
-
               </div>
             </Form.Group>
 
-            <Form.Group className="d-flex flex-column mt-2" controlId="formBasicCheckbox">
-              <div className="text-info h4 mb-1">
-                <Form.Check type="checkbox" label="Ich/wir nehmen als Privatpersonen teil" name="privatperson" />
-              </div>
-              <div className="d-flex">
-                <span><b>Teilnahme:&nbsp;&nbsp;</b></span>
-                <Form.Group controlId="formBasicCheckbox" style={{margin: "0 1em 0 0"}}>
-                  <Form.Check type="checkbox" label="Golfturnier & Gala: 285,00 CHF" name="preis-turnier-und-gala" />
-                </Form.Group>
-                <Form.Group className="" controlId="formBasicCheckbox">
-                  <Form.Check type="checkbox" label="Nur Gala: 285,00 CHF" name="preis-nur-gala" />
-                </Form.Group>
-              </div>
-            </Form.Group>
-            <Form.Group className="mt-4" controlId="formBasicName">
-              <Form.Check type="checkbox" className="text-info h4 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
+            <Form.Group className="mt-2" controlId="formBasicName">
+              <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
               <p className="mb-2">Kosten für einen 4er-Flight: 1.140,00 CHF</p>
               <div className="d-flex">
                 <Form.Group className="form-field" controlId="formBasicName">
