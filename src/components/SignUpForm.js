@@ -67,14 +67,14 @@ function SignUpForm() {
               </Form.Group>
             </div>
 
-            <Form.Group className="d-flex" controlId="formBasicCheckbox">
+            <Form.Group className="d-flex" controlId="formBasicBegleitung" style={{width: "100%"}}>
               <Form.Check type="checkbox" label="Ich komme in Begleitung von"  style={{margin: "0 1em 0 0"}} name="checkbox-3" />
-              <div className="flug-begleitung-info d-flex">
-                <Form.Group controlId="formBasicName">
+              <div className="flug-begleitung-info d-flex" style={{width: "100%"}}>
+                <Form.Group controlId="formBasicName" style={{width: "100%"}}>
                   <Form.Control type="text" name="begleitung-name" />
                   <Form.Label>Vorname, Name</Form.Label>
                 </Form.Group>
-                <Form.Group controlId="formBasicName">
+                <Form.Group controlId="formBasicName" style={{width: "100%"}}>
                   <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
                   <Form.Label>Heimatclub, Hcp.</Form.Label>
                 </Form.Group>
