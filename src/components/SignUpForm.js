@@ -61,9 +61,7 @@ function SignUpForm() {
           <div className="signupform-checkbox-group mt-2">
 
             <div className="d-flex mt-4 mb-4">
-              <Form.Group className="" controlId="formBasicTeilnahme">
-                <Form.Check type="checkbox" label="Ja, ich nehme am Charity Golf Cup 2022 teil:" name="teilnahmebestaetigung" />
-              </Form.Group>
+              <p>Ja, ich nehme am Charity Golf Cup 2022 teil:</p>
               <span style={{margin: "0.8em"}} />
               <Form.Group className="" controlId="formBasicGanzerAnlass">
                 <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="" />
@@ -75,16 +73,15 @@ function SignUpForm() {
             </div>
 
             <Form.Group className="d-flex mt-4 mb-2" controlId="formBasicBegleitung" style={{width: "100%"}}>
-              <Form.Group className="" controlId="formBasicBegleitungDaten">
-                <Form.Check type="checkbox" label="Ich komme in Begleitung von"  style={{margin: "0 1em 0 0"}} name="checkbox-3" />
-              </Form.Group>
-              <div className="flug-begleitung-info d-flex flex-column" style={{width: "100%"}}>
+              <p>Ich komme in Begleitung von:</p>
+              <span style={{margin: "0.8em"}} />
+              <div className="flug-begleitung-info d-flex flex-column" style={{width: "80%"}}>
                 <div className="d-flex">
-                  <Form.Group controlId="formBasicName" style={{width: "50%"}}>
+                  <Form.Group controlId="formBasicBegleitungName" style={{width: "45%"}}>
                     <Form.Control type="text" name="begleitung-name" />
                     <Form.Label>Vorname, Name</Form.Label>
                   </Form.Group>
-                  <Form.Group controlId="formBasicName" style={{width: "50%"}}>
+                  <Form.Group controlId="formBasicBegleitungHeimatClub" style={{width: "55%"}}>
                     <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
                     <Form.Label>Heimatclub, Hcp.</Form.Label>
                   </Form.Group>
