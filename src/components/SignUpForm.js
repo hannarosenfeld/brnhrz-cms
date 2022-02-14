@@ -9,7 +9,11 @@ import golferin from "../img/golferin.jpg"
 
 function SignUpForm() {
   return(
-    <main>
+    <main
+      style={{
+        fontSize: "0.9em",
+      }}
+    >
       <div>
         <header className="signup-banner"><img src={golferin} /></header>
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
@@ -55,29 +59,48 @@ function SignUpForm() {
 
           <div className="signupform-checkbox-group mt-2">
 
-            <div className="d-flex mt-3 mb-3">
+            <div className="d-flex mt-4 mb-4">
               <Form.Group className="" controlId="formBasicTeilnahme">
-                <Form.Check type="checkbox" label="Ja, ich nehme am Charity Golf Cup 2022 teil." name="teilnahmebestaetigung" />
+                <Form.Check type="checkbox" label="Ja, ich nehme am Charity Golf Cup 2022 teil:" name="teilnahmebestaetigung" />
               </Form.Group>
+              <span style={{margin: "0.8em"}} />
               <Form.Group className="" controlId="formBasicGanzerAnlass">
                 <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="" />
               </Form.Group>
+              <span style={{margin: "0.8em"}} />
               <Form.Group className="" controlId="formBasicNurGala">
                 <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="" />
               </Form.Group>
             </div>
 
-            <Form.Group className="d-flex" controlId="formBasicBegleitung" style={{width: "100%"}}>
-              <Form.Check type="checkbox" label="Ich komme in Begleitung von"  style={{margin: "0 1em 0 0"}} name="checkbox-3" />
-              <div className="flug-begleitung-info d-flex" style={{width: "100%"}}>
-                <Form.Group controlId="formBasicName" style={{width: "100%"}}>
-                  <Form.Control type="text" name="begleitung-name" />
-                  <Form.Label>Vorname, Name</Form.Label>
-                </Form.Group>
-                <Form.Group controlId="formBasicName" style={{width: "100%"}}>
-                  <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
-                  <Form.Label>Heimatclub, Hcp.</Form.Label>
-                </Form.Group>
+            <Form.Group className="d-flex mt-5 mb-5" controlId="formBasicBegleitung" style={{width: "100%"}}>
+              <Form.Group className="" controlId="formBasicBegleitungDaten">
+                <Form.Check type="checkbox" label="Ich komme in Begleitung von"  style={{margin: "0 1em 0 0"}} name="checkbox-3" />
+              </Form.Group>
+              <div className="flug-begleitung-info d-flex flex-column" style={{width: "100%"}}>
+
+                <div className="d-flex">
+                  <Form.Group controlId="formBasicName" style={{width: "50%"}}>
+                    <Form.Control type="text" name="begleitung-name" />
+                    <Form.Label>Vorname, Name</Form.Label>
+                  </Form.Group>
+                  <Form.Group controlId="formBasicName" style={{width: "50%"}}>
+                    <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
+                    <Form.Label>Heimatclub, Hcp.</Form.Label>
+                  </Form.Group>
+                </div>
+
+                <div className="d-flex">
+                  <Form.Group controlId="formBasicBegleitungGanzerAnlass">
+                    <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="begleitung-ganzer-anlass" />
+                  </Form.Group>
+                  <span style={{margin: "0.8em"}} />
+                  <Form.Group controlId="formBasicBegleitungNurGala">
+                    <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-nur-gala" />
+                  </Form.Group>
+                </div>
+
+
               </div>
             </Form.Group>
 
