@@ -34,6 +34,15 @@ h3 {
 
 
 /* SignUpForm Golf*/
+.modal-dialog {
+    max-width: 90% !important;
+}
+
+.signupmodal {
+    background: url(../img/Anmeldung_Header.png);
+    background-size: cover;
+    display: none;
+}
 
 .form-field {
     width: 49%;

@@ -1,9 +1,12 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import { graphql } from 'gatsby';
 import PropTypes from "prop-types";
 import showdown from 'showdown'
+import { Modal, Button } from 'react-bootstrap';
+
 
 import Layout from "../components/Layout";
+import SignUpForm from "../components/SignUpForm"
 import Mailchimp from "../components/Mailchimp"
 
 import golfer from "../img/golfer.png"
@@ -18,6 +21,35 @@ import kitzhof from "../img/logos/Kitzhof.png"
 import beuerberg from "../img/logos/Logo_Beuerberg.png"
 import b_services from "../img/logos/b_services.png"
 import golf_leuk from "../img/logos/GolfLeuk_logo_.png"
+
+
+import golferin from "../img/Anmeldung_Header.png"
+
+
+function SignUpModal() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  return (
+    <div className="signupmodal" style={{margin: "8em 0 4em 0", padding: "8em 0 14em 0"}}>
+      <div className="d-flex flex-center m-4">
+      <Button variant="primary" onClick={handleShow} style={{margin: "0 auto"}}>
+        Hier Anmelden
+      </Button>
+      </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+        </Modal.Header>
+        <Modal.Body>
+          <SignUpForm/>
+        </Modal.Body>
+      </Modal>
+    </div>
+  );
+}
+
+
+
 
 
 export const EventsPageTemplate = ({
@@ -100,7 +132,14 @@ export const EventsPageTemplate = ({
 	          </div>
             </div>
           </div>
+
+          <SignUpModal/>
+
         </section>
+
+
+
+
 	    <div style={{background: "#033277"}}>
 	      <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
 	        <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
