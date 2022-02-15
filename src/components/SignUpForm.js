@@ -4,7 +4,7 @@ import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootst
 
 import "../styles/styles.css"
 
-import golferin from "../img/golferin.jpg"
+import golferin from "../img/Anmeldung_Header.png"
 
 
 function SignUpForm() {
