@@ -20,7 +20,7 @@ export default class SignUpForm extends Component {
     const input = document.getElementById('divToPrint');
     html2canvas(input)
       .then((canvas) => {
-        const imgData = canvas.toDataURL('image/png');
+        const imgData = canvas.toDataURL({golferin});
         const pdf = new jsPDF();
         pdf.addImage(imgData, 'JPEG', 0, 0);
         // pdf.output('dataurlnewwindow');
@@ -199,7 +199,7 @@ export default class SignUpForm extends Component {
                     </div>
                   </div>
                 </div>
-                <Button variant="primary" type="submit" style={{float: "right"}}>Submit
+                <Button onClick={this.printDocument} variant="primary" type="submit" style={{float: "right"}}>Submit
                 </Button>
                 <span style={{margin: "2em"}} />
               </div>
