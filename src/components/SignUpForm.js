@@ -15,7 +15,6 @@ export default class SignUpForm extends Component {
   constructor(props) {
     super(props);
   }
-
   printDocument() {
     const input = document.getElementById('divToPrint');
     html2canvas(input)
@@ -28,13 +27,11 @@ export default class SignUpForm extends Component {
       })
     ;
   }
-
   render() {
     return (
       <div>
         <div id="divToPrint" className="mt4" {...({
           })}>
-
           <main
             style={{
               fontSize: "0.9em",
@@ -45,8 +42,6 @@ export default class SignUpForm extends Component {
               <header className="signup-banner"><img src={golferin} /></header>
               <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
             </div>
-
-
 
             <Form className="signupform m-5" name="turnier-form" method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="turnier-form" />
