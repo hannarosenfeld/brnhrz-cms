@@ -194,7 +194,7 @@ export default class SignUpForm extends Component {
                     </div>
                   </div>
                 </div>
-                <Button onClick={this.printDocument} variant="primary" type="submit" style={{float: "right"}}>Submit
+                <Button variant="primary" type="submit" style={{float: "right"}}>Submit
                 </Button>
                 <Button onClick={this.printDocument} >PDF
                 </Button>
