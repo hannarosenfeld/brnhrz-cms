@@ -66,13 +66,13 @@ function SignUpForm() {
             <div className="d-flex mt-4 mb-4">
               <p>Ja, ich nehme am Charity Golf Cup 2022 teil:</p>
               <span style={{margin: "0.8em"}} />
-              <Form.Group className="" controlId="formBasicGanzerAnlass">
-                <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="" />
-              </Form.Group>
-              <span style={{margin: "0.8em"}} />
-              <Form.Group className="" controlId="formBasicNurGala">
-                <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="" />
-              </Form.Group>
+
+              <div className="d-flex">
+                <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gender" /> &nbsp;&nbsp;ganzer Anlass (CHF 285,00)
+    <span style={{margin: "0.8em"}} />
+    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gender" /> &nbsp;&nbsp;nur Charity Golf Cup Gala (CHF 165.00)
+              </div>
+
             </div>
 
             <Form.Group className="d-flex mt-4 mb-2" controlId="formBasicBegleitung" style={{width: "100%"}}>
@@ -90,14 +90,11 @@ function SignUpForm() {
                   </Form.Group>
                 </div>
                 <div className="d-flex">
-                  <Form.Group controlId="formBasicBegleitungGanzerAnlass">
-                    <Form.Check type="checkbox" label="ganzer Anlass (CHF 285,00)" name="begleitung-ganzer-anlass" />
-                  </Form.Group>
-                  <span style={{margin: "0.8em"}} />
-                  <Form.Group controlId="formBasicBegleitungNurGala">
-                    <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-nur-gala" />
-                  </Form.Group>
-                </div>
+                    <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gender" /> &nbsp;&nbsp;ganzer Anlass (CHF 285,00)
+    <span style={{margin: "0.8em"}} />
+    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gender" /> &nbsp;&nbsp;nur Charity Golf Cup Gala (CHF 165.00)
+                  </div>
+
               </div>
             </Form.Group>
 
