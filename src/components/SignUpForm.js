@@ -11,6 +11,7 @@ function SignUpForm() {
   return(
     <main
     style={{
+
       fontSize: "0.9em",
       fontWeight: "500",
     }}
@@ -22,7 +23,7 @@ function SignUpForm() {
 
 
 
-    <Form className="signupform m-5" name="turnier-form" method="POST" data-netlify="true" >
+    <Form className="signupform" style={{margin: "3em 9em"}} name="turnier-form" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="turnier-form" />
       <div style={{margin: "0 auto", width: "90%"}}>
         <p style={{margin: "1em auto"}}>Bitte senden Sie uns Ihre Anmeldung per Email: <b>info@baerenherz.org</b></p>
