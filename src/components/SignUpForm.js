@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
 
 
@@ -8,10 +8,17 @@ import golferin from "../img/Anmeldung_Header.png"
 
 
 function SignUpForm() {
+  const [checked, setChecked] = useState(false)
+  const [loaded, setLoaded] = useState(false)
+
+  useEffect(() =>{
+
+  })
+
+
   return(
     <main
     style={{
-
       fontSize: "0.9em",
       fontWeight: "500",
     }}
@@ -20,7 +27,6 @@ function SignUpForm() {
       <header className="signup-banner"><img src={golferin} /></header>
       <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
     </div>
-
 
 
     <Form className="signupform" style={{width: "80%", margin: "2em auto"}} name="turnier-form" method="POST" data-netlify="true">
@@ -42,7 +48,7 @@ function SignUpForm() {
           </Form.Group>
           <Form.Group className="form-field" controlId="formBasicHeimatclub">
             <Form.Control type="text" name="heimatclub"/>
-            <Form.Label>Heimatclub</Form.Label>
+            <Form.Label>Heimatclub, Hcp.</Form.Label>
           </Form.Group>
           <Form.Group className="form-field" controlId="formBasicStrasse">
             <Form.Control type="text" name="strasse" />
