@@ -70,7 +70,7 @@ function SignUpForm() {
 
             <div className="d-flex">
               <input type="radio" value="ganzer Anlass (CHF 285,00)" name="teilnahme" />
-              <span className="m-1 p-1">ganzer Anlass (CHF 285,00)</span>
+              <span className="m-1 p-1">ganzer Anlass (CHF 285.00)</span>
               <span style={{margin: "0.8em"}} />
               <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="teilnahme" />
               <span className="m-1 p-1">nur Charity Golf Cup Gala (CHF 165.00)</span>
@@ -94,7 +94,7 @@ function SignUpForm() {
               </div>
               <div className="d-flex">
                 <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gast-teilnahme" />
-                <span className="m-1 p-1">ganzer Anlass (CHF 285,00)</span>
+                <span className="m-1 p-1">ganzer Anlass (CHF 285.00)</span>
                 <span style={{margin: "0.8em"}} />
                 <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gast-teilnahme" />
                 <span className="m-1 p-1">nur Charity Golf Cup Gala (CHF 165.00)</span>
@@ -105,7 +105,7 @@ function SignUpForm() {
 
           <Form.Group className="mt-4" controlId="formBasicFlug">
             <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
-            <p className="mb-2">Kosten für einen 4er-Flight: 1.140,00 CHF</p>
+            <p className="mb-2">Kosten für einen 4er-Flight: 1'140.00 CHF</p>
             <div className="d-flex">
               <Form.Group className="form-field" controlId="formBasicFlugPersonEinsVorName">
                 <Form.Control type="text" name="flugperson-1-vorname" />
