@@ -68,9 +68,9 @@ function SignUpForm() {
               <span style={{margin: "0.8em"}} />
 
               <div className="d-flex">
-                <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gender" /> &nbsp;&nbsp;ganzer Anlass (CHF 285,00)
+                <input type="radio" value="ganzer Anlass (CHF 285,00)" name="teilnahme" /> &nbsp;&nbsp;ganzer Anlass (CHF 285,00)
     <span style={{margin: "0.8em"}} />
-    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gender" /> &nbsp;&nbsp;nur Charity Golf Cup Gala (CHF 165.00)
+    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="teilnahme" /> &nbsp;&nbsp;nur Charity Golf Cup Gala (CHF 165.00)
               </div>
 
             </div>
@@ -90,9 +90,11 @@ function SignUpForm() {
                   </Form.Group>
                 </div>
                 <div className="d-flex">
-                    <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gender" /> &nbsp;&nbsp;ganzer Anlass (CHF 285,00)
+                  <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gast-teilnahme" />
+                  <span className="m-1">ganzer Anlass (CHF 285,00)</span>
     <span style={{margin: "0.8em"}} />
-    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gender" /> &nbsp;&nbsp;nur Charity Golf Cup Gala (CHF 165.00)
+    <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gast-teilnahme" />
+    <span>nur Charity Golf Cup Gala (CHF 165.00)</span>
                   </div>
 
               </div>
