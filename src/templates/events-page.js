@@ -21,7 +21,10 @@ import kitzhof from "../img/logos/Kitzhof.png"
 import beuerberg from "../img/logos/Logo_Beuerberg.png"
 import b_services from "../img/logos/b_services.png"
 import golf_leuk from "../img/logos/GolfLeuk_logo_.png"
-
+import hotel from "../img/logos/hotel.jpeg"
+import baur from "../img/logos/baur.png"
+import oerlikon from "../img/logos/oerlikon.jpg"
+import wein from "../img/logos/wein.jpg"
 
 import golferin from "../img/Anmeldung_Header.png"
 
@@ -127,6 +130,10 @@ export const EventsPageTemplate = ({
 	                <img src={b_services} />
 	                <img src={beuerberg} />
 	                <img src={golf_leuk} />
+                    <img src={hotel} />
+                    <img src={baur} />
+                    <img src={oerlikon} />
+                    <img src={wein} />
 	              </div>
 	            </div>
 	          </div>
