@@ -70,6 +70,9 @@ function FlugDetails() {
 }
 
 function SignUpForm() {
+  const [showFlightDetails, setShowFlightDetails] = React.useState(false)
+  const onClick = () => setShowFlightDetails(!showFlightDetails)
+
   return(
     <main
       style={{
@@ -132,14 +135,13 @@ function SignUpForm() {
               </div>
             </Form.Group>
             <Form.Group className="mt-4" controlId="formBasicFlug">
-              <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
+              <Form.Check onChange={onClick} type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
               <p className="mb-2">Kosten für einen 4er-Flight: 1'140.00 CHF</p>
-              <div className="d-flex flex-column">
-                <div className="d-flex"><FlugDetails /></div>
-                <div className="d-flex"><FlugDetails /></div>
-                <div className="d-flex"><FlugDetails /></div>
-                <div className="d-flex"><FlugDetails /></div>
-              </div>
+                { showFlightDetails
+                  ?
+                  <div className="d-flex flex-column"><div className="d-flex"><FlugDetails /></div><div className="d-flex"><FlugDetails /></div><div className="d-flex"><FlugDetails /></div><div className="d-flex"><FlugDetails /></div></div>
+                  : ''}
+
             </Form.Group>
             <div className="mt-4">
               <p><b>Bitte überweisen Sie das entsprechende Startgeld mit Ihrer Anmeldung unter dem Betreff «Charity Golf Cup 2022» auf das Bärenherz Konto: CH91 0078 4297 6098 0200 1 bei der Thurgauer Kantonalbank. Die Teilnehmerzahl des Golfturniers ist auf 48 Personen begrenzt. Das Datum des Eingangs der Überweisung entscheidet bei zu grosser Nachfrage.</b></p>
@@ -153,9 +155,9 @@ function SignUpForm() {
               </div>
             </div>
           </div>
-          <Button variant="primary" type="submit" style={{float: "right"}}>
+          <button variant="primary" type="submit" style={{float: "right"}}>
             Submit
-          </Button>
+          </button>
           <span style={{margin: "2em"}} />
         </div>
       </Form>
