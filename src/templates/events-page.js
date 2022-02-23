@@ -16,7 +16,6 @@ import ski from  "../img/ski.png"
 import ey from  "../img/logos/EY.jpg"
 import albego from "../img/logos/albego.jpg"
 import mmp from "../img/logos/mmp.png"
-import callaway from "../img/logos/callaway.png"
 import kitzhof from "../img/logos/Kitzhof.png"
 import beuerberg from "../img/logos/Logo_Beuerberg.png"
 import b_services from "../img/logos/b_selection.png"
@@ -25,6 +24,11 @@ import hotel from "../img/logos/hotel.jpeg"
 import baur from "../img/logos/baur.png"
 import oerlikon from "../img/logos/oerlikon.jpg"
 import wein from "../img/logos/wein.jpg"
+import sunresorts from "../img/logos/sunresorts.jpeg"
+import dior from "../img/logos/Dior.svg.png"
+import ritz from "../img/logos/Ritz.jpeg"
+import sensolar from "../img/logos/sensolar.png"
+
 
 import golferin from "../img/Anmeldung_Header.png"
 
@@ -126,7 +130,7 @@ export const EventsPageTemplate = ({
 	                <img src={mmp} />
 	                <img src={albego} />
 	                <img src={kitzhof} />
-	                <img src={callaway} />
+                    <img src={sensolar} />
 	                <img src={b_services} />
 	                <img src={beuerberg} />
 	                <img src={golf_leuk} />
@@ -134,6 +138,9 @@ export const EventsPageTemplate = ({
                     <img src={baur} />
                     <img src={oerlikon} />
                     <img src={wein} />
+                    <img src={sunresorts} />
+                    <img src={ritz} />
+	                <img src={dior} />
 	              </div>
 	            </div>
 	          </div>
