@@ -42,14 +42,6 @@ const address = [
 ]
 
 function SignUpForm() {
-  const [checked, setChecked] = useState(false)
-  const [loaded, setLoaded] = useState(false)
-
-  useEffect(() =>{
-    return document.getElementsByTagName("input").disabled = true
-  })
-
-
   return(
     <main
       style={{
@@ -72,10 +64,10 @@ function SignUpForm() {
           <div className="d-flex flex-wrap  mb-4">
             {address.map((x) => {
               return(
-              <Form.Group className="form-field" controlId="formBasicVorName">
-                <Form.Control type="text" name={x.name} />
-                <Form.Label>{x.fieldname}</Form.Label>
-              </Form.Group>
+                <Form.Group className="form-field" controlId="formBasicVorName">
+                  <Form.Control type="text" name={x.name} />
+                  <Form.Label>{x.fieldname}</Form.Label>
+                </Form.Group>
               )
             })}
           </div>
@@ -126,7 +118,7 @@ function SignUpForm() {
               <p className="mb-2">Kosten für einen 4er-Flight: 1'140.00 CHF</p>
               <div className="d-flex">
                 <Form.Group className="form-field" controlId="formBasicFlugPersonEinsVorName">
-                  <Form.Control disabled="true" type="text" name="flugperson-1-vorname" />
+                  <Form.Control type="text" name="flugperson-1-vorname" />
                   <Form.Label>Vorname</Form.Label>
                 </Form.Group>
                 <Form.Group className="form-field" controlId="formBasicFlugpersoneinsName">
