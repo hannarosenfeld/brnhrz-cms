@@ -11,20 +11,19 @@ function SignUpForm() {
   return(
     <main
       style={{
-
         fontSize: "0.9em",
         fontWeight: "500",
       }}
     >
-      <div>
-        <header className="signup-banner"><img src={golferin} /></header>
-        <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
-      </div>
 
-      <Form className="signupform" name="turnier-form" method="POST" data-netlify="true">
+      <header className="signup-banner">
+        <img src={golferin} />
+        <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
+      </header>
+
+      <Form className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="turnier-form" />
         <div style={{margin: "0 auto", width: "90%"}}>
-          <p style={{margin: "1em auto"}}>Bitte senden Sie uns Ihre Anmeldung per Email: <b>info@baerenherz.org</b></p>
           <Form.Group width="100%" controlId="formBasicVorName">
             <Form.Control type="text" name="name" />
             <Form.Label>Vorname, Name</Form.Label>

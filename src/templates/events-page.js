@@ -146,13 +146,8 @@ export const EventsPageTemplate = ({
 	          </div>
             </div>
           </div>
-
           <SignUpModal/>
-
         </section>
-
-
-
 
 	    <div style={{background: "#033277"}}>
 	      <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
