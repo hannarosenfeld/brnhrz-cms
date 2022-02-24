@@ -21,7 +21,7 @@ function SignUpForm() {
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
       </header>
 
-      <Form className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
+      <Form className="signupform m-5" name="turnier-form" method="POST" action="mailto:hannazrosenfeld@gmail.com" data-netlify="true">
         <input type="hidden" name="form-name" value="turnier-form" />
         <div style={{margin: "0 auto", width: "90%"}}>
           <Form.Group width="100%" controlId="formBasicVorName">
