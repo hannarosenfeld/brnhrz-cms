@@ -161,7 +161,7 @@ function SignUpForm() {
             </div>
           </div>
           <Button variant="primary" type="submit" style={{float: "right"}}>
-            Submit
+            Absenden
           </Button>
           <span style={{margin: "2em"}} />
         </div>
