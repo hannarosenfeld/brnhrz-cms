@@ -1,23 +1,47 @@
-import React from "react"
+import React, { useState } from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
+import { send } from 'emailjs-com'
 
 import "../styles/styles.css"
 import golferin from "../img/Anmeldung_Header.png"
 
 
 function SignUpForm() {
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    reply_to: '',
+  })
+  const onSubmit = (e) => {
+    e.preventDefault()
+    send(
+      'brnhrz',
+      'brnhrz_template',
+      toSend,
+      'user_rp6KYxgS5NjHjPh2GKGoj'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text)
+      })
+      .catch((err) => {
+        console.log('FAILED...', err)
+      })
+  }
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  }
+
   return(
     <main style={{ fontSize: "0.9em", fontWeight: "500"}}>
       <header className="signup-banner">
         <img src={golferin} />
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
       </header>
-
-      <Form className="signupform m-5" name="turnier-form" method="POST" action="mailto:hannazrosenfeld@gmail.com" data-netlify="true">
+      <Form onSubmit={onSubmit} className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="turnier-form" />
         <div style={{margin: "0 auto", width: "90%"}}>
           <Form.Group width="100%" controlId="formBasicVorName">
-            <Form.Control type="text" name="name" />
+            <Form.Control type="text" name="from_name" value={toSend.from_name} onChange={handleChange} />
             <Form.Label>Vorname, Name</Form.Label>
           </Form.Group>
           <div className="d-flex flex-wrap form-address-section mb-4">
@@ -42,11 +66,10 @@ function SignUpForm() {
               <Form.Label>Telefon/Telefax</Form.Label>
             </Form.Group>
             <Form.Group className="form-field" controlId="formBasicEmail">
-              <Form.Control required type="email" name="email" />
+              <Form.Control required type="email" name="reply_to" value={toSend.reply_to} onChange={handleChange}/>
               <Form.Label>Email</Form.Label>
             </Form.Group>
           </div>
-
           <div className="signupform-checkbox-group mt-2">
             <div className="d-flex mt-4 mb-4">
               <p>Ja, ich nehme am Charity Golf Cup 2022 teil:</p>
