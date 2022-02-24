@@ -67,8 +67,10 @@ h3 {
     font-size: 1.8rem;
 }
 
-.signupform {
-
+.anmelde-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
 }
 
 .signupform-fields-container {
@@ -103,6 +105,10 @@ h3 {
     width: 30%;
 }
 
+
+.anmelde-buttons a {
+    color: white !important;
+}
 
 
 

@@ -12,6 +12,9 @@ import Mailchimp from "../components/Mailchimp"
 import golfer from "../img/golfer.png"
 import ski from  "../img/ski.png"
 
+import einladung from "../../static/pdf/einladung.pdf"
+
+
 // logos
 import ey from  "../img/logos/EY.jpg"
 import albego from "../img/logos/albego.jpg"
@@ -108,21 +111,12 @@ export const EventsPageTemplate = ({
 	          >
 	            <br />
 	            <br />
-	            {/*
-	                <p style={{display: "flex", alignItems: "center"}}><a
-	                style={{
-	                background: "#0023A5",
-	                color: "white",
-	                margin: "1em auto",
-	                padding: "1em",
-                    }}
-                    >Hier vormerken </a></p>
-	              */}
 	            <h3 className="has-text-weight-semibold">{golfturnier.title}</h3>
-	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(golfturnier.body)}} />
-                <br/>
-                <br/>
-                <br/>
+	    	    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(golfturnier.body)}} className="mb-5" />
+                <div className="anmelde-buttons">
+                  <Button><a href="/signup">Hier Anmelden</a></Button>
+                  <Button><a href={einladung} target='_blank' rel='noopener noreferrer'>Download Einladung</a></Button>
+                </div>
 	            <div className="partner-logos-container">
 	              <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
 	              <div className="partner-logos">
@@ -153,7 +147,8 @@ export const EventsPageTemplate = ({
 	      <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
 	        <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
 	        <div style={{display: "flex", flexDirection: "column"}}>
-	          <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+	          <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>
+                Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
 	          <Mailchimp />
 	        </div>
 	      </div>
@@ -167,16 +162,6 @@ export const EventsPageTemplate = ({
 	              margin: "2em auto",
                 }}
 	          >
-	            {/*
-	                <p style={{display: "flex", alignItems: "center"}}><a
-	                style={{
-	                background: "#0023A5",
-	                color: "white",
-	                margin: "1em auto",
-	                padding: "1em",
-                    }}
-                    >Hier vormerken </a></p>
-	              */}
 	          </div>
 	          <h3 className="has-text-weight-semibold">{skiweekend.title}</h3>
 	    	  <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(skiweekend.body)}} />
