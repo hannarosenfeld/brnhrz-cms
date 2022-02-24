@@ -1,39 +1,60 @@
 import React, { useState } from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
 import { send } from 'emailjs-com'
-import { toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+//import { toast } from 'react-toastify'
+//import 'react-toastify/dist/ReactToastify.css'
 
 import "../styles/styles.css"
 import golferin from "../img/Anmeldung_Header.png"
 
 
-toast.configure()
+//toast.configure()
+
 function SignUpForm() {
-  const [toSend, setToSend] = useState({
-        from_name: '',
-        reply_to: '',
-      })
-      const onSubmit = (e) => {
-        e.preventDefault()
-        send(
-          'brnhrz',
-          'brnhrz_template',
-          toSend,
-          'user_rp6KYxgS5NjHjPh2GKGoj'
-        )
-         .then((response) => {
-           console.log('SUCCESS!', response.status, response.text)
-           toast.success('Success!')
+  const [formState, setFormState] = useState({
+    name: '',
+    email: ''
+  })
+
+  const encode = (data) => {
+    return Object.keys(data)
+                 .map(
+                   (key) =>
+                     encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+                 )
+                 .join("&");
+  }
+
+  const onSubmit = (e) => {
+    e.preventDefault()
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": "turnier-form",
+        ...formState,
+      }),
+    })
+      .then(() => alert("/thank-you/"))
+     .catch((error) => alert(error));
+
+    send(
+      'brnhrz',
+      'brnhrz_template',
+      formState,
+      'user_rp6KYxgS5NjHjPh2GKGoj'
+    )
+     .then((response) => {
+       console.log('SUCCESS!', response.status, response.text)
+//           toast.success('Success!')
 
          })
          .catch((err) => {
            console.log('FAILED...', err)
          })
       }
-
       const handleChange = (e) => {
-        setToSend({ ...toSend, [e.target.name]: e.target.value });
+        formState({ ...formState, [e.target.name]: e.target.value });
       }
 
       return(
@@ -42,13 +63,20 @@ function SignUpForm() {
             <img src={golferin} />
             <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
           </header>
+
           <Form onSubmit={onSubmit} className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="turnier-form" />
+            <input type="hidden" name="name" value="turnier-form" />
             <div style={{margin: "0 auto", width: "90%"}}>
+
               <Form.Group width="100%" controlId="formBasicVorName">
-                <Form.Control type="text" name="from_name" value={toSend.from_name} onChange={handleChange} />
+                <Form.Control
+                  type="text"
+                  name="name"
+                  value={formState.name}
+                  onChange={handleChange} />
                 <Form.Label>Vorname, Name</Form.Label>
               </Form.Group>
+
               <div className="d-flex flex-wrap form-address-section mb-4">
                 <Form.Group className="form-field" controlId="formBasicFirma">
                   <Form.Control type="text" name="firma" />
@@ -70,9 +98,16 @@ function SignUpForm() {
                   <Form.Control type="text" name="telefon" />
                   <Form.Label>Telefon/Telefax</Form.Label>
                 </Form.Group>
+
                 <Form.Group className="form-field" controlId="formBasicEmail">
-                  <Form.Control required type="email" name="reply_to" value={toSend.reply_to} onChange={handleChange}/>
+                  <Form.Control
+                    required
+                    type="email"
+                    name="email"
+                    value={formState.email}
+                    onChange={handleChange}/>
                   <Form.Label>Email</Form.Label>
+
                 </Form.Group>
               </div>
               <div className="signupform-checkbox-group mt-2">
