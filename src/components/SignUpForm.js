@@ -26,7 +26,7 @@ function SignUpForm() {
   }
 
   const onSubmit = (e) => {
-    e.preventDefault()
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -37,7 +37,7 @@ function SignUpForm() {
     })
       .then(() => alert("/thank-you/"))
      .catch((error) => alert(error));
-
+    e.preventDefault()
     send(
       'brnhrz',
       'brnhrz_template',
@@ -54,7 +54,7 @@ function SignUpForm() {
          })
       }
       const handleChange = (e) => {
-        formState({ ...formState, [e.target.name]: e.target.value });
+        setFormState({ ...formState, [e.target.name]: e.target.value });
       }
 
       return(
@@ -188,7 +188,8 @@ function SignUpForm() {
                       <Form.Control type="text" name="flugperson-3-heimatclub-hcp" />
                       <Form.Label>Heimatclub, Hcp.</Form.Label>
                     </Form.Group>
-                  </div>              <div className="d-flex">
+                  </div>
+                  <div className="d-flex">
                     <Form.Group className="form-field" controlId="formBasicFlugPersonVierVorName">
                       <Form.Control type="text" name="flugperson-4-vorname" />
                       <Form.Label>Vorname</Form.Label>
