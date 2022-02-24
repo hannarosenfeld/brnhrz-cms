@@ -1,21 +1,13 @@
 import React from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
 
-
 import "../styles/styles.css"
-
 import golferin from "../img/Anmeldung_Header.png"
 
 
 function SignUpForm() {
   return(
-    <main
-      style={{
-        fontSize: "0.9em",
-        fontWeight: "500",
-      }}
-    >
-
+    <main style={{ fontSize: "0.9em", fontWeight: "500"}}>
       <header className="signup-banner">
         <img src={golferin} />
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
@@ -50,7 +42,7 @@ function SignUpForm() {
               <Form.Label>Telefon/Telefax</Form.Label>
             </Form.Group>
             <Form.Group className="form-field" controlId="formBasicEmail">
-              <Form.Control type="email" name="email" />
+              <Form.Control required type="email" name="email" />
               <Form.Label>Email</Form.Label>
             </Form.Group>
           </div>
