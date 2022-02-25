@@ -72,11 +72,9 @@ h3 {
     justify-content: space-around;
     margin: 5em;
 }
-
 .signupform-fields-container {
     margin: 0 auto;
 }
-
 .signupform-fields-address{
     display: flex;
     flex-wrap: wrap;
@@ -88,27 +86,38 @@ h3 {
     display: flex;
     flex-direction: column;
 }
-
 .signupform input {
     background: #E2F4FC;
 }
-
-
 .flug-row {
     width: 100%;
     display: flex;
 }
-
 .flugdetail {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
-
-
 .anmelde-buttons a {
     color: white !important;
 }
+
+/* Success Page */
+.success-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(../img/golferin.jpg)
+}
+
+.success-modal-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
 
 
 
