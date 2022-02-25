@@ -16,7 +16,7 @@ const SuccessPage = () => {
           <div className="mt-4">
             <p>Der Vorstand</p>
             <p>Bärenherz - Verein für humanitäre Hilfe</p>
-            <p><a href="www.baerenherz.org">www.baerenherz.org</a></p>
+            <a href="/">www.baerenherz.org</a>
           </div>
           <section className="mt-5">
             <a href="/">
