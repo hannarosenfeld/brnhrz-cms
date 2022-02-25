@@ -14,7 +14,7 @@ golfturnier:
     Der Teamgedanke soll ganz klar im Vordergrund stehen, denn als Team wollen alle Teilnehmer eines erreichen: Die Unterstützung unseres Projektes und damit die Hilfe für diejenigen, die es wirklich notwendig benötigen. Aber auch der Spass wird an diesem Tag sicher nicht zu kurz kommen. Nach dem standesgemässen Empfang am 1. Abschlag erwartet die Teilnehmer eine Runde auf einem der schönsten Golfplätze der Bodensee-Region. Für die entsprechende Zwischenverpflegung wird ebenso gesorgt, wie für einen or dentlichen Empfang nach der Runde. Am Abend steht das grosse Galadinner auf dem Programm, bei dem neben einer hochkarätigen Tombola auch aussergewöhnliche Objekte zur Versteigerung kommen. 
 
 
-    Lassen Sie sich überraschen und geniessen Sie mit uns einen unvergessenen Tag. Für uns selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute kommt. Weitere Details, das Programm und das Anmeldeformular stehen voraussichtlich Ende Januar 2022 hier zur Verfügung. Wir freuen uns auf Sie!
+    Lassen Sie sich überraschen und geniessen Sie mit uns einen unvergessenen Tag. Für uns selbst, aber auch für diejenigen, denen der Erlös des Turniers zu Gute kommt. Wir freuen uns auf Sie!
 skiweekend:
   title: Charity Ski-Weekend
   body: Als zweiten Charity-Event planen wir im Dezember 2022 ein Ski-Wochenende
