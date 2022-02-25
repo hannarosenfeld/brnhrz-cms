@@ -18,7 +18,7 @@ const SuccessPage = () => {
         <section className="mt-5">
           <a href="/">
             <ArrowLeft />
-            Zurück zu Bärenherz
+            <span className="m-1"></span>Zurück zu Bärenherz
           </a>
         </section>
       </div>
