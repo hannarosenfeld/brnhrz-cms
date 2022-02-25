@@ -30,7 +30,7 @@ function SignUpForm() {
             </Form.Group>
             <Form.Group className="form-field" controlId="formBasicHeimatclub">
               <Form.Control type="text" name="heimatclub"/>
-              <Form.Label>Heimatclub</Form.Label>
+              <Form.Label>Heimatclub, Hcp.</Form.Label>
             </Form.Group>
             <Form.Group className="form-field" controlId="formBasicStrasse">
               <Form.Control type="text" name="strasse" />
