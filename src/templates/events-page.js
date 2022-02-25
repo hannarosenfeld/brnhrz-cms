@@ -29,7 +29,6 @@ import oerlikon from "../img/logos/oerlikon.jpg"
 import wein from "../img/logos/wein.jpg"
 import sunresorts from "../img/logos/sunresorts.jpeg"
 import dior from "../img/logos/Dior.svg.png"
-import ritz from "../img/logos/Ritz.jpeg"
 import sensolar from "../img/logos/sensolar.png"
 
 
@@ -133,7 +132,6 @@ export const EventsPageTemplate = ({
                     <img src={oerlikon} />
                     <img src={wein} />
                     <img src={sunresorts} />
-                    <img src={ritz} />
 	                <img src={dior} />
 	              </div>
 	            </div>
