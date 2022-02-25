@@ -50,121 +50,121 @@ function SignUpForm() {
             </Form.Group>
           </div>
 
-          <div className="signupform-checkbox-group mt-2">
 
+          <div className="signupform-checkbox-group mt-2">
             <div className="d-flex mt-4 mb-4">
               <p>Ja, ich nehme am Charity Golf Cup 2022 teil:</p>
               <span style={{margin: "0.8em"}} />
-              <Form.Group className="d-flex" controlId="formBasicTeilnahmeGanerAnlass">
-                <Form.Check type="radio"  name="teilnahme" value="ganzer Anlass (CHF 285.00)" label="ganzer Anlass (CHF 285.00)"/>
-              </Form.Group>
-              <Form.Group className="d-flex" controlId="formBasicTeilnahmeGala">
+              <div className="d-flex">
+                <input type="radio" value="ganzer Anlass (CHF 285,00)" name="teilnahme" />
+                <span className="m-1 p-1">ganzer Anlass (CHF 285.00)</span>
                 <span style={{margin: "0.8em"}} />
-                <Form.Check type="radio"  name="teilnahme" value="nur Charity Golf Cup Gala (CHF 165.00)" label="nur Charity Golf Cup Gala (CHF 165.00)" />
+                <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="teilnahme" />
+                <span className="m-1 p-1">nur Charity Golf Cup Gala (CHF 165.00)</span>
+              </div>
+
+
+          </div>
+
+          <Form.Group className="d-flex mt-4 mb-2" controlId="formBasicBegleitung" style={{width: "100%"}}>
+            <p>Ich komme in Begleitung von:</p>
+            <span style={{margin: "0.8em"}} />
+            <div className="flug-begleitung-info d-flex flex-column" style={{width: "80%"}}>
+              <div className="d-flex">
+                <Form.Group controlId="formBasicBegleitungName" style={{width: "45%"}}>
+                  <Form.Control type="text" name="begleitung-name" />
+                  <Form.Label>Vorname, Name</Form.Label>
+                </Form.Group>
+                <Form.Group controlId="formBasicBegleitungHeimatClub" style={{width: "55%"}}>
+                  <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
+                  <Form.Label>Heimatclub, Hcp.</Form.Label>
+                </Form.Group>
+              </div>
+              <div className="d-flex">
+                <input type="radio" value="ganzer Anlass (CHF 285,00)" name="gast-teilnahme" />
+                <span className="m-1 p-1">ganzer Anlass (CHF 285.00)</span>
+                <span style={{margin: "0.8em"}} />
+                <input type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" name="gast-teilnahme" />
+                <span className="m-1 p-1">nur Charity Golf Cup Gala (CHF 165.00)</span>
+              </div>
+            </div>
+          </Form.Group>
+
+          <Form.Group className="mt-4" controlId="formBasicFlug">
+            <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
+            <p className="mb-2">Kosten für einen 4er-Flight: 1'140.00 CHF</p>
+            <div className="d-flex">
+              <Form.Group className="form-field" controlId="formBasicFlugPersonEinsVorName">
+                <Form.Control type="text" name="flugperson-1-vorname" />
+                <Form.Label>Vorname</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugpersoneinsName">
+                <Form.Control type="text" name="flugperson-1-name" />
+                <Form.Label>Name</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersoneinsHcp">
+                <Form.Control type="text" name="flugperson-1-heimatclub-hcp" />
+                <Form.Label>Heimatclub, Hcp.</Form.Label>
               </Form.Group>
             </div>
-
-            <Form.Group className="d-flex mt-4 mb-2" controlId="formBasicBegleitung" style={{width: "100%"}}>
-              <p>Ich komme in Begleitung von:</p>
-              <span style={{margin: "0.8em"}} />
-              <div className="flug-begleitung-info d-flex flex-column" style={{width: "80%"}}>
-                <div className="d-flex">
-                  <Form.Group controlId="formBasicBegleitungName" style={{width: "45%"}}>
-                    <Form.Control type="text" name="begleitung-name" />
-                    <Form.Label>Vorname, Name</Form.Label>
-                  </Form.Group>
-                  <Form.Group controlId="formBasicBegleitungHeimatClub" style={{width: "55%"}}>
-                    <Form.Control type="text" name="begleitung-heimatclub-hcp"/>
-                    <Form.Label>Heimatclub, Hcp.</Form.Label>
-                  </Form.Group>
-                </div>
-                <div className="d-flex">
-                <Form.Group controlId="formBasicBegleitungTeilnahme" className="d-flex">
-                  <Form.Check type="radio" label="ganzer Anlass (CHF 285.00)" value="ganzer Anlass (CHF 285.00)" name="begleitung-teilnahme" />
-                </Form.Group>
-                <span style={{margin: "0.8em"}} />
-                <Form.Group controlId="formBasicBegleitungTeilnahme" className="d-flex">
-                  <Form.Check type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-teilnahme" />
-                </Form.Group>
-                </div>
-              </div>
-            </Form.Group>
-
-            <Form.Group className="mt-4" controlId="formBasicFlug">
-              <Form.Check type="checkbox" className="text-info h5 mb-2" label="Wir möchten einen eigenen Flight buchen" name="flight" />
-              <p className="mb-2">Kosten für einen 4er-Flight: 1'140.00 CHF</p>
-              <div className="d-flex">
-                <Form.Group className="form-field" controlId="formBasicFlugPersonEinsVorName">
-                  <Form.Control type="text" name="flugperson-1-vorname" />
-                  <Form.Label>Vorname</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugpersoneinsName">
-                  <Form.Control type="text" name="flugperson-1-name" />
-                  <Form.Label>Name</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersoneinsHcp">
-                  <Form.Control type="text" name="flugperson-1-heimatclub-hcp" />
-                  <Form.Label>Heimatclub, Hcp.</Form.Label>
-                </Form.Group>
-              </div>
-              <div className="d-flex">
-                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiVorName">
-                  <Form.Control type="text" name="flugperson-2-vorname" />
-                  <Form.Label>Vorname</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiName">
-                  <Form.Control type="text" name="flugperson-2-name" />
-                  <Form.Label>Name</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonZweiHcp">
-                  <Form.Control type="text" name="flugperson-2-heimatclub-hcp" />
-                  <Form.Label>Heimatclub, Hcp.</Form.Label>
-                </Form.Group>
-              </div>              <div className="d-flex">
-                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiVorName">
-                  <Form.Control type="text" name="flugperson-3-vorname" />
-                  <Form.Label>Vorname</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiName">
-                  <Form.Control type="text" name="flugperson-3-name" />
-                  <Form.Label>Name</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonDreiHcp">
-                  <Form.Control type="text" name="flugperson-3-heimatclub-hcp" />
-                  <Form.Label>Heimatclub, Hcp.</Form.Label>
-                </Form.Group>
-              </div>              <div className="d-flex">
-                <Form.Group className="form-field" controlId="formBasicFlugPersonVierVorName">
-                  <Form.Control type="text" name="flugperson-4-vorname" />
-                  <Form.Label>Vorname</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonVierName">
-                  <Form.Control type="text" name="flugperson-4-name" />
-                  <Form.Label>Name</Form.Label>
-                </Form.Group>
-                <Form.Group className="form-field" controlId="formBasicFlugPersonVierHcp">
-                  <Form.Control type="text" name="flugperson-4-heimatclub-hcp" />
-                  <Form.Label>Heimatclub, Hcp.</Form.Label>
-                </Form.Group>
-              </div>
-            </Form.Group>
-            <div className="mt-4">
-              <p><b>Bitte überweisen Sie das entsprechende Startgeld mit Ihrer Anmeldung unter dem Betreff «Charity Golf Cup 2022» auf das Bärenherz Konto: CH91 0078 4297 6098 0200 1 bei der Thurgauer Kantonalbank. Die Teilnehmerzahl des Golfturniers ist auf 48 Personen begrenzt. Das Datum des Eingangs der Überweisung entscheidet bei zu grosser Nachfrage.</b></p>
-              <div className="mt-2 mb-4">
-                <Form.Group className="" controlId="formBasicCheckboxFoto">
-                  <Form.Check type="checkbox" label="Ich bin damit einverstanden, dass im Rahmen dieser Veranstaltung Fotoaufnahmen gemacht werden, die im Nachgang zur Berichterstattung Verwendung finden können." name="einverstanden-foto" />
-                </Form.Group>
-                <Form.Group className="" controlId="formBasicCheckboxNewsletter">
-                  <Form.Check type="checkbox" label="Bitte informieren Sie mich regelmäßig per E-mail Newsletter über Neuigkeiten rund um Bärenherz e.V." name="newsletter" />
-                </Form.Group>
-              </div>
+            <div className="d-flex">
+              <Form.Group className="form-field" controlId="formBasicFlugPersonZweiVorName">
+                <Form.Control type="text" name="flugperson-2-vorname" />
+                <Form.Label>Vorname</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonZweiName">
+                <Form.Control type="text" name="flugperson-2-name" />
+                <Form.Label>Name</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonZweiHcp">
+                <Form.Control type="text" name="flugperson-2-heimatclub-hcp" />
+                <Form.Label>Heimatclub, Hcp.</Form.Label>
+              </Form.Group>
+            </div>              <div className="d-flex">
+              <Form.Group className="form-field" controlId="formBasicFlugPersonDreiVorName">
+                <Form.Control type="text" name="flugperson-3-vorname" />
+                <Form.Label>Vorname</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonDreiName">
+                <Form.Control type="text" name="flugperson-3-name" />
+                <Form.Label>Name</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonDreiHcp">
+                <Form.Control type="text" name="flugperson-3-heimatclub-hcp" />
+                <Form.Label>Heimatclub, Hcp.</Form.Label>
+              </Form.Group>
+            </div>              <div className="d-flex">
+              <Form.Group className="form-field" controlId="formBasicFlugPersonVierVorName">
+                <Form.Control type="text" name="flugperson-4-vorname" />
+                <Form.Label>Vorname</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonVierName">
+                <Form.Control type="text" name="flugperson-4-name" />
+                <Form.Label>Name</Form.Label>
+              </Form.Group>
+              <Form.Group className="form-field" controlId="formBasicFlugPersonVierHcp">
+                <Form.Control type="text" name="flugperson-4-heimatclub-hcp" />
+                <Form.Label>Heimatclub, Hcp.</Form.Label>
+              </Form.Group>
+            </div>
+          </Form.Group>
+          <div className="mt-4">
+            <p><b>Bitte überweisen Sie das entsprechende Startgeld mit Ihrer Anmeldung unter dem Betreff «Charity Golf Cup 2022» auf das Bärenherz Konto: CH91 0078 4297 6098 0200 1 bei der Thurgauer Kantonalbank. Die Teilnehmerzahl des Golfturniers ist auf 48 Personen begrenzt. Das Datum des Eingangs der Überweisung entscheidet bei zu grosser Nachfrage.</b></p>
+            <div className="mt-2 mb-4">
+              <Form.Group className="" controlId="formBasicCheckboxFoto">
+                <Form.Check type="checkbox" label="Ich bin damit einverstanden, dass im Rahmen dieser Veranstaltung Fotoaufnahmen gemacht werden, die im Nachgang zur Berichterstattung Verwendung finden können." name="einverstanden-foto" />
+              </Form.Group>
+              <Form.Group className="" controlId="formBasicCheckboxNewsletter">
+                <Form.Check type="checkbox" label="Bitte informieren Sie mich regelmäßig per E-mail Newsletter über Neuigkeiten rund um Bärenherz e.V." name="newsletter" />
+              </Form.Group>
             </div>
           </div>
-          <Button variant="primary" type="submit" style={{float: "right"}}>
-            Submit
-          </Button>
-          <span style={{margin: "2em"}} />
         </div>
+        <Button variant="primary" type="submit" style={{float: "right"}}>
+          Submit
+        </Button>
+        <span style={{margin: "2em"}} />
+      </div>
       </Form>
     </main>
   )
