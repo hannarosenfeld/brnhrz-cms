@@ -62,12 +62,9 @@ function SignUpForm() {
             <div className="d-flex mt-4 mb-4">
               <p>Ja, ich nehme am Charity Golf Cup 2022 teil:</p>
               <span style={{margin: "0.8em"}} />
-              <Form.Group className="" controlId="formBasicGanzerAnlass">
-                <Form.Check type="checkbox" label="ganzer Anlass (CHF 285.00)" name="" />
-              </Form.Group>
-              <span style={{margin: "0.8em"}} />
-              <Form.Group className="" controlId="formBasicNurGala">
-                <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="" />
+              <Form.Group className="" controlId="formBasicTeilnahme">
+                <Form.Check type="radio"  name="teilnahme" value="ganzer Anlass (CHF 285.00)" label="ganzer Anlass (CHF 285.00)"/>
+                <Form.Check type="radio"  name="teilnahme" value="nur Charity Golf Cup Gala (CHF 165.00)" label="nur Charity Golf Cup Gala (CHF 165.00)" />
               </Form.Group>
             </div>
 
@@ -86,12 +83,10 @@ function SignUpForm() {
                   </Form.Group>
                 </div>
                 <div className="d-flex">
-                  <Form.Group controlId="formBasicBegleitungGanzerAnlass">
-                    <Form.Check type="checkbox" label="ganzer Anlass (CHF 285.00)" name="begleitung-ganzer-anlass" />
-                  </Form.Group>
+                  <Form.Group controlId="formBasicBegleitung">
+                    <Form.Check type="radio" label="ganzer Anlass (CHF 285.00)" value="ganzer Anlass (CHF 285.00)" name="begleitung-teilnahme" />
                   <span style={{margin: "0.8em"}} />
-                  <Form.Group controlId="formBasicBegleitungNurGala">
-                    <Form.Check type="checkbox" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-nur-gala" />
+                    <Form.Check type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-teilnahme" />
                   </Form.Group>
                 </div>
               </div>
