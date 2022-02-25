@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
 
 import "../styles/styles.css"
@@ -6,47 +6,6 @@ import golferin from "../img/Anmeldung_Header.png"
 
 
 function SignUpForm() {
-  const [formState, setFormState] = useState({
-    name: '',
-    firma: '',
-    heimatclub: '',
-    strasse: '',
-    plz: '',
-    telefon: '',
-    email: '',
-  })
-
-  const encode = (data) => {
-    return Object.keys(data)
-                 .map(
-                   (key) =>
-                     encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-                 )
-                 .join("&");
-  }
-
-  const onSubmit = (e) => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": "turnier-form",
-        ...formState,
-      }),
-    })
-      .then(() => alert("Vielen Dank!"))
-     .catch((error) => alert(error));
-    e.preventDefault()
-     .then((response) => {
-       console.log('SUCCESS!', response.status, response.text)
-         })
-         .catch((err) => {
-           console.log('FAILED...', err)
-         })
-      }
-      const handleChange = (e) => {
-        setFormState({ ...formState, [e.target.name]: e.target.value });
-      }
       return(
         <main style={{ fontSize: "0.9em", fontWeight: "500"}}>
           <header className="signup-banner">
@@ -54,16 +13,14 @@ function SignUpForm() {
             <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
           </header>
 
-          <Form onSubmit={onSubmit} className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
+          <Form className="signupform m-5" name="turnier-form" method="POST" data-netlify="true">
             <input type="hidden" name="name" value="turnier-form" />
             <div style={{margin: "0 auto", width: "90%"}}>
-
               <Form.Group width="100%" controlId="formBasicVorName">
                 <Form.Control
                   type="text"
                   name="name"
-                  value={formState.name}
-                  onChange={handleChange} />
+                 />
                 <Form.Label>Vorname, Name</Form.Label>
               </Form.Group>
 
