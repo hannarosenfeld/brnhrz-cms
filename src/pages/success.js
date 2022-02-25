@@ -2,6 +2,8 @@ import React from 'react'
 import { render } from "react-dom";
 import { ArrowLeft } from 'react-bootstrap-icons';
 
+import "../styles/styles.css"
+
 const SuccessPage = () => {
   return(
     <main className="success-page">
