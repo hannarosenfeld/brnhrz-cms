@@ -16,7 +16,7 @@ const SuccessPage = () => {
           <p><a href="www.baerenherz.org">www.baerenherz.org</a></p>
         </div>
         <section className="mt-5">
-          <a href="/">
+          <a href="/events/#golf-turnier">
             <ArrowLeft />
             zurück
           </a>
