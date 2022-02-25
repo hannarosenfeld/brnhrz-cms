@@ -1,11 +1,7 @@
 import React from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
-
-
 import "../styles/styles.css"
-
 import golferin from "../img/Anmeldung_Header.png"
-
 
 function SignUpForm() {
   return(
@@ -19,8 +15,6 @@ function SignUpForm() {
         <header className="signup-banner"><img src={golferin} /></header>
         <h2 style={{background: "#00aeef", color: "white", textAlign: "center", letterSpacing: "0.2em", fontSize: "1.8rem"}}>ANMELDUNG</h2>
       </div>
-
-
 
       <Form action="../pages/success" className="signupform m-5" name="turnier-form" method="POST" data-netlify="true" >
         <input type="hidden" name="form-name" value="turnier-form" />
