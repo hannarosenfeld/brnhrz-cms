@@ -1,19 +1,19 @@
 import React, { useState } from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
-import { send } from 'emailjs-com'
-//import { toast } from 'react-toastify'
-//import 'react-toastify/dist/ReactToastify.css'
 
 import "../styles/styles.css"
 import golferin from "../img/Anmeldung_Header.png"
 
 
-//toast.configure()
-
 function SignUpForm() {
   const [formState, setFormState] = useState({
     name: '',
-    email: ''
+    firma: '',
+    heimatclub: '',
+    strasse: '',
+    plz: '',
+    telefon: '',
+    email: '',
   })
 
   const encode = (data) => {
@@ -26,7 +26,6 @@ function SignUpForm() {
   }
 
   const onSubmit = (e) => {
-
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -35,19 +34,11 @@ function SignUpForm() {
         ...formState,
       }),
     })
-      .then(() => alert("/thank-you/"))
+      .then(() => alert("Vielen Dank!"))
      .catch((error) => alert(error));
     e.preventDefault()
-    send(
-      'brnhrz',
-      'brnhrz_template',
-      formState,
-      'user_rp6KYxgS5NjHjPh2GKGoj'
-    )
      .then((response) => {
        console.log('SUCCESS!', response.status, response.text)
-//           toast.success('Success!')
-
          })
          .catch((err) => {
            console.log('FAILED...', err)
@@ -56,7 +47,6 @@ function SignUpForm() {
       const handleChange = (e) => {
         setFormState({ ...formState, [e.target.name]: e.target.value });
       }
-
       return(
         <main style={{ fontSize: "0.9em", fontWeight: "500"}}>
           <header className="signup-banner">
@@ -175,7 +165,8 @@ function SignUpForm() {
                       <Form.Control type="text" name="flugperson-2-heimatclub-hcp" />
                       <Form.Label>Heimatclub, Hcp.</Form.Label>
                     </Form.Group>
-                  </div>              <div className="d-flex">
+                  </div>
+                  <div className="d-flex">
                     <Form.Group className="form-field" controlId="formBasicFlugPersonDreiVorName">
                       <Form.Control type="text" name="flugperson-3-vorname" />
                       <Form.Label>Vorname</Form.Label>
