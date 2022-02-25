@@ -78,6 +78,7 @@ function SignUpForm() {
                     <Form.Label>Heimatclub, Hcp.</Form.Label>
                   </Form.Group>
                 </div>
+                <div className="d-flex">
                 <Form.Group controlId="formBasicBegleitungGanzerAnlass" className="d-flex">
                   <Form.Check type="radio" label="ganzer Anlass (CHF 285.00)" value="ganzer Anlass (CHF 285.00)" name="begleitung-teilnahme" />
                 </Form.Group>
@@ -85,7 +86,7 @@ function SignUpForm() {
                 <Form.Group controlId="formBasicBegleitungNurGala" className="d-flex">
                   <Form.Check type="radio" value="nur Charity Golf Cup Gala (CHF 165.00)" label="nur Charity Golf Cup Gala (CHF 165.00)" name="begleitung-teilnahme" />
                 </Form.Group>
-
+                </div>
               </div>
             </Form.Group>
 
