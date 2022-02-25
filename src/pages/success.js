@@ -16,9 +16,9 @@ const SuccessPage = () => {
           <p><a href="www.baerenherz.org">www.baerenherz.org</a></p>
         </div>
         <section className="mt-5">
-          <a href="/events/#golf-turnier">
+          <a href="/">
             <ArrowLeft />
-            zurück
+            Zurück zu Bärenherz
           </a>
         </section>
       </div>

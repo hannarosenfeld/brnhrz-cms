@@ -143,8 +143,6 @@ function SignUpForm() {
                 </Form.Group>
               </div>
             </Form.Group>
-
-
             <div className="mt-4">
               <p><b>Bitte überweisen Sie das entsprechende Startgeld mit Ihrer Anmeldung unter dem Betreff «Charity Golf Cup 2022» auf das Bärenherz Konto: CH91 0078 4297 6098 0200 1 bei der Thurgauer Kantonalbank. Die Teilnehmerzahl des Golfturniers ist auf 48 Personen begrenzt. Das Datum des Eingangs der Überweisung entscheidet bei zu grosser Nachfrage.</b></p>
               <div className="mt-2 mb-4">
