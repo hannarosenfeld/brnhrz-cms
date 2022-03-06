@@ -20,7 +20,7 @@ function SignUpForm() {
         <input type="hidden" name="form-name" value="turnier-form" />
         <div style={{margin: "0 auto", width: "90%"}}>
           <Form.Group classNamme="" controlId="formBasicName">
-            <Form.Control type="text" name="name" />
+            <Form.Control required type="text" name="name" />
             <Form.Label>Vorname, Name</Form.Label>
           </Form.Group>
           <div className="d-flex flex-wrap form-address-section mb-4">
@@ -45,7 +45,7 @@ function SignUpForm() {
               <Form.Label>Telefon/Telefax</Form.Label>
             </Form.Group>
             <Form.Group className="form-field" controlId="formBasicEmail">
-              <Form.Control type="email" name="email" />
+              <Form.Control required type="email" name="email" />
               <Form.Label>Email</Form.Label>
             </Form.Group>
           </div>
