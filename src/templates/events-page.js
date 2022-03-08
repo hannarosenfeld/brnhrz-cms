@@ -30,6 +30,7 @@ import wein from "../img/logos/wein.jpg"
 import sunresorts from "../img/logos/sunresorts.jpeg"
 import dior from "../img/logos/Dior.svg.png"
 import sensolar from "../img/logos/sensolar.png"
+import porsche from "../img/logos/porschez.png"
 
 
 import golferin from "../img/Anmeldung_Header.png"
@@ -133,6 +134,7 @@ export const EventsPageTemplate = ({
                     <img src={wein} />
                     <img src={sunresorts} />
 	                <img src={dior} />
+	                <img src={porsche} />
 	              </div>
 	            </div>
 	          </div>
