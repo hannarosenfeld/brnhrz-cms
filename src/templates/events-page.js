@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { graphql } from 'gatsby';
 import PropTypes from "prop-types";
 import showdown from 'showdown'
-import { Modal, Button } from 'react-bootstrap';
 
 
 import Layout from "../components/Layout";
@@ -35,30 +34,6 @@ import preis from '../img/preis.jpg'
 import sieger from '../img/sieger.jpg'
 
 import golferin from "../img/Anmeldung_Header.png"
-
-
-function SignUpModal() {
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-    return (
-        <div className="signupmodal" style={{margin: "8em 0 4em 0", padding: "8em 0 14em 0"}}>
-          <div className="d-flex flex-center m-4">
-            <Button variant="primary" onClick={handleShow} style={{margin: "0 auto"}}>
-              Hier Anmelden
-            </Button>
-          </div>
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-            </Modal.Header>
-            <Modal.Body>
-              <SignUpForm/>
-            </Modal.Body>
-          </Modal>
-        </div>
-    );
-}
-
 
 
 
@@ -147,7 +122,6 @@ export const EventsPageTemplate = ({
 	              </div>
                 </div>
               </div>
-              <SignUpModal/>
             </section>
 
 	        <div style={{background: "#033277"}}>
