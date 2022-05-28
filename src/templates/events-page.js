@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import showdown from 'showdown'
 
 import Layout from "../components/Layout"
+import Gallery from "../components/Gallery"
 import Mailchimp from "../components/Mailchimp"
 
 
@@ -66,7 +67,6 @@ export const EventsPageTemplate = ({
 		            lineHeight: "2.3",
                 }}
               >
-
 	            Unsere Aktivitäten
               </h1>
 
@@ -87,6 +87,7 @@ export const EventsPageTemplate = ({
 	                <br />
 	                <br />
 	                <h3 className="has-text-weight-semibold">Das Bärenherz Charity Golfturnier: Premiere geglückt!</h3>
+                    <Gallery/>
                     <div className="mt-3 mb-5 d-flex" style={{gap: "3em", margin: "0 auto"}}>
                     </div>
                     <p>Stolze 23’163.50 CHF an Spendengeldern hat die Bärenherzfamilie bei ihrem ersten Charity Event zusammengebracht. Am 6. Mai 2022 war der Golfclub Lipperswil Turnierschauplatz der 43 Golfer, die für einen humanitären Zweck mitspielten. Das Projekt Perimac, das durch Ausbildung und verbesserte Infrastruktur die Säuglingssterblichkeit in Nord-Mazedonien drosselt, wurde dadurch unterstützt. Die Freude war gross bei den Projektverantwortlichen Sabine Busch und Achim Eckert von Project Hope e.V., die stellvertretend anwesend waren.</p>
