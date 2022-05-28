@@ -93,7 +93,7 @@ export const EventsPageTemplate = ({
                     <p>Die Namen der stolzen Gewinner des ersten Golfturniers werden auf der Bärenherz Trophäe verewigt. Alle übrigen hatten auch ohne Hauptgewinn ihr Vergnügen an diesem Tag. Die Stimmung war dank den vielen engagierten Teilnehmern trotz anfänglichem Regenwetter grandios. Vorfreude herrscht auf die nächstjährige Austragung des Charity Golfturniers in Lipperswil am 5. Mai 2023 – bitte diesen Termin jetzt schon vormerken!</p>
                     <p>Vor dem nächsten Golf Event in Lipperswil werden wir das allererste Bärenherz Nikolaus Charity Ski-Weekend am 9.-11. Dezember 2022 durchführen. Die Flumserberge als Austragungsort und die Prominenz des Schweizer Skizirkus werden den Teilnehmern ein unvergessliches Programm bieten: ein Gaudi-Skirennen, „Embodied Skiing“, Hüttenzauber und vieles mehr. Merken Sie sich auf jeden Fall das Datum vor! Falls nicht genügend Schnee liegen sollte, ist als Verschiebetermin der 31. März bis 2. April 2023 vorgesehen.</p>
                     <p>Wir bedanken uns herzlich für die rege Teilnahme und das allgemein grosse Interesse an Bärenherz. Auch wenn Sie nicht immer persönlich dabei sein können, werden Sie Mitglied der Bärenherzfamilie, werden Sie Vereinsmitglied und unterstützen Sie durch ihre Mitgliedschaft humanitäre Projekte, die Leben retten.</p>
-                    <div className="d-flex" style={{maxWidth: "100%", gap: "2em"}}>
+                    <div className="d-flex mb-5" style={{maxWidth: "100%", gap: "2em"}}>
                       <img src={sieger}/>
                       <img src={preis}/>
                     </div>
@@ -132,6 +132,9 @@ export const EventsPageTemplate = ({
 	            </div>
 	          </div>
             </div>
+
+
+
 	        <section className="section">
               <div className="container">
                 <div id="ski-weekend" className="content">
