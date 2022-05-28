@@ -23,7 +23,7 @@
 }
 
 .banner-link {
-    
+
 }
 
 .banner-text a {
@@ -34,7 +34,7 @@
 .homepagebanner-text {
     position: absolute;
     padding: 1em 2em;
-    
+
 }
 
 .homepagebanner-text h1 {
@@ -197,4 +197,3 @@
 	max-width: 70% !important;
     }
 }
-
