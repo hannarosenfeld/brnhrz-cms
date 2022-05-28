@@ -1,9 +1,31 @@
 import React, { Component } from "react";
 import { StaticQuery, graphql, Link } from "gatsby"
 
-export default class Gallery extends Component () {
-    render() {
+import { getImage } from 'gatsby-plugin-image';
+import { BgImage } from 'gbimage-bridge';
+import { converToBgImage } from "gbimage-bridge"
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+
+import '../styles/banner-style.css'
+
+import logo from '../images/logo_white.png'
+
+
+export default class Slidy extends React.Component{
+  render(props) {
+    const settings = {
+      arrows: true,
+      dots: true,
+      autoplay: true,
+      infinite: true,
+      fade: true,
+      autoplaySpeed: 8000,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
     return (
       <StaticQuery
       query={graphql`
@@ -11,31 +33,24 @@ export default class Gallery extends Component () {
           allContentfulGallery {
             nodes {
               images {
-                gatsbyImageData(width: 1000, placeholder: BLURRED)
+                gatsbyImageData(width: 1200, placeholder: BLURRED)
               }
             }
           }
         }
         `}
       render={data => (
-          <div className="mb-5">
-            {data.allContentfulGallery.nodes.map((image) => {
-                console.log(image)
-                /* return( */
-                /*   <div key={image.id}> */
-                /*   <BgImage */
-                /*   className="d-flex align-items-end" */
-                /*   alt={image.imageTitle} */
-                /*   image={slickImage} */
-                /*   style={{maxHeight: "100%", objectFit: "contain",height: "93vh"}} */
-                /*   /> */
-                /*   </div> */
-                /* ) */
+          <div className="homepage-banner mb-5">
+          <Slider {...settings}>
+          {data.allContentfulGallery.nodes.map((gallery) => {
+                return(
+                  <h1>hi</h1>
+                )
               })}
+          </Slider>
           </div>
         )}
       />
-
-    );
+    )
   }
 }

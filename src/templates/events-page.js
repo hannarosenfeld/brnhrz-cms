@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { graphql } from 'gatsby';
-import PropTypes from "prop-types";
+import React, { useEffect, useState } from "react"
+import { graphql } from 'gatsby'
+import PropTypes from "prop-types"
 import showdown from 'showdown'
 
-
-import Layout from "../components/Layout";
-import SignUpForm from "../components/SignUpForm"
+import Layout from "../components/Layout"
+import Gallery from "../components/Gallery"
 import Mailchimp from "../components/Mailchimp"
+
 
 import golfer from "../img/golfer.png"
 import ski from  "../img/ski.png"
