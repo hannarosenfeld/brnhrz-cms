@@ -7,7 +7,14 @@ module.exports = {
     title: "Bärenherz – Verein für humanitäre Hilfe",
     description: "",
   },
-  plugins: [
+    plugins: [
+        {
+            resolve: 'gatsby-source-contentful',
+            options: {
+                "accessToken": "mXgoSBmsBuHtxJcZzcjvn2ffuQu57Ewr0jsVNWtE7PM",
+                "spaceId": "hskn7w20mtrp",
+            }
+        },
       "gatsby-plugin-react-helmet",
       {
 	  resolve: 'gatsby-plugin-load-script',
