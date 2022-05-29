@@ -48,7 +48,7 @@ export default function Gallery() {
                         return(
                             <div>
                               <div key={image.id} onClick={() => handleShow(galleryImage)}>
-                                <GatsbyImage image={galleryImage} style={{height: "8em", width: "8em"}}/>
+                                <GatsbyImage image={galleryImage} style={{height: "6em", width: "6em"}}/>
                               </div>
                             </div>
                         )
