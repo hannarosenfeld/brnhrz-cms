@@ -21,7 +21,7 @@ handleInputChange = (event) => {
     const result = await addToMailchimp(this.state.email);
     this.setState({ message: result.msg });
     };
-    
+
     render() {
         return (
 		<form name="subscribeForm" method="POST" id="subscribe-form" className="subscribe-form" onSubmit={this.handleSubmit}>
@@ -31,7 +31,8 @@ handleInputChange = (event) => {
 		<input
     	        className="subscribe-email"
 	        type="email"
-	        name="email"
+	      name="email"
+          style={{width: "99%"}}
 	        placeholder="Email"
 	        value={this.state.email}
 	        onChange={this.handleInputChange}
