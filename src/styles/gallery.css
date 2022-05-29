@@ -20,5 +20,8 @@
 .modal-content {
     height: 100% !important;
 }
+.modal-body {
+    height: 100%;
+}
 
 }
