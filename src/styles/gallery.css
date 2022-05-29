@@ -1,7 +1,11 @@
 .modal-content {
     height: 60vw !important;
+    margin: auto;
 }
 
+.modal-dialog {
+    margin: auto;
+}
 .modal-body {
     height: 90%;
 }
