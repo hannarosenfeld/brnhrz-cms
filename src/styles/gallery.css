@@ -1,4 +1,16 @@
-.slick-slider * {
-	min-height: 0;
-	min-width: 0;
+.modal-content {
+    height: 60vw !important;
+}
+
+.modal-body {
+    height: 90%;
+}
+
+#gallery-modal .gatsby-image-wrapper{
+    height: 100% !important;
+    width: 100%;
+}
+
+#gallery-modal .gatsby-image-wrapper img{
+    object-fit: none !important;
 }
