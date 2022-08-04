@@ -8,6 +8,7 @@ module.exports = {
     description: "",
   },
     plugins: [
+
         {
             resolve: 'gatsby-source-contentful',
             options: {
