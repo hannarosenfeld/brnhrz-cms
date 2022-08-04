@@ -67,7 +67,7 @@ const News = () => (
 
         <div style={{background : "#EEEAE4"}}>
           <div style={{width: "75%", margin: "0 auto"}}>
-          <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between" style={{width: "93%"}}>
             <img src={peri1} />
             <img src={peri2} />
           </div>
