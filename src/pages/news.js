@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import Layout from '../components/Layout'
-import header from '../img/Newsletter_Header_08.png'
+import header from '../img/postheader.png'
 import so from '../img/s.jpg'
 import peri1 from '../img/peri1.jpeg'
 import peri2 from '../img/peri2.jpg'
