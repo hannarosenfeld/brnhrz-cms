@@ -20,7 +20,7 @@ const News = () => (
           <img src={so}/>
           <br/>
           <br/>
-          <h4 style={{fontSize: "2em", fontWeight: "bold"}}>Bärenherz Charity Golfturnier 2022 in Lipperswil</h4>
+          <h4 id="golf" style={{fontSize: "2em", fontWeight: "bold"}}>Bärenherz Charity Golfturnier 2022 in Lipperswil</h4>
           <p>von Rainer Mück</p>
           <br/>
           Am 06. Mai 2022 war es so weit: Das erste Bärenherz Charity Golfturnier fand in Lipperswil statt. Allein die Organisation dieses allerersten Bärenherz Events war schon ein Abenteuer. Gibt es genug Sponsoren, die uns unterstützen? Kommen genügend Teilnehmer? Passt das Wetter?
@@ -65,7 +65,7 @@ const News = () => (
         <br/>
         <br/>
 
-        <div style={{background : "#EEEAE4"}}>
+        <div id="perimac" style={{background : "#EEEAE4"}}>
           <div style={{width: "75%", margin: "0 auto"}}>
             <div className="d-flex justify-content-between" style={{width: "93%"}}>
             <img src={peri1} />
@@ -102,7 +102,7 @@ const News = () => (
         </div>
         <br/>
 
-        <div style={{width: "75%", margin: "0 auto"}}>
+        <div id="skiwochenende" style={{width: "75%", margin: "0 auto"}}>
           <img src={ski}/>
           <br/>
           <br/>
