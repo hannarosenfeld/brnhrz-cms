@@ -106,7 +106,7 @@ const News = () => (
           <img src={ski}/>
           <br/>
           <br/>
-          <h4 style={{fontSize: "2em", fontWeight: "bold"}}>Liebe Bärenherz-Wintersport-Freunde</h4>
+          <h4 style={{fontSize: "2em", fontWeight: "bold"}}>Bärenherz Charity Ski-Weekend 2022</h4>
           <p>von Andi Wenzel</p>
           <br/>
           Am kommenden Dezember vom 9.-11.12 sind wir im Skigebiet Flumserberg!
