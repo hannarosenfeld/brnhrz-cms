@@ -10,7 +10,7 @@ import peri1 from '../img/peri1.jpeg'
 import peri2 from '../img/peri2.jpg'
 import ski from '../img/ski.jpg'
 import andrea from '../img/Andrea_.jpg'
-
+import pdf from '../components/Anmeldung.pdf'
 
 const News = () => (
     <Layout>
@@ -149,6 +149,7 @@ const News = () => (
           <br/>
           Bärenherzliche Grüsse und bis im Dezember 2022!
           <div>
+            <a href={pdf} download>Download the pdf</a>
             <Form/>
           </div>
         </div>

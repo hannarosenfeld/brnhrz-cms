@@ -41,7 +41,7 @@ export default function Example() {
             </Modal.Header>
 
             <Modal.Body style={{width: "80%", margin: "0 auto", fontSize: "0.8em"}}>
-              <Form>
+              <Form action="https://getform.io/f/f76ce228-3425-4913-b0c9-6efc4a607d3f" method="POST">
                 <div className="d-flex justify-content-between flex-wrap">
                 <FormGroup name={"Vorame"} />
                   <FormGroup name={"Name"} />
