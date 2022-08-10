@@ -148,7 +148,9 @@ const News = () => (
           <br/>
           <br/>
           Bärenherzliche Grüsse und bis im Dezember 2022!
-          <div>
+          <br/>
+
+          <div className="mt-5">
             <a href={pdf} download>Download the pdf</a>
             <Form/>
           </div>
