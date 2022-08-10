@@ -1,0 +1,13 @@
+
+.modal-dialog .modal-content{
+    height: auto !important;
+
+}
+
+.modal, .modal-backdrop{
+    z-index:auto;
+}
+
+.modal{
+    overflow: auto;
+}

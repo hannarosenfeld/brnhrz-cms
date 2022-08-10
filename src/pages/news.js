@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import Layout from '../components/Layout'
+import Form from '../components/Form'
+
 import header from '../img/postheader.png'
 import so from '../img/s.jpg'
 import peri1 from '../img/peri1.jpeg'
@@ -147,7 +149,7 @@ const News = () => (
           <br/>
           Bärenherzliche Grüsse und bis im Dezember 2022!
           <div>
-            <Link to="" />
+            <Form/>
           </div>
         </div>
 

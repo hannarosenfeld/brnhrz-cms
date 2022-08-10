@@ -1,0 +1,13 @@
+.modal-backdrop {
+    opacity: 0 !important;
+    border: 2px solid red;
+}
+
+.modal-dialog{
+    max-width: 80% !important;
+}
+
+.modal-content {
+    height: 100%;
+    margin: auto auto;
+}

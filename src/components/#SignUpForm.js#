@@ -1,8 +1,10 @@
 import React from "react"
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap"
+
 import "../styles/styles.css"
 import golferin from "../img/Anmeldung_Header.png"
 
+import "../styles/styles.css"
 
 function SignUpForm() {
   return(
