@@ -151,8 +151,8 @@ const News = () => (
           <br/>
 
           <div className="mt-5">
-            <a href={pdf} download>Download the pdf</a>
-            <Form/>
+            <a href={pdf} download>Hier die Einladung herunterladen</a>
+
           </div>
         </div>
 
