@@ -75,8 +75,28 @@ export const EventsPageTemplate = ({
           </div>
 
 	      <div>
+	        <section className="section">
+              <div className="container">
+                <div id="ski-weekend" className="content">
+	              <img src={ski} />
+	              <div
+	                style={{
+	                    margin: "2em auto",
+                    }}
+	              >
+	              </div>
+	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Ski-Weekend 2022</h3>
+                  <p>Nach dem erfolgreichen Charity Golfturnier im Mai in Lipperswil geht es im Dezember an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin sowie der Embodiment-Expertin Andrea Spieth als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden, Recreational Skiing und Embodied Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg am Samstag sowie Sonntagvormittag in vollen Zügen. Am Sonntag werden wir als Gruppen versuchen, möglichst synchron und von einer Drohne verfolgt, ins Tal zu fahren. Die beste Truppe erhält unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. Am Samstagabend geht Bärenherz Gourmet ins Restaurant Schlüssel in Mels zu Roger Kalberer - ein gastronomisches Highlight.</p>
+                  <p>Lassen Sie sich überraschen und geniessen Sie mit uns ein unvergessliches Wochenende!</p>
+                  <a href={skieinladung} download>Einladung</a>
+                  <br/>
+        <a href={anmeldung}>Anmeldung</a>
 
+                </div>
+              </div>
+            </section>
             <div className="container">
+
               <div id="golf-turnier" className="content">
 	            <img src={golfer} />
 	            <div
@@ -138,26 +158,7 @@ export const EventsPageTemplate = ({
 
 
 
-	        <section className="section">
-              <div className="container">
-                <div id="ski-weekend" className="content">
-	              <img src={ski} />
-	              <div
-	                style={{
-	                    margin: "2em auto",
-                    }}
-	              >
-	              </div>
-	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Ski-Weekend 2022</h3>
-                  <p>Nach dem erfolgreichen Charity Golfturnier im Mai in Lipperswil geht es im Dezember an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin sowie der Embodiment-Expertin Andrea Spieth als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden, Recreational Skiing und Embodied Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg am Samstag sowie Sonntagvormittag in vollen Zügen. Am Sonntag werden wir als Gruppen versuchen, möglichst synchron und von einer Drohne verfolgt, ins Tal zu fahren. Die beste Truppe erhält unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. Am Samstagabend geht Bärenherz Gourmet ins Restaurant Schlüssel in Mels zu Roger Kalberer - ein gastronomisches Highlight.</p>
-                  <p>Lassen Sie sich überraschen und geniessen Sie mit uns ein unvergessliches Wochenende!</p>
-                  <a href={skieinladung} download>Einladung</a>
-                  <br/>
-        <a href={anmeldung}>Anmeldung</a>
 
-                </div>
-              </div>
-            </section>
 	      </div>
 	    </div>
     )
