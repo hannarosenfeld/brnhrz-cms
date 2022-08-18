@@ -11,6 +11,8 @@ import peri2 from '../img/peri2.jpg'
 import ski from '../img/ski.jpg'
 import andrea from '../img/Andrea_.jpg'
 import pdf from '../components/Anmeldung.pdf'
+import pdfanm from '../templates/Einladung Charity Ski Weekend 2022[1].pdf'
+
 
 const News = () => (
     <Layout>
@@ -151,8 +153,9 @@ const News = () => (
           <br/>
 
           <div className="mt-5">
-            <a href={pdf} download>Hier die Einladung herunterladen</a>
-
+            <a href={pdf} download>Hier die Anmeldung herunterladen</a>
+            <br/>
+            <a href={pdfanm} download>Hier die Einladung herunterladen</a>
           </div>
         </div>
 
