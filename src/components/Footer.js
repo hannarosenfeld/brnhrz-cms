@@ -19,7 +19,10 @@ const Footer = class extends React.Component {
 		  <p>CH-8873 Amden</p>
 		  <p style={{marginTop: "2em"}}>Email: <a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p>
 		  </div>
-	      <a href="/impressum" >Impressum</a>
+              <div className="mt-5" style={{display: "flex", flexDirection: "column"}}>
+	            <a className="p-0" href="/impressum" >Impressum</a>
+                <a className="pt-2" href="/newsletter" >Newsletter</a>
+              </div>
             </div>
 	    {/*
         <div className="content has-text-centered has-background-black has-text-white-ter">
