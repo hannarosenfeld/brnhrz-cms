@@ -21,7 +21,7 @@ const Footer = class extends React.Component {
 		  </div>
               <div className="mt-5" style={{display: "flex", flexDirection: "column"}}>
 	            <a className="p-0" href="/impressum" >Impressum</a>
-                <a className="pt-2" href="/newsletter" >Newsletter</a>
+                <a className="pt-2" href="/news" >Newsletter</a>
               </div>
             </div>
 	    {/*
