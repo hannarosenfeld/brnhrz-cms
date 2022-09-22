@@ -77,7 +77,6 @@ const Navbar = class extends React.Component {
 	                  <NavDropdown.Item eventKey="Statuten">
 	                    <Link to="/about#statuten">Statuten</Link>
 	                  </NavDropdown.Item>
-
                     </NavDropdown>
                     <Link className="navbar-item" to="/products">
                       Mitgliedschaft
@@ -92,8 +91,9 @@ const Navbar = class extends React.Component {
                       <NavDropdown.Item eventKey="Charity Golftunier 2022">
 	                    <Link to="/events#golf-turnier">Charity Golftunier 2022</Link>
 	                  </NavDropdown.Item>
-                    </NavDropdown>
 
+                    </NavDropdown>
+                    <Link className="navbar-item" to="/news">Newsletter</Link>
                     <Link className="spenden-button navbar-item" to="/jetzt-spenden">
                       Jetzt spenden!
                     </Link>
