@@ -12,15 +12,27 @@ import ski from '../img/ski.jpg'
 import andrea from '../img/Andrea_.jpg'
 import pdf from '../components/Anmeldung.pdf'
 import pdfanm from '../templates/Einladung Charity Ski Weekend 2022[1].pdf'
-
+import sept from '../img/Baerenherz_Scheck.jpg'
 
 const News = () => (
     <Layout>
       <div style={{margin: "0 auto"}}>
-        <div style={{width: "75%", margin: "0 auto"}}>
+         <div style={{width: "75%", margin: "0 auto"}}>
           <img src={header}/>
-          <br/>
-          <br/>
+        <br/>
+        <br/>
+           <img src={sept}/>
+           <br/>
+           <br/>
+           <h4 id="golf" style={{fontSize: "2em", fontWeight: "bold"}}>Übergabe Golf Charity Erlöse an Pronject HOPE e.V.</h4>
+           <br/>
+           <p>Im Rahmen des Project HOPE Charity Classic Golfturniers am 08. September in Beuerberg haben die Vorstände von Bärenherz Andreas Wenzel, Rainer Mück und Markus Schweizer den Scheck mit den Einnahmen aus dem ersten Bärenherz Charity Turnier vom 08. Mai 2022 in Höhe von 23‘163,50 CHF an Sabine Busch und Achim Eckert von Projekt HOPE übergeben. Damit soll sichergestellt werden, dass es bei dem Projekt PeriMAC in Nordmazedonien nicht nur bei der Bereitstellung von Krankenwagen und medizinischer Ausrüstung bleibt, sondern auch die Schulung des Personals, der weitere Aufbau der Verwaltung und Logistik weiterhin gewährleistet werden kann. Wir haben uns bei unserem Besuch in Skopje im April 2022 von der Situation vor Ort überzeugt und es ist uns ein grosses Anliegen, dass die bisher erzielten phantastischen Hilfsleistungen auch weiterhin nachhaltig wirken. Deshalb haben wir uns bei Bärenherz schon im letzten Jahr entschieden, dieses Projekt mit dem Wissen zu unterstützen, dass jeder Franken auch wirklich direkt vor Ort ankommt. In diesem Zusammenhang unser herzliches Dankeschön nicht nur an alle, die zu unserem tollen Spendenergebnis beigetragen haben, sondern auch an die vielen Helfer von Project HOPE, die sicherstellen, dass das Geld auch wirklich seiner Verwendung zugeführt wird.</p>
+           <br/>
+           <p>Das Bärenherz Charity Golfturnier wird es auch im nächsten Jahr wieder geben: AM 05. Mai 2023 ist es in Lipperswil wieder so weit. Details folgen rechtzeitig. Wir freuen uns jetzt erst einmal auf unseren Skievent vom 09. – 11. Dezember 2022 am Flumserberg, dessen Erlöse ebenfalls das PeriMAC Projekt in Nordmazedonien unterstützen werden.</p>
+         </div>
+        <br/>
+        <br/>
+        <div style={{width: "75%", margin: "0 auto"}}>
           <img src={so}/>
           <br/>
           <br/>
