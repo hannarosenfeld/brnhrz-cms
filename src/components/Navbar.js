@@ -5,7 +5,7 @@ import logo_header from "../img/logo_header.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavDropdown } from "react-bootstrap";
 
-import "../styles/styles.css"
+import "../styles/styles.css";
 
 const Navbar = class extends React.Component {
     constructor(props) {
@@ -93,7 +93,7 @@ const Navbar = class extends React.Component {
 	                  </NavDropdown.Item>
 
                     </NavDropdown>
-                    <Link className="navbar-item" to="/news">Newsletter</Link>
+                    <Link className="navbar-item" to="/news">News</Link>
                     <Link className="spenden-button navbar-item" to="/jetzt-spenden">
                       Jetzt spenden!
                     </Link>
