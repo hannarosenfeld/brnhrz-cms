@@ -19,6 +19,16 @@ const Footer = class extends React.Component {
 		  <p>CH-8873 Amden</p>
 		  <p style={{marginTop: "2em"}}>Email: <a href="mailto:info@baerenherz.org" >info@baerenherz.org</a></p>
 		  </div>
+              <div className="mt-5">
+                <p>Spendenkonto:</p>
+                <p>Bärenherz – Verein für humanitäre Hilfe</p>
+                <p>Thurgauer Kantonalbank</p>
+                <p>IBAN     CH91 0078 4297 6098 0200 1</p>
+                <p>BIC        KBTGCH22Bärenherz – Verein für humanitäre Hilfe</p>
+                <p>Thurgauer Kantonalbank</p>
+                <p>IBAN     CH91 0078 4297 6098 0200 1</p>
+                <p>BIC        KBTGCH22</p>
+              </div>
               <div className="mt-5" style={{display: "flex", flexDirection: "column"}}>
 	            <a className="p-0" href="/impressum" >Impressum</a>
 
