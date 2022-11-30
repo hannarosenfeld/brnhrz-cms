@@ -24,9 +24,6 @@ const Footer = class extends React.Component {
                 <p>Bärenherz – Verein für humanitäre Hilfe</p>
                 <p>Thurgauer Kantonalbank</p>
                 <p>IBAN     CH91 0078 4297 6098 0200 1</p>
-                <p>BIC        KBTGCH22Bärenherz – Verein für humanitäre Hilfe</p>
-                <p>Thurgauer Kantonalbank</p>
-                <p>IBAN     CH91 0078 4297 6098 0200 1</p>
                 <p>BIC        KBTGCH22</p>
               </div>
               <div className="mt-5" style={{display: "flex", flexDirection: "column"}}>
