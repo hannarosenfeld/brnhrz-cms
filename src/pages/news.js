@@ -8,11 +8,12 @@ import header from '../img/postheader.png'
 import so from '../img/s.jpg'
 import peri1 from '../img/peri1.jpeg'
 import peri2 from '../img/peri2.jpg'
-import ski from '../img/ski.jpg'
+import ski from '../img/ski.png'
 import andrea from '../img/Andrea_.jpg'
 import pdf from '../components/Anmeldung.pdf'
 import pdfanm from '../templates/Einladung Charity Ski Weekend 2022[1].pdf'
 import sept from '../img/Baerenherz_Scheck.jpg'
+
 
 const News = () => (
     <Layout>

@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 
 import './form.css'
 
-import header from '../img/ski22.png'
+import header from '../img/ski.png'
 
 
 const FormGroup = (props) => {

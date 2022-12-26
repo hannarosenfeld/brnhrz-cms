@@ -10,6 +10,7 @@ import Mailchimp from "../components/Mailchimp"
 
 import golfer from "../img/golfer.png"
 import ski from  "../img/ski.png"
+import golf23 from "../img/GOLF_2023.png"
 
 import skieinladung from './Einladung Charity Ski Weekend 2022[1].pdf'
 import anmeldung from './Anmeldung Charity Ski Weekend 2022[1]-1.pdf'
@@ -81,22 +82,30 @@ export const EventsPageTemplate = ({
 	              <img src={ski} />
 	              <div
 	                style={{
-	                    margin: "2em auto",
+	                    margin: "1em auto",
                     }}
 	              >
 	              </div>
-	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Ski-Weekend 2022</h3>
-                  <p>Nach dem erfolgreichen Charity Golfturnier im Mai in Lipperswil geht es im Dezember an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin sowie der Embodiment-Expertin Andrea Spieth als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden, Recreational Skiing und Embodied Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg am Samstag sowie Sonntagvormittag in vollen Zügen. Am Sonntag werden wir als Gruppen versuchen, möglichst synchron und von einer Drohne verfolgt, ins Tal zu fahren. Die beste Truppe erhält unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. Am Samstagabend geht Bärenherz Gourmet ins Restaurant Schlüssel in Mels zu Roger Kalberer - ein gastronomisches Highlight.</p>
-                  <p>Lassen Sie sich überraschen und geniessen Sie mit uns ein unvergessliches Wochenende!</p>
+	              <h3 className="has-text-weight-semibold">Der Bärenherz Charity Skitag 2023</h3>
+                  <p>(Freitag, 31. März 2023, abends, und Samstag, 1. April 2023, ganzer Tag)</p>
+                  <p>Nach dem erfolgreichen Charity Golfturnier im Mai 2022 in Lipperswil geht es nun an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden und Recreational Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg in vollen Zügen. Beim Differenz-Zeitfahren gewinnt, wer in zwei Läufen die geringste Zeitdifferenz hat, unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. </p>
+                  <p>Lassen Sie sich überraschen und geniessen Sie mit uns einen unvergesslichen Skitag!</p>
                   <a href={skieinladung} download>Einladung</a>
                   <br/>
         <a href={anmeldung}>Anmeldung</a>
-
                 </div>
               </div>
             </section>
-            <div className="container">
 
+            <div className="container">
+              <img src={golf23} />
+            </div>
+            <br/>
+            <br/>
+            <br/>
+
+
+            <div className="container">
               <div id="golf-turnier" className="content">
 	            <img src={golfer} />
 	            <div
