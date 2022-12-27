@@ -85,8 +85,8 @@ const Navbar = class extends React.Component {
                       Projekte
                     </Link>
 	                <NavDropdown title="Aktivitäten" id="nav-dropdown" to="/events">
-                      <NavDropdown.Item eventKey="Charity Ski-Weekend 2022">
-	    	            <Link to="/events#ski-weekend">Charity Ski-Weekend 2022</Link>
+                      <NavDropdown.Item eventKey="Charity Skitag 2023">
+	    	            <Link to="/events#ski-weekend">Charity Skitag 2023</Link>
                       </NavDropdown.Item>
                       <NavDropdown.Item eventKey="Charity Golftunier 2022">
 	                    <Link to="/events#golf-turnier">Charity Golftunier 2022</Link>
