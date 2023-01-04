@@ -12,8 +12,8 @@ import golfer from "../img/golfer.png"
 import ski from  "../img/ski.png"
 import golf23 from "../img/GOLF_2023.png"
 
-import skieinladung from './Einladung Charity Ski Weekend 2022[1].pdf'
-import anmeldung from './Anmeldung Charity Ski Weekend 2022[1]-1.pdf'
+import skieinladung from './Einladung Charity Ski-Tag 2023[3].pdf'
+import anmeldung from './Anmeldung Charity Ski-Tag 2023[3].pdf'
 
 // logos
 import ey from  "../img/logos/EY.jpg"

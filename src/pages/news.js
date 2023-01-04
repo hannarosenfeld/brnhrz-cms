@@ -11,7 +11,7 @@ import peri2 from '../img/peri2.jpg'
 import ski from '../img/ski.png'
 import andrea from '../img/Andrea_.jpg'
 import pdf from '../components/Anmeldung.pdf'
-import pdfanm from '../templates/Einladung Charity Ski Weekend 2022[1].pdf'
+import pdfanm from '../templates/Einladung Charity Ski-Tag 2023[3].pdf'
 import sept from '../img/Baerenherz_Scheck.jpg'
 
 
