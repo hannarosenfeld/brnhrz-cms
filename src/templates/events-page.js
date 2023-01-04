@@ -90,9 +90,9 @@ export const EventsPageTemplate = ({
                   <p>(Freitag, 31. März 2023, abends, und Samstag, 1. April 2023, ganzer Tag)</p>
                   <p>Nach dem erfolgreichen Charity Golfturnier im Mai 2022 in Lipperswil geht es nun an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden und Recreational Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg in vollen Zügen. Beim Differenz-Zeitfahren gewinnt, wer in zwei Läufen die geringste Zeitdifferenz hat, unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. </p>
                   <p>Lassen Sie sich überraschen und geniessen Sie mit uns einen unvergesslichen Skitag!</p>
-        {/*           <a href={skieinladung} download>Einladung</a> */}
-        {/*           <br/> */}
-        {/* <a href={anmeldung}>Anmeldung</a> */}
+                  <a href={skieinladung} download>Einladung</a>
+                  <br/>
+        <a href={anmeldung}>Anmeldung</a>
                 </div>
               </div>
             </section>
