@@ -79,7 +79,7 @@ export const EventsPageTemplate = ({
 	        <section className="section">
               <div className="container">
                 <div id="ski-weekend" className="content">
-	              <img src={ski} />
+	              <img src={ski} style={{width: "100vw"}}/>
 	              <div
 	                style={{
 	                    margin: "1em auto",
@@ -152,8 +152,6 @@ export const EventsPageTemplate = ({
 	            </div>
               </div>
             </div>
-
-
 	        <div style={{background: "#033277"}}>
 	          <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
 	            <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
@@ -164,10 +162,6 @@ export const EventsPageTemplate = ({
 	            </div>
 	          </div>
             </div>
-
-
-
-
 	      </div>
 	    </div>
     )
