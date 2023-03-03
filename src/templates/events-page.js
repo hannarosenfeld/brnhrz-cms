@@ -116,6 +116,7 @@ export const EventsPageTemplate = ({
 	              <br />
 	              <br />
 	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Golfturnier: Premiere geglückt!</h3>
+                {/* //TODO this pics are super heavy!!!! more than 20mb */}
                   <Gallery/>
                   <div className="mt-3 mb-5 d-flex" style={{gap: "3em", margin: "0 auto"}}>
                   </div>

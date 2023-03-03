@@ -1,65 +1,46 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import BlogRoll from "../components/BlogRoll";
 import Mailchimp from "../components/Mailchimp"
 import HomepageBanner from "../components/HomepageBanner"
 
 
-// eslint-disable-next-line
 export const IndexPageTemplate = ({
     title,
-    subheading,
     description,    
 }) => {
   return (
 	  <div>
-	  <HomepageBanner style={{marginBottom: "5em"}}/>
-	  <p style={{margin: "3em"}}></p>
-          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
-	  <div style={{padding: "3em 0 2em 0"}}>
- 	  <h3 className="has-text-weight-semibold">{title}</h3>
-          <p>{description}</p>
-	  </div>
-	  <br/>
-	  <br/>	  
-	  </div>
-      
-	  <div style={{background: "#033277"}}>
-	   <div className="container">
-	  <div style={{display: "flex", margin: "0 auto", padding: "3em 0"}} className="newsletter-box">
-	  <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
-	  <div style={{display: "flex", flexDirection: "column"}}>
-	  <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
-	  <Mailchimp />
-	  </div>
-	  </div>
-	  </div>
-         </div>
+      {/* Banner img initial */}
+        <HomepageBanner style={{marginBottom: "5em"}}/>
 
-      {/*
-          <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column", margin: "5em auto"}}>
-	  <div>
-	  <h3 className="has-text-weight-semibold" style={{marginBottom: "1em", textAlign: "left"}}>Bärenherz-Neuigkeiten</h3>
-	        <div>
-                  <BlogRoll />
-	  </div>
-	  </div>
-	  </div>
-       */}
-      {/*	  <div className="mitgliedschaft-testimony">
-<h3 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
-Arbeit von Bärenherz unterstützen und habe
-das gute Gefühl, eine Hilfe zu leisten, die auch
-ankommt.“</h3>
-<div style={{lineHeight: "0.2", marginTop: "4em"}}>
-	  <h4 style={{margin: "1em"}}><b>Arno Bohn</b></h4>
-<h4>Selbständiger Unternehmer, Freiburg im Breisgau</h4>
-</div>
-</div>
-       */}
+        <p style={{margin: "3em"}}></p>
+        
+        {/* Über uns */}
+        <div className="container" style={{display: "flex",alignItems: "center", flexDirection: "column"}}>
+            <div style={{padding: "3em 0 2em 0"}}>
+                <h3 className="has-text-weight-semibold">{title}</h3>
+                <p>{description}</p>
+            </div>
+            <br/>
+            <br/>	  
+        </div>
+          
+        {/* Bleiben Sie informiert */}
+        <div style={{background: "#033277"}}>
+            <div className="container">
+                <div style={{display: "flex", margin: "0 auto", padding: "3em 0"}} className="newsletter-box">
+                    <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
+                    <div style={{display: "flex", flexDirection: "column"}}>
+                        <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
+                        <Mailchimp />
+                    </div>
+                </div>
+            </div>
+        </div>
+
 	  </div>
 	  
   );
@@ -71,7 +52,7 @@ IndexPageTemplate.propTypes = {
 
 };
 
-const IndexPage = ({ data }) => {
+export default function IndexPage ({ data }) {
   const { frontmatter } = data.markdownRemark;
   return (
 	  <Layout>
@@ -91,7 +72,7 @@ IndexPage.propTypes = {
   }),
 };
 
-export default IndexPage;
+
 
 export const pageQuery = graphql`
   query IndexPageTemplate {

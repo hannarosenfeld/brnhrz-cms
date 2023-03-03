@@ -23,7 +23,11 @@ export default function Gallery() {
         nodes {
           images {
             id
-            gatsbyImageData(height: 1200, placeholder: DOMINANT_COLOR,resizingBehavior: SCALE)
+            gatsbyImageData(
+              height: 1200
+              placeholder: DOMINANT_COLOR
+              resizingBehavior: SCALE
+              )
           }
         }
       }
