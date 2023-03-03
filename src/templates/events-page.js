@@ -1,41 +1,89 @@
-import React, { useEffect, useState } from "react"
-import { graphql } from 'gatsby'
-import PropTypes from "prop-types"
-import showdown from 'showdown'
+import React from 'react'
 
-import Layout from "../components/Layout"
-import Gallery from "../components/Gallery"
-import Mailchimp from "../components/Mailchimp"
+import Layout from '../components/Layout'
+import CharitySkitag2023 from '../pages/events/charity-skitag-2023'
+import Mailchimp from '../components/Mailchimp'
 
+import golf23 from '../img/GOLF_2023.png'
 
-import golfer from "../img/golfer.png"
-import ski from  "../img/ski.png"
-import golf23 from "../img/GOLF_2023.png"
+export const EventsPageTemplate = () => {
+	return (
+		<>
+			{/* hero Unsere Aktivitaten */}
+			<header
+				className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
+				style={{ backgroundImage: `url('/img/glove.jpg')` }}
+			>
+				<div className="banner-text" style={{ marginRight: '50%' }}>
+					<h1
+						className="has-text-weight-bold is-size-1"
+						style={{
+							boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+							backgroundColor: '#f40',
+							color: 'white',
+							lineHeight: '2.3'
+						}}
+					>
+						Unsere Aktivitäten
+					</h1>
 
-import skieinladung from './Einladung Charity Ski-Tag 2023[3].pdf'
-import anmeldung from './Anmeldung Charity Ski-Tag 2023[3].pdf'
+					<h3>
+						<b>Spass haben und Gutes tun: Seien Sie dabei!</b>
+					</h3>
+				</div>
+			</header>
 
-// logos
-import ey from  "../img/logos/EY.jpg"
-import albego from "../img/logos/albego.jpg"
-import mmp from "../img/logos/mmp.png"
-import kitzhof from "../img/logos/Kitzhof.png"
-import beuerberg from "../img/logos/Logo_Beuerberg.png"
-import b_services from "../img/logos/b_selection.png"
-import golf_leuk from "../img/logos/GolfLeuk_logo_.png"
-import hotel from "../img/logos/hotel.jpeg"
-import baur from "../img/logos/baur.png"
-import oerlikon from "../img/logos/oerlikon.jpg"
-import wein from "../img/logos/wein.jpg"
-import sunresorts from "../img/logos/sunresorts.jpeg"
-import dior from "../img/logos/Dior.svg.png"
-import sensolar from "../img/logos/sensolar.png"
-import porsche from "../img/logos/porschez.png"
-import preis from '../img/preis.jpg'
-import sieger from '../img/sieger.jpg'
+			<CharitySkitag2023 />
 
-import golferin from "../img/Anmeldung_Header.png"
+			{/* golf 2023 */}
+			<section className="section">
+				<div className="container">
+					<div className="content">
+						<img
+							src={golf23}
+							alt="Golftunier"
+							style={{ margin: '1em 0 2em' }}
+						/>
+						<p>
+							Wir freuen uns sehr, nach dem grossen Erfolg vom letzten Jahr,
+							wieder zum Bärenherz Charity Golf am 05. Mai nach Lipperswil
+							einzuladen, um gemeinsam
+						</p>
+						<p>Gutes zu tun und Spass zu haben. </p>
+					</div>
+				</div>
+			</section>
 
+<<<<<<< Updated upstream
+			{/* footer */}
+			<div style={{ background: '#033277', margin: '2em 0 0' }}>
+				<div
+					style={{
+						width: '70%',
+						display: 'flex',
+						margin: '0 auto',
+						padding: '2em'
+					}}
+					className="newsletter-box"
+				>
+					<h4
+						style={{ color: 'white', fontSize: '2.5rem', fontWeight: 'bold' }}
+					>
+						Bleiben Sie informiert!
+					</h4>
+					<div style={{ display: 'flex', flexDirection: 'column' }}>
+						<p style={{ color: 'white', marginTop: '1em', fontSize: '1rem' }}>
+							Wir informieren Sie über unsere laufenden Projekte, wie ihre
+							Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren
+							Veranstaltungen.
+						</p>
+						<Mailchimp />
+					</div>
+				</div>
+			</div>
+		</>
+	)
+=======
 
 
 
@@ -116,6 +164,7 @@ export const EventsPageTemplate = ({
 	              <br />
 	              <br />
 	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Golfturnier: Premiere geglückt!</h3>
+                {/* //TODO this pics are super heavy!!!! more than 20mb */}
                   <Gallery/>
                   <div className="mt-3 mb-5 d-flex" style={{gap: "3em", margin: "0 auto"}}>
                   </div>
@@ -165,49 +214,13 @@ export const EventsPageTemplate = ({
 	      </div>
 	    </div>
     )
+>>>>>>> Stashed changes
 }
 
-
-const EventsPage = ({ data }) => {
-    const { frontmatter } = data.markdownRemark;
-    return (
-	    <Layout>
-	      <EventsPageTemplate
-            golfturnier={frontmatter.golfturnier}
-            skiweekend={frontmatter.skiweekend}
-	      />
-	    </Layout>
-    );
-};
-
-EventsPageTemplate.propTypes = {
-    golfturnier: PropTypes.object,
-    skiweekend: PropTypes.object,
-};
-
-EventsPage.propTypes = {
-    data: PropTypes.shape({
-        markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.object,
-        }),
-    }),
-};
-
-export default EventsPage
-
-export const pageQuery = graphql`
-  query EventsPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "events-page" } }) {
-      frontmatter {
-        golfturnier {
-          title
-          body
-        }
-        skiweekend {
-          title
-          body
-        }
-      }
-    }
-  }
-`;
+export default function EventsPage() {
+	return (
+		<Layout>
+			<EventsPageTemplate />
+		</Layout>
+	)
+}

@@ -1,3 +1,0 @@
-fade modal-backdrop show {
-    border: 2px solid red
-}
