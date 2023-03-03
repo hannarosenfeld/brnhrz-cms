@@ -1,214 +1,93 @@
-import React, { useEffect, useState } from "react"
-import { graphql } from 'gatsby'
-import PropTypes from "prop-types"
-import showdown from 'showdown'
+import React from 'react'
 
-import Layout from "../components/Layout"
-import Gallery from "../components/Gallery"
-import Mailchimp from "../components/Mailchimp"
+import Layout from '../components/Layout'
+import CharitySkitag2023 from '../pages/events/charity-skitag-2023'
+import Mailchimp from '../components/Mailchimp'
 
+import golf23 from '../img/GOLF_2023.png'
 
-import golfer from "../img/golfer.png"
-import ski from  "../img/ski.png"
-import golf23 from "../img/GOLF_2023.png"
+export const EventsPageTemplate = () => {
+	return (
+		<>
+			{/* hero Unsere Aktivitaten */}
+			<header
+				className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
+				style={{ backgroundImage: `url('/img/glove.jpg')` }}
+			>
+				<div className="banner-text" style={{ marginRight: '50%' }}>
+					<h1
+						className="has-text-weight-bold is-size-1"
+						style={{
+							boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+							backgroundColor: '#f40',
+							color: 'white',
+							lineHeight: '2.3'
+						}}
+					>
+						Unsere Aktivitäten
+					</h1>
 
-import skieinladung from './Einladung Charity Ski-Tag 2023[3].pdf'
-import anmeldung from './Anmeldung Charity Ski-Tag 2023[3].pdf'
+					<h3>
+						<b>Spass haben und Gutes tun: Seien Sie dabei!</b>
+					</h3>
+				</div>
+			</header>
 
-// logos
-import ey from  "../img/logos/EY.jpg"
-import albego from "../img/logos/albego.jpg"
-import mmp from "../img/logos/mmp.png"
-import kitzhof from "../img/logos/Kitzhof.png"
-import beuerberg from "../img/logos/Logo_Beuerberg.png"
-import b_services from "../img/logos/b_selection.png"
-import golf_leuk from "../img/logos/GolfLeuk_logo_.png"
-import hotel from "../img/logos/hotel.jpeg"
-import baur from "../img/logos/baur.png"
-import oerlikon from "../img/logos/oerlikon.jpg"
-import wein from "../img/logos/wein.jpg"
-import sunresorts from "../img/logos/sunresorts.jpeg"
-import dior from "../img/logos/Dior.svg.png"
-import sensolar from "../img/logos/sensolar.png"
-import porsche from "../img/logos/porschez.png"
-import preis from '../img/preis.jpg'
-import sieger from '../img/sieger.jpg'
+			<CharitySkitag2023 />
 
-import golferin from "../img/Anmeldung_Header.png"
+			{/* golf 2023 */}
+			<section className="section">
+				<div className="container">
+					<div className="content">
+						<img
+							src={golf23}
+							alt="Golftunier"
+							style={{ margin: '1em 0 2em' }}
+						/>
+						<p>
+							Wir freuen uns sehr, nach dem grossen Erfolg vom letzten Jahr,
+							wieder zum Bärenherz Charity Golf am 05. Mai nach Lipperswil
+							einzuladen, um gemeinsam
+						</p>
+						<p>Gutes zu tun und Spass zu haben. </p>
+					</div>
+				</div>
+			</section>
 
-
-
-
-export const EventsPageTemplate = ({
-    golfturnier,
-    skiweekend,
-}) => {
-    const converter = new showdown.Converter()
-    return (
-	    <div>
-	      <div
-            className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
-            style={{
-                backgroundImage: `url('/img/glove.jpg')`,
-
-            }}
-          >
-	        <div
-              className="banner-text"
-	          style={{
-		          marginRight: "50%"
-		      }}
-	        >
-              <h1
-                className="has-text-weight-bold is-size-1"
-                style={{
-                    boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-                    backgroundColor: "#f40",
-		            color: "white",
-		            lineHeight: "2.3",
-                }}
-              >
-	            Unsere Aktivitäten
-              </h1>
-
-	          <h3><b>Spass haben und Gutes tun: Seien Sie dabei!</b></h3>
-	        </div>
-          </div>
-
-	      <div>
-	        <section className="section">
-              <div className="container">
-                <div id="ski-weekend" className="content">
-	              <img src={ski} style={{width: "100vw"}}/>
-	              <div
-	                style={{
-	                    margin: "1em auto",
-                    }}
-	              >
-	              </div>
-	              <h3 className="has-text-weight-semibold">Der Bärenherz Charity Skitag 2023</h3>
-                  <p>(Freitag, 31. März 2023, abends, und Samstag, 1. April 2023, ganzer Tag)</p>
-                  <p>Nach dem erfolgreichen Charity Golfturnier im Mai 2022 in Lipperswil geht es nun an den schönen Flumserberg zum Skifahren. Mit den Ski-Legenden Andreas Wenzel, Marie-Therese Nadig und Urs Kälin als Coaches werden wir, aufgeteilt in kleine Gruppen, den gemeinsamen Schwung-Rhythmus finden. Der Spass beim Carven, Freeriden und Recreational Skiing steht im Vordergrund und wir geniessen die Pisten der Bergbahnen Flumserberg in vollen Zügen. Beim Differenz-Zeitfahren gewinnt, wer in zwei Läufen die geringste Zeitdifferenz hat, unseren aus Holz geschnitzten „Ski-Bären-Wanderpokal“. Natürlich kommt auch der kulinarische und gesellige Teil nicht zu kurz. </p>
-                  <p>Lassen Sie sich überraschen und geniessen Sie mit uns einen unvergesslichen Skitag!</p>
-                  <a href={skieinladung} download>Einladung</a>
-                  <br/>
-        <a href={anmeldung}>Anmeldung</a>
-                </div>
-              </div>
-            </section>
-
-            <div className="container">
-              <img src={golf23} />
-            </div>
-            <br/>
-            <br/>
-            <br/>
-
-
-            <div className="container">
-              <div id="golf-turnier" className="content">
-	            <img src={golfer} />
-	            <div
-	              style={{
-	                  margin: "2em auto",
-                  }}
-	            >
-	              <br />
-	              <br />
-	              <h3 className="has-text-weight-semibold">Das Bärenherz Charity Golfturnier: Premiere geglückt!</h3>
-                {/* //TODO this pics are super heavy!!!! more than 20mb */}
-                  <Gallery/>
-                  <div className="mt-3 mb-5 d-flex" style={{gap: "3em", margin: "0 auto"}}>
-                  </div>
-                  <p>Stolze 23’163.50 CHF an Spendengeldern hat die Bärenherzfamilie bei ihrem ersten Charity Event zusammengebracht. Am 6. Mai 2022 war der Golfclub Lipperswil Turnierschauplatz der 43 Golfer, die für einen humanitären Zweck mitspielten. Das Projekt Perimac, das durch Ausbildung und verbesserte Infrastruktur die Säuglingssterblichkeit in Nord-Mazedonien drosselt, wurde dadurch unterstützt. Die Freude war gross bei den Projektverantwortlichen Sabine Busch und Achim Eckert von Project Hope e.V., die stellvertretend anwesend waren.</p>
-                  <p>Die Namen der stolzen Gewinner des ersten Golfturniers werden auf der Bärenherz Trophäe verewigt. Alle übrigen hatten auch ohne Hauptgewinn ihr Vergnügen an diesem Tag. Die Stimmung war dank den vielen engagierten Teilnehmern trotz anfänglichem Regenwetter grandios. Vorfreude herrscht auf die nächstjährige Austragung des Charity Golfturniers in Lipperswil am 5. Mai 2023 – bitte diesen Termin jetzt schon vormerken!</p>
-                  <p>Vor dem nächsten Golf Event in Lipperswil werden wir das allererste Bärenherz Nikolaus Charity Ski-Weekend am 9.-11. Dezember 2022 durchführen. Die Flumserberge als Austragungsort und die Prominenz des Schweizer Skizirkus werden den Teilnehmern ein unvergessliches Programm bieten: ein Gaudi-Skirennen, „Embodied Skiing“, Hüttenzauber und vieles mehr. Merken Sie sich auf jeden Fall das Datum vor! Falls nicht genügend Schnee liegen sollte, ist als Verschiebetermin der 31. März bis 2. April 2023 vorgesehen.</p>
-                  <p>Wir bedanken uns herzlich für die rege Teilnahme und das allgemein grosse Interesse an Bärenherz. Auch wenn Sie nicht immer persönlich dabei sein können, werden Sie Mitglied der Bärenherzfamilie, werden Sie Vereinsmitglied und unterstützen Sie durch ihre Mitgliedschaft humanitäre Projekte, die Leben retten.</p>
-                  <div className="d-flex mb-5 flex-wrap justify-content-center" style={{maxWidth: "100%", gap: "2em"}}>
-                    <img src={sieger}/>
-                    <img src={preis}/>
-                  </div>
-
-
-	              <div className="partner-logos-container">
-	                <h3 style={{color: "#0023A5"}}>Unsere Partner:</h3>
-	                <div className="partner-logos">
-	                  <img src={ey} />
-	                  <img src={mmp} />
-	                  <img src={albego} />
-	                  <img src={kitzhof} />
-                      <img src={sensolar} />
-	                  <img src={b_services} />
-	                  <img src={beuerberg} />
-	                  <img src={golf_leuk} />
-                      <img src={hotel} />
-                      <img src={baur} />
-                      <img src={oerlikon} />
-                      <img src={wein} />
-                      <img src={sunresorts} />
-	                  <img src={dior} />
-	                  <img src={porsche} />
-	                </div>
-	              </div>
-	            </div>
-              </div>
-            </div>
-	        <div style={{background: "#033277"}}>
-	          <div style={{width: "70%", display: "flex", margin: "0 auto", padding: "2em"}} className="newsletter-box">
-	            <h4 style={{color: "white", fontSize: "2.5rem", fontWeight: "bold"}}>Bleiben Sie informiert!</h4>
-	            <div style={{display: "flex", flexDirection: "column"}}>
-	              <p style={{color: "white", marginTop: "1em", fontSize: "1rem"}}>
-                    Wir informieren Sie über unsere laufenden Projekte, wie ihre Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren Veranstaltungen.</p>
-	              <Mailchimp />
-	            </div>
-	          </div>
-            </div>
-	      </div>
-	    </div>
-    )
+			{/* footer */}
+			<div style={{ background: '#033277', margin: '2em 0 0' }}>
+				<div
+					style={{
+						width: '70%',
+						display: 'flex',
+						margin: '0 auto',
+						padding: '2em'
+					}}
+					className="newsletter-box"
+				>
+					<h4
+						style={{ color: 'white', fontSize: '2.5rem', fontWeight: 'bold' }}
+					>
+						Bleiben Sie informiert!
+					</h4>
+					<div style={{ display: 'flex', flexDirection: 'column' }}>
+						<p style={{ color: 'white', marginTop: '1em', fontSize: '1rem' }}>
+							Wir informieren Sie über unsere laufenden Projekte, wie ihre
+							Spenden vor Ort Gutes tun und senden ihnen Einladungen zu unseren
+							Veranstaltungen.
+						</p>
+						<Mailchimp />
+					</div>
+				</div>
+			</div>
+		</>
+	)
 }
 
-
-const EventsPage = ({ data }) => {
-    const { frontmatter } = data.markdownRemark;
-    return (
-	    <Layout>
-	      <EventsPageTemplate
-            golfturnier={frontmatter.golfturnier}
-            skiweekend={frontmatter.skiweekend}
-	      />
-	    </Layout>
-    );
-};
-
-EventsPageTemplate.propTypes = {
-    golfturnier: PropTypes.object,
-    skiweekend: PropTypes.object,
-};
-
-EventsPage.propTypes = {
-    data: PropTypes.shape({
-        markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.object,
-        }),
-    }),
-};
-
-export default EventsPage
-
-export const pageQuery = graphql`
-  query EventsPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "events-page" } }) {
-      frontmatter {
-        golfturnier {
-          title
-          body
-        }
-        skiweekend {
-          title
-          body
-        }
-      }
-    }
-  }
-`;
+export default function EventsPage() {
+	return (
+		<Layout>
+			<EventsPageTemplate />
+		</Layout>
+	)
+}

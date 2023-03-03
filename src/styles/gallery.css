@@ -1,31 +1,30 @@
 .modal-content {
-    height: 60vw !important;
-    margin: auto auto;
+	height: 60vw !important;
+	margin: auto auto;
 }
 
 .modal-dialog {
-    margin: auto auto;
+	margin: auto auto;
 }
 .modal-body {
-    height: 90%;
+	height: 90%;
 }
 
-#gallery-modal .gatsby-image-wrapper{
-    height: 100% !important;
-    width: 100%;
+#gallery-modal .gatsby-image-wrapper {
+	height: 100% !important;
+	width: 100%;
 }
 
-#gallery-modal .gatsby-image-wrapper img{
-    object-fit: none !important;
+#gallery-modal .gatsby-image-wrapper img {
+	object-fit: none !important;
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-.modal-content {
-    height: 100% !important;
-}
-.modal-body {
-    height: 100%;
-}
-
+	/* For mobile phones: */
+	.modal-content {
+		height: 100% !important;
+	}
+	.modal-body {
+		height: 100%;
+	}
 }

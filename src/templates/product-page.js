@@ -1,83 +1,101 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
+import React from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
 
-import persoenlich from "../../static/pdf/persoenlich.pdf"
-import unternehmen from "../../static/pdf/unternehmen.pdf"
+import persoenlich from '../../static/pdf/persoenlich.pdf'
+import unternehmen from '../../static/pdf/unternehmen.pdf'
 
 // eslint-disable-next-line
-export const ProductPageTemplate = ({
-  title,
-  subheading,
-  heading,
-}) => {
-
-  return (
-	<div className="">
-	  <div
-        className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
-        style={{
-          backgroundImage: `url('/img/hands.jpg')`,
-
-        }}
-      >
-	    <div
-          className="banner-text"
-	      style={{
-		    marginRight: "50%"
-		  }}
-	    >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
-		      color: "white",
-		      lineHeight: "2.3",
-
-            }}
-          >
-	        Mitgliedschaft
-          </h1>
-	      <h3><b>Gemeinsam dort helfen, wo Hilfe gebraucht wird.</b></h3>
-	    </div>
-	  </div>
-	  <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="center-page">
-                <h3 className="has-text-weight-semibold is-size-2" style={{marginBottom: "0.5em",}}>
-                  {heading}
-                </h3>
-                <p>Gerne nehmen wir neue Mitglieder auf, die die Philosophie und Projekte unseres karitativen Vereins unterstützen. Es gibt zwei Arten von Mitgliedschaften:
-
-                </p>
-	            <div className="mitgliedschaft-form-container">
-	              <div className="mitgliedschaft-form-left">
-	                <h4>Persönliche Mitgliedschaft</h4>
-	                <p>Jahresbeitrag CHF 250.00</p>
-	                <div className="mitgliedschaft-form-button">
-	                  <a href={persoenlich} target='_blank' rel='noopener noreferrer'>Persönliches Mitglied werden</a>
-	                </div>
-	              </div>
-	              <div className="mitgliedschaft-form-right">
-	                <h4>Unternehmensmitgliedschaft</h4>
-	                <p>Jahresbeitrag CHF 1'000.00</p>
-                    <div className="mitgliedschaft-form-button">
-                      <a href={unternehmen} target='_blank' rel='noopener noreferrer'>Unternehmensmitglied werden</a>
-                    </div>
-	              </div>
-	            </div>
-                <p>Der Jahresbeitrag ist jeweils für das Kalenderjahr geschuldet. Bitte füllen Sie das verknüpfte Antragsfor mular aus und reichen Sie dieses ein an info@baerenherz.org oder per Post an Bärenherz – Verein für humanitäre Hilfe, c/o Rainer Mück, Untersellenstrasse 37, 8873 Amden. Der Vorstand entscheidet über die Aufnahme neuer Vereinsmitglieder.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*
+export const ProductPageTemplate = ({ title, subheading, heading }) => {
+	return (
+		<div className="">
+			<div
+				className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
+				style={{
+					backgroundImage: `url('/img/hands.jpg')`
+				}}
+			>
+				<div
+					className="banner-text"
+					style={{
+						marginRight: '50%'
+					}}
+				>
+					<h1
+						className="has-text-weight-bold is-size-1"
+						style={{
+							boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+							backgroundColor: '#f40',
+							color: 'white',
+							lineHeight: '2.3'
+						}}
+					>
+						Mitgliedschaft
+					</h1>
+					<h3>
+						<b>Gemeinsam dort helfen, wo Hilfe gebraucht wird.</b>
+					</h3>
+				</div>
+			</div>
+			<section className="section section--gradient">
+				<div className="container">
+					<div className="section">
+						<div className="columns">
+							<div className="center-page">
+								<h3
+									className="has-text-weight-semibold is-size-2"
+									style={{ marginBottom: '0.5em' }}
+								>
+									{heading}
+								</h3>
+								<p>
+									Gerne nehmen wir neue Mitglieder auf, die die Philosophie und
+									Projekte unseres karitativen Vereins unterstützen. Es gibt
+									zwei Arten von Mitgliedschaften:
+								</p>
+								<div className="mitgliedschaft-form-container">
+									<div className="mitgliedschaft-form-left">
+										<h4>Persönliche Mitgliedschaft</h4>
+										<p>Jahresbeitrag CHF 250.00</p>
+										<div className="mitgliedschaft-form-button">
+											<a
+												href={persoenlich}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Persönliches Mitglied werden
+											</a>
+										</div>
+									</div>
+									<div className="mitgliedschaft-form-right">
+										<h4>Unternehmensmitgliedschaft</h4>
+										<p>Jahresbeitrag CHF 1'000.00</p>
+										<div className="mitgliedschaft-form-button">
+											<a
+												href={unternehmen}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Unternehmensmitglied werden
+											</a>
+										</div>
+									</div>
+								</div>
+								<p>
+									Der Jahresbeitrag ist jeweils für das Kalenderjahr geschuldet.
+									Bitte füllen Sie das verknüpfte Antragsfor mular aus und
+									reichen Sie dieses ein an info@baerenherz.org oder per Post an
+									Bärenherz – Verein für humanitäre Hilfe, c/o Rainer Mück,
+									Untersellenstrasse 37, 8873 Amden. Der Vorstand entscheidet
+									über die Aufnahme neuer Vereinsmitglieder.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			{/*
           <div className="mitgliedschaft-testimony">
           <h4 style={{color: "white"}}>„Mit meiner Mitgliedschaft kann ich die großartige
           Arbeit von Bärenherz unterstützen und habe
@@ -89,49 +107,48 @@ export const ProductPageTemplate = ({
           </div>
           </div>
         */}
-
-    </div>
-  );
-};
+		</div>
+	)
+}
 
 ProductPageTemplate.propTypes = {
-  title: PropTypes.string,
-  subheading: PropTypes.string,
-  heading: PropTypes.string,
-};
+	title: PropTypes.string,
+	subheading: PropTypes.string,
+	heading: PropTypes.string
+}
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+	const { frontmatter } = data.markdownRemark
 
-  return (
-    <Layout>
-      <ProductPageTemplate
-        title={frontmatter.title}
-        subheading={frontmatter.subheading}
-        heading={frontmatter.heading}
-      />
-    </Layout>
-  );
-};
+	return (
+		<Layout>
+			<ProductPageTemplate
+				title={frontmatter.title}
+				subheading={frontmatter.subheading}
+				heading={frontmatter.heading}
+			/>
+		</Layout>
+	)
+}
 
 ProductPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-};
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.shape({
+			frontmatter: PropTypes.object
+		})
+	})
+}
 
-export default ProductPage;
+export default ProductPage
 
 export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      frontmatter {
-        title
-        subheading
-        heading
-      }
-    }
-  }
-`;
+	query ProductPage($id: String!) {
+		markdownRemark(id: { eq: $id }) {
+			frontmatter {
+				title
+				subheading
+				heading
+			}
+		}
+	}
+`
