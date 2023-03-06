@@ -2,14 +2,30 @@ import React from 'react'
 
 import Layout from '../components/Layout'
 import CharitySkitag2023 from '../pages/events/charity-skitag-2023'
+import CharityGolfTurnierg2023 from '../pages/events/charityGolfTurnier2023'
 import Mailchimp from '../components/Mailchimp'
-
-import golf23 from '../img/GOLF_2023.png'
+import Partners from '../pages/events/Partners'
 
 export const EventsPageTemplate = () => {
 	return (
 		<>
-			{/* hero Unsere Aktivitaten */}
+			<CharitySkitag2023 />
+			<CharityGolfTurnierg2023 />
+			<div className="partners-wide">
+				<Partners />
+			</div>
+			<div className="events-link">
+				<a href="/events/charity-golfturnier-2022">
+					Bildgalerie Bärenherz Charity Golfturnier 2022
+				</a>
+			</div>
+		</>
+	)
+}
+
+export default function EventsPage() {
+	return (
+		<Layout>
 			<header
 				className="full-width-image-container margin-top-0 banner-aktivitaeten banner"
 				style={{ backgroundImage: `url('/img/glove.jpg')` }}
@@ -32,29 +48,7 @@ export const EventsPageTemplate = () => {
 					</h3>
 				</div>
 			</header>
-
-			<CharitySkitag2023 />
-
-			{/* golf 2023 */}
-			<section className="section">
-				<div className="container">
-					<div className="content">
-						<img
-							src={golf23}
-							alt="Golftunier"
-							style={{ margin: '1em 0 2em' }}
-						/>
-						<p>
-							Wir freuen uns sehr, nach dem grossen Erfolg vom letzten Jahr,
-							wieder zum Bärenherz Charity Golf am 05. Mai nach Lipperswil
-							einzuladen, um gemeinsam
-						</p>
-						<p>Gutes zu tun und Spass zu haben. </p>
-					</div>
-				</div>
-			</section>
-
-			{/* footer */}
+			<EventsPageTemplate />
 			<div style={{ background: '#033277', margin: '2em 0 0' }}>
 				<div
 					style={{
@@ -80,14 +74,6 @@ export const EventsPageTemplate = () => {
 					</div>
 				</div>
 			</div>
-		</>
-	)
-}
-
-export default function EventsPage() {
-	return (
-		<Layout>
-			<EventsPageTemplate />
 		</Layout>
 	)
 }

@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../../components/Layout'
 
 import Gallery from '../../components/Gallery'
-import golfer from '../../img/golfer.png'
 
 // logos
 import ey from '../../img/logos/EY.jpg'
@@ -41,23 +40,18 @@ const partners = [
 	porsche
 ]
 
-export default function CharityGolfturnier2023() {
+export default function CharityGolfturnier2022() {
 	return (
 		<Layout>
 			<div className="container">
 				<div id="golf-turnier" className="content">
-					<img src={golfer} />
-
 					<div
 						style={{
 							margin: '2em auto'
 						}}
 					>
-						<br />
-						<br />
-
 						<h3 className="has-text-weight-semibold">
-							Das Bärenherz Charity Golfturnier: Premiere geglückt!
+							Das Bärenherz Charity 2022 Golfturnier: Premiere geglückt!
 						</h3>
 
 						{/* //TODO this pics are super heavy!!!! more than 20mb */}

@@ -275,7 +275,7 @@ dropdown-menu {
 }
 
 .partner-logos img {
-	width: 8em;
+	width: 6em;
 	margin: 1em 2em;
 }
 
@@ -372,8 +372,6 @@ dropdown-menu {
 	.circle-section {
 		width: 100% !important;
 	}
-	.circle-section p {
-	}
 }
 
 @media (max-width: 1023px) {
@@ -447,7 +445,7 @@ dropdown-menu {
 .footer-content {
 	display: flex;
 
-	content-align: baseline;
+	align-content: baseline;
 	font-size: 0.7rem;
 	margin: 0 auto;
 }
@@ -500,4 +498,23 @@ dropdown-menu {
 	background: #c6eafa;
 	max-width: 48%;
 	padding: 1em;
+}
+
+.events-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2em 0;
+	padding: 2em 0;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.partners-wide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	padding: 1em 0;
 }

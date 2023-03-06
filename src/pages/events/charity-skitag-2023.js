@@ -16,7 +16,7 @@ export default function CharitySkitag2023() {
 							margin: '1em auto'
 						}}
 					></div>
-					<h3 className="has-text-weight-semibold">
+					<h3 className="has-text-weight-semibold" id="ski2023">
 						Der Bärenherz Charity Skitag 2023
 					</h3>
 					<p>
