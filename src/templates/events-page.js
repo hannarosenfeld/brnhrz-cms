@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import CharitySkitag2023 from '../pages/events/charity-skitag-2023'
 import CharityGolfTurnierg2023 from '../pages/events/charityGolfTurnier2023'
 import Mailchimp from '../components/Mailchimp'
-import Partners from '../pages/events/Partners'
+import Partners2023 from '../pages/events/Partners2023'
 
 export const EventsPageTemplate = () => {
 	return (
@@ -12,7 +12,7 @@ export const EventsPageTemplate = () => {
 			<CharitySkitag2023 />
 			<CharityGolfTurnierg2023 />
 			<div className="partners-wide">
-				<Partners />
+				<Partners2023 />
 			</div>
 			<div className="events-link">
 				<a href="/events/charity-golfturnier-2022">

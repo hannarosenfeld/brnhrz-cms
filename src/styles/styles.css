@@ -518,3 +518,9 @@ dropdown-menu {
 	margin-top: 2rem;
 	padding: 1em 0;
 }
+
+.sponsor2023-style {
+	margin: 1em 1em 0 0;
+	align-self: flex-start;
+	font-weight: bolder;
+}
