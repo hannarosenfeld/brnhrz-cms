@@ -15,7 +15,7 @@ export const EventsPageTemplate = () => {
 			</div>
 			<div className="events-link">
 				<a href="/events/charity-golfturnier-2023">
-					Bildgalerie Bärenherz Charity Golfturnier 2022
+					Bildgalerie Bärenherz Charity Golfturnier 2023
 				</a>
 			</div>
 		</>
