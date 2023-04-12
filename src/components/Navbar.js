@@ -81,13 +81,13 @@ const Navbar = class extends React.Component {
 								Projekte
 							</Link>
 							<NavDropdown title="Aktivitäten" id="nav-dropdown" to="/events">
-								<NavDropdown.Item eventKey="Charity Skitag 2023">
-									<Link to="/events#ski2023">Charity Skitag 2023</Link>
+								<NavDropdown.Item eventKey="Charity Golf 2023">
+									<Link to="/events#golf2023">Charity Golf 2023</Link>
 								</NavDropdown.Item>
 
-								<NavDropdown.Item eventKey="Charity Golftunier 2022">
-									<Link to="/events/charity-golfturnier-2023">
-										Charity Golftunier 2023
+								<NavDropdown.Item eventKey="Charity Skitag 2022">
+									<Link to="/events/charity-skitag-bericht2023">
+										Charity Skitag 2023
 									</Link>
 								</NavDropdown.Item>
 

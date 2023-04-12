@@ -9,13 +9,14 @@ import Partners2023 from '../pages/events/Partners2023'
 export const EventsPageTemplate = () => {
 	return (
 		<>
-			<CharitySkitag2023 />
+			{/* <CharitySkitag2023 /> */}
+			<CharityGolfTurnierg2023 />
 			<div className="partners-wide">
 				<Partners2023 />
 			</div>
 			<div className="events-link">
-				<a href="/events/charity-golfturnier-2023">
-					Bildgalerie Bärenherz Charity Golfturnier 2023
+				<a href="/events/charity-golfturnier-2022">
+					Bildgalerie Bärenherz Charity Golfturnier 2022
 				</a>
 			</div>
 		</>
