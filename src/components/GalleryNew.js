@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Modal } from 'react-bootstrap'
 
 import '../styles/gallery.css'
+
 import photo1 from '../img/gallery2023/DSC_0001.jpg'
 import photo2 from '../img/gallery2023/DSC_0121.jpg'
 import photo3 from '../img/gallery2023/DSC_0179.jpg'
@@ -182,7 +183,7 @@ const GalleryNew = () => {
 			<>
 				<Modal id="gallery-modal" show={show} onHide={handleClose}>
 					<Modal.Header closeButton></Modal.Header>
-					<Modal.Body>
+					<Modal.Body className="modal-body">
 						<img src={image} alt="Skitag 2023" />
 					</Modal.Body>
 				</Modal>
