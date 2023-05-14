@@ -17,17 +17,6 @@ module.exports = {
 		},
 		'gatsby-plugin-react-helmet',
 		{
-			resolve: 'gatsby-plugin-load-script',
-			options: {
-				//              disable: !process.env.SENTRY_DSN, // When do you want to disable it ?
-				src: 'https://browser.sentry-cdn.com/5.15.4/bundle.min.js',
-				integrity:
-					'sha384-Nrg+xiw+qRl3grVrxJtWazjeZmUwoSt0FAVsbthlJ5OMpx0G08bqIq3b/v0hPjhB',
-				crossorigin: 'anonymous',
-				onLoad: `() => Sentry.init({dsn:"${process.env.SENTRY_DSN}"})`
-			}
-		},
-		{
 			resolve: 'gatsby-plugin-mailchimp',
 			options: {
 				endpoint:
@@ -69,7 +58,27 @@ module.exports = {
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
 		`gatsby-plugin-mdx`,
-
+		{
+			resolve: `gatsby-source-cloudinary`,
+			options: {
+				cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+				apiKey: process.env.CLOUDINARY_API_KEY,
+				apiSecret: process.env.CLOUDINARY_API_SECRET,
+				resourceType: `image`
+				// type: `twitter`,
+				// maxResults: 22,
+				// tags: true,
+				// context: true,
+				// prefix: `demo/animals`
+			}
+		},
+		{
+			resolve: `gatsby-transformer-cloudinary`,
+			options: {
+				// Add the `gatsbyImageData` resolver to `CloudinaryMedia`
+				transformTypes: [`CloudinaryMedia`]
+			}
+		},
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
