@@ -85,3 +85,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 		})
 	}
 }
+
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+	if (stage === 'build-html' || stage === 'develop-html') {
+		// Exclude the file from the build process
+		actions.setWebpackConfig({
+			module: {
+				rules: [
+					{
+						test: /\.bin$/,
+						use: loaders.null()
+					}
+				]
+			}
+		})
+	}
+}
