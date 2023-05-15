@@ -38,6 +38,7 @@
     "gbimage-bridge": "0.2.1",
     "html2canvas": "1.4.1",
     "jspdf": "2.5.1",
+    "lmdb": "2.8.0",
     "lodash": "4.17.15",
     "lodash-webpack-plugin": "0.11.4",
     "netlify-cms-app": "2.15.61",
@@ -79,6 +80,6 @@
     "prettier": "2.0.5"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   }
 }
