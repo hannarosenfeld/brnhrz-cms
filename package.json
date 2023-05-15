@@ -17,6 +17,7 @@
     "gatsby": "4.8.0",
     "gatsby-cli": "^5.9.0",
     "gatsby-plugin-image": "2.15.0",
+    "gatsby-plugin-load-script": "^1.1.0",
     "gatsby-plugin-mailchimp": "5.2.2",
     "gatsby-plugin-mdx": "3.4.0",
     "gatsby-plugin-netlify": "^5.1.0",
