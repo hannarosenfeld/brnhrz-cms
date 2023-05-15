@@ -162,8 +162,8 @@ export default function CharityGolf2023() {
 							Deutschland e.V. für das Krankenhaus in Strumica übergeben werden
 							können. Ein fantastischer Erfolg für alle Beteiligten und ein
 							passender Abschluss eines wunderbaren Tages. Wir freuen uns alle
-							schon auf die dritte Ausgabe des Turniers im nächsten Jahr und
-							werden den Termin kurzfristig verkünden.
+							schon auf die dritte Ausgabe des Turniers im nächsten Jahr, das am
+							24. Mai 2024 wieder im Golfclub Lipperswil stattfinden wird.
 						</p>
 
 						<div style={{ marginTop: '1.5em' }}>
