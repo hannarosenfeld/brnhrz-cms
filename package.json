@@ -44,12 +44,8 @@
     "netlify-cms-app": "2.15.61",
     "netlify-cms-media-library-uploadcare": "0.5.10",
     "netlify-cms-widget-richtext": "0.1.5",
-<<<<<<< HEAD
-    "prop-types": "15.8.1",
-=======
     "npm": "9.6.6",
     "prop-types": "15.6.0",
->>>>>>> 762883b (restarting)
     "react": "17.0.0",
     "react-bootstrap": "2.4.0",
     "react-bootstrap-icons": "1.7.2",
