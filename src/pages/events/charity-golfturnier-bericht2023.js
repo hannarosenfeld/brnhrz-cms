@@ -4,6 +4,8 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Modal } from 'react-bootstrap'
  */
 import Layout from '../../components/Layout'
+import GalleryGolf2023 from '../../components/GalleryGolf2023'
+
 import '../../styles/gallery.css'
 
 import Partners2023 from '../../pages/events/Partners2023'
@@ -44,16 +46,17 @@ export default function CharityGolfbericht2023() {
 		<Layout>
 			<section className="section">
 				<div className="container">
-					<div id="ski-weekend" className="content">
+					<div id="golf-weekend" className="content">
 						<div
 							style={{
 								margin: '1em auto'
 							}}
 						></div>
-						<h3 className="has-text-weight-semibold" id="ski2023">
+						<GalleryGolf2023 />
+						<br />
+						<h3 className="has-text-weight-semibold">
 							2. Bärenherz Golf Charity war ein grossartiger Erfolg
 						</h3>
-
 						{/* <>
 							<Modal id="gallery-modal" show={show} onHide={handleClose}>
 								<Modal.Header closeButton></Modal.Header>
@@ -167,7 +170,6 @@ export default function CharityGolfbericht2023() {
 							schon auf die dritte Ausgabe des Turniers im nächsten Jahr, das am
 							24. Mai 2024 wieder im Golfclub Lipperswil stattfinden wird.
 						</p>
-
 						<div style={{ marginTop: '1.5em' }}>
 							<br />
 							<div className="partners-wide">
