@@ -81,24 +81,22 @@ const Navbar = class extends React.Component {
 								Projekte
 							</Link>
 							<NavDropdown title="Aktivitäten" id="nav-dropdown" to="/events">
-								<NavDropdown.Item eventKey="Charity Skitag 2023">
-									<Link to="/events#ski2023">events</Link>
-								</NavDropdown.Item>
+								{/* MENU HERE */}
 
-								<NavDropdown.Item eventKey="Charity Golftunier 2022">
-									<Link to="/events/charity-skitag-2023">
-										Charity Skitag invitation 2023
-									</Link>
-								</NavDropdown.Item>
-
+								{/* 
+								* this is the generic of new activities 
 								<NavDropdown.Item eventKey="Charity Golftunier 2023">
-									<Link to="/events/charityGolfTurnier2023">
+									<Link to="/events#golf2023">Charity Golftunier 2023</Link>
+								</NavDropdown.Item> */}
+
+								<NavDropdown.Item eventKey="Charity Skitag 2023">
+									<Link to="/events/charity-golfturnier-bericht2023">
 										Charity Golftunier 2023
 									</Link>
 								</NavDropdown.Item>
 
-								<NavDropdown.Item eventKey="Charity Golftunier 2022">
-									<Link to="/events/charity-skitag-resume2023">
+								<NavDropdown.Item eventKey="Charity Skitag 2022">
+									<Link to="/events/charity-skitag-bericht2023">
 										Charity Skitag 2023
 									</Link>
 								</NavDropdown.Item>
@@ -108,6 +106,7 @@ const Navbar = class extends React.Component {
 										Charity Golftunier 2022
 									</Link>
 								</NavDropdown.Item>
+								{/* until here */}
 							</NavDropdown>
 							<Link
 								className="navbar-item"

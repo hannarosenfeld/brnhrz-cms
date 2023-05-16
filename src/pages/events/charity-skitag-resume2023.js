@@ -82,7 +82,7 @@ const text = (
 	</>
 )
 
-export default function CharityGolfturnier2023() {
+export default function charitySkitagResume2023() {
 	return (
 		<Layout>
 			<div className="container">

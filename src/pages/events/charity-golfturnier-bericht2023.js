@@ -1,15 +1,16 @@
-import React, { useState } from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from 'react'
+/* import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Modal } from 'react-bootstrap'
-
+ */
 import Layout from '../../components/Layout'
 import '../../styles/gallery.css'
 
-import ski from '../../img/ski.png'
+import Partners2023 from '../../pages/events/Partners2023'
 
-export default function CharityGolf2023() {
-	const [show, setShow] = useState(false)
+export default function CharityGolfbericht2023() {
+	/* 
+    const [show, setShow] = useState(false)
 	const [image, setImage] = useState('')
 
 	const handleClose = () => setShow(false)
@@ -38,13 +39,12 @@ export default function CharityGolf2023() {
 		`
 	)
 	const images = data.contentfulGallery.images
-
+ */
 	return (
 		<Layout>
 			<section className="section">
 				<div className="container">
 					<div id="ski-weekend" className="content">
-						<img src={ski} style={{ width: '100vw' }} />
 						<div
 							style={{
 								margin: '1em auto'
@@ -53,6 +53,32 @@ export default function CharityGolf2023() {
 						<h3 className="has-text-weight-semibold" id="ski2023">
 							2. Bärenherz Golf Charity war ein grossartiger Erfolg
 						</h3>
+
+						{/* <>
+							<Modal id="gallery-modal" show={show} onHide={handleClose}>
+								<Modal.Header closeButton></Modal.Header>
+								<Modal.Body>
+									<GatsbyImage image={image} />
+								</Modal.Body>
+							</Modal>
+						</>
+						<div className="d-flex flex-wrap" style={{ gap: '1em' }}>
+							{images.map((media) => {
+								const image = getImage(media)
+								return (
+									<div>
+										<div key={media.id} onClick={() => handleShow(image)}>
+											<GatsbyImage
+												image={image}
+												style={{ height: '6em', width: '6em' }}
+											/>
+										</div>
+									</div>
+								)
+							})} 
+						</div>
+                        */}
+						<br />
 						<p>
 							Am 05. Mai hiess es in Lipperswil wieder: Start frei für die
 							Bärenherzen! Nachdem wir bei der Premiere im vergangenen Jahr noch
@@ -142,28 +168,11 @@ export default function CharityGolf2023() {
 							werden den Termin kurzfristig verkünden.
 						</p>
 
-						<>
-							<Modal id="gallery-modal" show={show} onHide={handleClose}>
-								<Modal.Header closeButton></Modal.Header>
-								<Modal.Body>
-									<GatsbyImage image={image} />
-								</Modal.Body>
-							</Modal>
-						</>
-						<div className="d-flex flex-wrap" style={{ gap: '1em' }}>
-							{images.map((media) => {
-								const image = getImage(media)
-								return (
-									<div>
-										<div key={media.id} onClick={() => handleShow(image)}>
-											<GatsbyImage
-												image={image}
-												style={{ height: '6em', width: '6em' }}
-											/>
-										</div>
-									</div>
-								)
-							})}
+						<div style={{ marginTop: '1.5em' }}>
+							<br />
+							<div className="partners-wide">
+								<Partners2023 />
+							</div>
 						</div>
 					</div>
 				</div>
