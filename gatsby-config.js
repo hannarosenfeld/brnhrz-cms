@@ -69,6 +69,7 @@ module.exports = {
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
 		`gatsby-plugin-mdx`,
+
 		{
 			resolve: 'gatsby-transformer-remark',
 			options: {
@@ -95,6 +96,12 @@ module.exports = {
 						}
 					}
 				]
+			}
+		},
+		{
+			resolve: 'gatsby-plugin-netlify-cms',
+			options: {
+				modulePath: `${__dirname}/src/cms/cms.js`
 			}
 		},
 		{
