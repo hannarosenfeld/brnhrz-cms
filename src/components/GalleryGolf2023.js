@@ -6,7 +6,6 @@ import '../styles/gallery.css'
 import photo1 from '../img/galleryGolf2023/DSC_0259.jpg'
 import photo2 from '../img/galleryGolf2023/DSC_0320.jpg'
 import photo3 from '../img/galleryGolf2023/DSC_0445.jpg'
-import photo4 from '../img/galleryGolf2023/DSC_0445.jpg'
 import photo5 from '../img/galleryGolf2023/DSC_0507.jpg'
 import photo6 from '../img/galleryGolf2023/DSC_0597.jpg'
 // import photo7 from './img/galleryGolf2023/DSC_0815.jpg'
@@ -36,7 +35,6 @@ import photo30 from '../img/galleryGolf2023/DSC_0383.jpg'
 import photo31 from '../img/galleryGolf2023/DSC_0452.jpg'
 import photo32 from '../img/galleryGolf2023/DSC_0511.jpg'
 import photo33 from '../img/galleryGolf2023/DSC_0607.jpg'
-import photo34 from '../img/galleryGolf2023/DSC_0607.jpg'
 import photo35 from '../img/galleryGolf2023/DSC_0829.jpg'
 import photo36 from '../img/galleryGolf2023/DSC_0268.jpg'
 import photo37 from '../img/galleryGolf2023/DSC_0325.jpg'
@@ -258,8 +256,6 @@ const arrayImgs = [
 	{ path: photo4, id: 4 },
 	{ path: photo5, id: 5 },
 	{ path: photo6, id: 6 },
-	// { path: photo7, id: 7 },
-	{ path: photo8, id: 8 },
 	{ path: photo9, id: 9 },
 	{ path: photo10, id: 10 },
 	{ path: photo11, id: 11 },
@@ -285,7 +281,6 @@ const arrayImgs = [
 	{ path: photo31, id: 31 },
 	{ path: photo32, id: 32 },
 	{ path: photo33, id: 33 },
-	{ path: photo34, id: 34 },
 	{ path: photo35, id: 35 },
 	{ path: photo36, id: 36 },
 	{ path: photo37, id: 37 },
